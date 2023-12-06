@@ -345,7 +345,7 @@ Concept
 	:align: right
 	:width: 300px
 	
-The definitions and symbols given in the connectivity concepts defined in [1]_ (for a permanent reference) and in the :ref:`Connection management <nest-simulator:connection_management>` (for a living reference) are the basis for this property.
+The definitions and symbols given in the connectivity concepts defined in [1]_ (for a permanent reference) and in the :ref:`Connectivity concept <nest-simulator:connectivity_concept>` (for a living reference) are the basis for this property.
 
 Constraint
 ----------
