@@ -45,7 +45,7 @@ To utilize the various components, drag them onto the workspace. To establish a 
 Annotation
 ----------
 
-Annotations of edges are best realized with the LibreOffice extension `TexMaths <https://extensions.libreoffice.org/en/extensions/show/texmaths-1>`_. This tool facilitates easy insertion of correct annotations through the following abbreviations defined in NEST's `Connection management <https://nest-simulator--2992.org.readthedocs.build/en/2992/synapses/connection_management.html#connection-management>`_.
+Annotations of edges are best realized with the LibreOffice extension `TexMaths <https://extensions.libreoffice.org/en/extensions/show/texmaths-1>`_. This tool facilitates easy insertion of correct annotations through the following abbreviations defined in NEST's :ref:`Connectivity concept <nest-simulator:connectivity_concept>`.
 
 .. image:: /_static/img/screenshots/network/annotations.png
    :align: center
