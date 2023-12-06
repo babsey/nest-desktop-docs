@@ -50,7 +50,7 @@ External software
    usage-external/simulate-with-insite
    usage-external/usage-with-nrp
    usage-external/usage-with-visimpl
-
+   usage-external/libre-office-extension
 
 .. |user| image:: /_static/img/icons/user.svg
    :alt: User

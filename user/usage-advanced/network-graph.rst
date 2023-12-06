@@ -1,3 +1,5 @@
+.. _network_graph:
+
 Network graph
 =============
 
@@ -49,8 +51,6 @@ We suggest to cite this article as a permanent reference for the proposed notati
 
 Here, we define the graphical elements used for :ref:`Network nodes <node>` and :ref:`Edges <edge>`.
 We also provide details on the conventions for the :ref:`annotation` of an edge as introduced in [1]_, even though they are presently not included in the NEST Desktop interface, and finally we show an :ref:`example`.
-
-To generate static publication-ready visualizations of network graphs in agreement with the graphical notation, please refer to this lightweight :ref:`libreoffice_extension`.
 
 |br|
 
@@ -173,23 +173,27 @@ The node type refers to a defining property of a node and is expressed by a uniq
 Node label
 ----------
 
-In NEST Desktop, each node graph is labeled to identify the model of the node.
+.. image:: /_static/img/screenshots/network/node-shapes.png
+   :align: right
+   :target: #node-colors
+
+Each node graph is labeled to identify the model of the node.
 By default, it creates a direct current generator (dc) for a stimulus
 and a voltmeter (vm) for a recording device.
 Neurons are just labeled with (n).
 You can find the full label of the node model in the network controller.
 
+Note: *Node label* is not defined in [1]_.
+
 Node color
 ----------
-
-.. image:: /_static/img/screenshots/network/node-shapes.png
-   :align: right
-   :target: #node-colors
 
 In NEST Desktop, nodes and connections contain parameter configurations
 which are displayed in the controller panel in the side navigation.
 The color of nodes helps you to associate the network graph with the controller
 as well as the corresponding visualization of the network activity.
+
+Note: *Node color* is not defined in [1]_.
 
 |br|
 
@@ -316,7 +320,9 @@ Directionality
 Edge color
 ----------
 
-In NEST Desktop, the edge color is determined by the color of the source node.
+The edge color is determined by the color of the source node.
+
+Note: *Edge color* is not defined in [1]_.
 
 |br|
 
@@ -327,7 +333,7 @@ In NEST Desktop, the edge color is determined by the color of the source node.
 
 Network edges can be annotated with information about the connection or projection they represent. Details on the rule specifying the existence of connections and their parameterization may be put along the arrow.
 
-Annotations are currently not implemented in NEST Desktop.
+Note: *Annotation* is not available in NEST Desktop.
 
 Connectivity concept
 --------------------
@@ -339,7 +345,7 @@ Concept
 	:align: right
 	:width: 300px
 	
-The definitions and symbols given in the connectivity concepts defined in [1]_ (for a permanent reference) and in the `Connection management <https://nest-simulator.readthedocs.io/en/latest/synapses/connection_management.html#connection-management>`_ (for a living reference) are the basis for this property.
+The definitions and symbols given in the connectivity concepts defined in [1]_ (for a permanent reference) and in the :ref:`Connection management <nest-simulator:connection_management>` (for a living reference) are the basis for this property.
 
 Constraint
 ----------
@@ -414,9 +420,10 @@ For a discussion on customization and extension see [1]_.
 The example is a balanced random network model with the random, fixed in-degree connectivity. The illustration uses the elements for nodes, edges, and annotations introduced above to depict the network composed of an excitatory (E, triangle) and an inhibitory (I, circle) neuron population, and a population of external stimulating devices (:math:`E_\text{ext}`, hexagon). Recurrent connections between the neurons in the excitatory and inhibitory populations are probabilistic (dashed edges) and follow the "random, fixed in-degree" rule (:math:`K_{in}`) with the further constraints that autapses are prohibited (:math:`\cancel{A}`) and multapses are allowed (:math:`M`).
 
 Here, the NEST Desktop version also displays spike recorders.
-For further information see  `spike activity <https://nest-desktop.readthedocs.io/en/latest/user/usage-advance/activity-animation-graph.html>`_.
 
-Note that :ref:`annotations <annotation>` are currently not available in NEST Desktop.
+Note: :ref:`Annotations <annotation>` are not available in NEST Desktop.
+
+To generate static publication-ready visualizations of network graphs in agreement with the graphical notation (corresponding to the figure on the left), please refer to this lightweight :ref:`libreoffice_extension`.
 
 Further examples can be found in [1]_.
 

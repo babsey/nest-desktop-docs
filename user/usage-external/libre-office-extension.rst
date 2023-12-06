@@ -3,9 +3,11 @@
 LibreOffice extension for the graphical notation
 ================================================
 
-This gallery tool for LibreOffice simplifies the process of creating static publication-ready network graphs.
-Users can compose networks by dragging and dropping pre-defined nodes and edges.
+This gallery tool for LibreOffice simplifies the process of creating static publication-ready network graphs
+according to the guidelines proposed in the article "Connectivity concepts in neuronal network modeling" [1]_.
+The living reference of the graphical notation is curated :ref:`here <network_graph>`.
 
+With this extension, users can compose networks by dragging and dropping pre-defined nodes and edges.
 You can download the extension here:
 
 .. button-link:: https://extensions.libreoffice.org/de/extensions/show/42006
@@ -19,7 +21,8 @@ Installation and settings
 -------------------------
 
 
-To use the Graphical Notation extension in LibreOffice, download the extension and install it with a double-click. Once installed, access the gallery by going to "Insert" - "Media" - "Gallery". On the right side you can click on
+To use the Graphical Notation extension in LibreOffice, download the extension and install it with a double-click. We recommend to use `LibreOffice Draw <https://www.libreoffice.org/discover/draw/>`_ for creating stand-alone figures.
+Once installed, access the gallery by going to "Insert" - "Media" - "Gallery". On the right side you can click on
 the gallery icon (:octicon:`image;1em;`) and go to "Graphical Notation".
 
 .. image:: /_static/img/screenshots/network/installation.png
@@ -179,3 +182,7 @@ We suggest to save in the native text-based .fodg format and export as vector gr
 Development
 -----------
 If you want to add your own symbols, for example for nodes or edges, you can just hold the symbol which you want to add and drag it into the gallery. You can find more information about it on: https://wiki.documentfoundation.org/The_Gallery_LibreOffice
+
+References
+----------
+.. [1] Senk J, Kriener B, Djurfeldt M, Voges N, Jiang HJ, et al. (2022) Connectivity concepts in neuronal network modeling. PLOS Computational Biology 18(9): e1010086. https://doi.org/10.1371/journal.pcbi.1010086
