@@ -38,7 +38,7 @@ NEST Simulator
 NEST Server is now running at http://localhost:52425.
 
 .. note::
-   Before you start :code:`nest-server`, you have to export environment variables:
+   Before you start :code:`nest-server`, you have to set these environment variables in bash:
 
    .. code-block:: bash
 
