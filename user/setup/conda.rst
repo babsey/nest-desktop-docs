@@ -70,7 +70,7 @@ Start with Conda
    NEST Server is now running at http://localhost:52425.
 
 .. note::
-   Before you start `nest-server`, you have to export environment variables:
+   Before you start :code:`nest-server`, you have to export environment variables:
 
    .. code-block:: bash
 
