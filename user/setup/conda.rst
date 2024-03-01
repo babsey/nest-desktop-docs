@@ -79,7 +79,7 @@ Start with Conda
       export NEST_SERVER_DISABLE_RESTRICTION=1
 
    For more information read the full documentation of NEST Server
-   :doc:`here <nest-simulator:connect_nest/nest_server#set-environment-variables-for-security-options>`.
+   :doc:`here <nest-simulator:connect_nest/nest_server>`.
 
 #. Start NEST Desktop (in another terminal session):
 
