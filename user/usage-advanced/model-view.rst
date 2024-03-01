@@ -120,8 +120,6 @@ Neuron/stimulator/recorder/synapse:
 Model subpages
 --------------
 
-
-
 |
 
 .. _model-view-model-documentation:
