@@ -6,8 +6,8 @@ Conda |linux| |windows| |apple|
    :target: #conda-linux-windows-apple
    :width: 120px
 
-Anaconda provides packages for `NEST Desktop <https://anaconda.org/conda-forge/nest-desktop>`__. and `NEST Simulator
-<https://anaconda.org/conda-forge/nest-simulator>`__. These packages can be installed with Conda (from
+Anaconda provides packages for `NEST Desktop <https://anaconda.org/conda-forge/nest-desktop>`_. and `NEST Simulator
+<https://anaconda.org/conda-forge/nest-simulator>`_. These packages can be installed with Conda (from
 :bdg:`conda-forge`). Since NEST 3, the API server (i.e. :bdg:`NEST Server`) is included which is necessary for
 :bdg:`NEST Desktop`.
 
@@ -31,25 +31,25 @@ Add channel for :bdg:`conda-forge`:
 Install with Conda
 ------------------
 
-1. Create a Conda environment called :bdg:`nest3` and install NEST Simulator:
+#. Create a Conda environment called :bdg:`nest3` and install NEST Simulator:
 
    .. code-block:: bash
 
       conda create -n nest3 nest-simulator
 
-2. Activate the Conda environment :bdg:`nest3`:
+#. Activate the Conda environment :bdg:`nest3`:
 
    .. code-block:: bash
 
       conda activate nest3
 
-3. Install the dependencies for the API Server of NEST Simulator:
+#. Install the dependencies for the API Server of NEST Simulator:
 
    .. code-block:: bash
 
       conda install flask flask-cors RestrictedPython gunicorn
 
-4. Install NEST Desktop
+#. Install NEST Desktop
 
    .. code-block:: bash
 
@@ -59,7 +59,7 @@ Install with Conda
 Start with Conda
 ----------------
 
-1. Start NEST Server as the back end:
+#. Start NEST Server as the back end:
 
    The API Server for NEST Simulator is referred to as **NEST Server**.
 
@@ -69,7 +69,7 @@ Start with Conda
 
    NEST Server is now running at http://localhost:52425.
 
-2. Start NEST Desktop (in another terminal session):
+#. Start NEST Desktop (in another terminal session):
 
    .. code-block:: bash
 

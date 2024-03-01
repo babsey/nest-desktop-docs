@@ -32,6 +32,7 @@ version = '3.3'
 extensions = [
     'sphinx_copybutton',
     'sphinx_design',
+    "sphinx_new_tab_link",
     'sphinx.ext.autodoc',
     'sphinx.ext.autosectionlabel',
     'sphinx.ext.intersphinx',
@@ -122,11 +123,6 @@ html_theme_options = {
             "href": "https://nest-desktop.github.io/",
             "internal": False,
             "title": "Offical page",
-        },
-        {
-            "href": "https://ebrains.eu/service/nest-desktop/",
-            "internal": False,
-            "title": "NEST Desktop on EBRAINS",
         },
         {
             "href": "https://nest-simulator.readthedocs.io/",
