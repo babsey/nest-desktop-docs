@@ -69,6 +69,18 @@ Start with Conda
 
    NEST Server is now running at http://localhost:52425.
 
+.. note::
+   Before you start `nest-server`, you have to export environment variables:
+
+   .. code-block:: bash
+
+      export NEST_SERVER_DISABLE_AUTH=1
+      export NEST_SERVER_ENABLE_EXEC_CALL=1
+      export NEST_SERVER_DISABLE_RESTRICTION=1
+
+   For more information read the full documentation of NEST Server
+   :doc:`here <nest-simulator:connect_nest/nest_server#set-environment-variables-for-security-options>`.
+
 #. Start NEST Desktop (in another terminal session):
 
    .. code-block:: bash
