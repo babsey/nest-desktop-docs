@@ -124,7 +124,7 @@ Project list
 
       Below the buttons you find the search field and a list of the projects. Select a project to load it for the usage.
       Once a project is loaded, a save icon (|save-ok|) appears on the right side. You can move the mouse on the project
-      item, it shows three vertical dots (|vertical-dots|) for a menu with options to rename (|rename|), unload
+      item, it shows three vertical dots (|dots-vertical|) for a menu with options to rename (|rename|), unload
       (|unload|), reload (|reload|), duplicate (|duplicate|), export (|export|) or delete (|delete|) this project.
 
 .. warning::

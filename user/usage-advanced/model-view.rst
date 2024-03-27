@@ -100,7 +100,7 @@ to the search field. Multiple filter tags can be applied. Selected filter tags c
 Import models
 *************
 
-Go to the model view and find your desired synapse model. Next, click on the icon |vertical-dots|, then select a menu
+Go to the model view and find your desired synapse model. Next, click on the icon |dots-vertical|, then select a menu
 item |import| :bdg:`import` to import it from GitHub.
 
 
