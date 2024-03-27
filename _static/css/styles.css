@@ -1,3 +1,8 @@
+/* only override for dark/slate scheme */
+[data-md-color-scheme="slate"] .md-banner--warning {
+  background: var(--md-footer-bg-color);
+}
+
 .iframe-container {
   height: 0;
   height: auto;

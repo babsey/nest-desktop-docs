@@ -54,13 +54,11 @@ templates_path = ["_templates"]
 if os.environ.get("READTHEDOCS") == "True":
     READTHEDOCS_VERSION = os.environ.get("READTHEDOCS_VERSION")
     if READTHEDOCS_VERSION in ["dev", "doc"]:
-        rst_prolog = """
-        .. warning:: This version of the documentation is NOT an official release. \
+        rst_prolog = """.. warning:: This version of the documentation is NOT an official release. \
         You are reading the documentation version which is in active and ongoing development.
         """
     elif READTHEDOCS_VERSION not in ["latest", version]:
-        rst_prolog = """
-        .. warning:: You are not reading the documentation of the latest release of NEST Desktop. \
+        rst_prolog = """.. warning:: You are not reading the documentation of the latest release of NEST Desktop. \
         Some guide might be outdated.
         """
 
@@ -82,7 +80,7 @@ html_css_files = [
     "css/styles.css",
 ]
 
-# html_logo = "_static/img/logo/nest-desktop-logo.png"
+html_logo = "_static/img/logo/nest-desktop-logo.png"
 html_favicon = "_static/favicon.ico"
 
 html_js_files = []
@@ -120,19 +118,19 @@ elif html_theme == "sphinx_immaterial":
         "repo_name": "NEST Desktop",
         "globaltoc_collapse": True,
         "features": [
-            "navigation.expand",
-            # "navigation.tabs",
-            # "toc.integrate",
-            "navigation.sections",
-            "navigation.instant",
+            "content.tabs.link",
             # "header.autohide",
+            "navigation.expand",
+            "navigation.instant",
+            "navigation.sections",
+            # "navigation.tabs",
             "navigation.top",
             # "navigation.tracking",
             # "search.highlight",
             "search.share",
             "toc.follow",
+            # "toc.integrate",
             "toc.sticky",
-            "content.tabs.link",
             "announce.dismiss",
         ],
         "palette": [
@@ -140,9 +138,8 @@ elif html_theme == "sphinx_immaterial":
                 "media": "(prefers-color-scheme: light)",
                 "scheme": "default",
                 "primary": "deep-orange",
-                "accent": "white",
                 "toggle": {
-                    "icon": "material/lightbulb-outline",
+                    "icon": "material/weather-sunny",
                     "name": "Switch to dark mode",
                 },
             },
@@ -150,29 +147,17 @@ elif html_theme == "sphinx_immaterial":
                 "media": "(prefers-color-scheme: dark)",
                 "scheme": "slate",
                 "primary": "deep-orange",
-                "accent": "dark-grey",
                 "accent": "lime",
                 "toggle": {
-                    "icon": "material/lightbulb",
+                    "icon": "material/weather-night",
                     "name": "Switch to light mode",
                 },
             },
         ],
-        # BEGIN: version_dropdown
-        "version_dropdown": True,
-        "version_info": [
-            {
-                "version": "https://nest-desktop.github.io",
-                "title": "Github Pages",
-                "aliases": [],
-            },
-            {
-                "version": "https://nest-simulator.readthedocs.io",
-                "title": "NEST Simulator",
-                "aliases": [],
-            },
-        ],
-        # END: version_dropdown
+        "font": {
+            "text": "Roboto",  # used for all the pages' text
+            "code": "Roboto Mono",  # used for literal code blocks
+        },
         "toc_title_is_page_title": False,
         # BEGIN: social icons
         "social": [
@@ -195,6 +180,21 @@ elif html_theme == "sphinx_immaterial":
             # },
         ],
         # END: social icons
+        # BEGIN: version_dropdown
+        "version_dropdown": True,
+        "version_info": [
+            {
+                "version": "https://nest-desktop.github.io",
+                "title": "Github Pages",
+                "aliases": [],
+            },
+            {
+                "version": "https://nest-simulator.readthedocs.io",
+                "title": "NEST Simulator",
+                "aliases": [],
+            },
+        ],
+        # END: version_dropdown
     }
 
 elif html_theme == "sphinx_material":
