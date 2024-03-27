@@ -80,7 +80,7 @@ html_css_files = [
     "css/styles.css",
 ]
 
-html_logo = "_static/img/logo/nest-desktop-logo.png"
+html_logo = "_static/img/logo/nest-desktop-logo.svg"
 html_favicon = "_static/favicon.ico"
 
 html_js_files = []
