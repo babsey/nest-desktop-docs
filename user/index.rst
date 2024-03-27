@@ -269,7 +269,7 @@ External software
 
             Learn how to use NEST Desktop with NRP
 
-   .. grid-item-card:: NeuroRobotics Platform
+   .. grid-item-card:: ViSimpl
       :link: use-nest-desktop-with-visimpl
       :link-type: ref
 
