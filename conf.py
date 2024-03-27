@@ -139,8 +139,8 @@ elif html_theme == "sphinx_immaterial":
                 "scheme": "default",
                 "primary": "deep-orange",
                 "toggle": {
-                    "icon": "material/weather-sunny",
-                    "name": "Switch to dark mode",
+                    "icon": "material/weather-night",
+                    "name": "Switch to dark theme",
                 },
             },
             {
@@ -149,8 +149,8 @@ elif html_theme == "sphinx_immaterial":
                 "primary": "deep-orange",
                 "accent": "lime",
                 "toggle": {
-                    "icon": "material/weather-night",
-                    "name": "Switch to light mode",
+                    "icon": "material/weather-sunny",
+                    "name": "Switch to light theme",
                 },
             },
         ],

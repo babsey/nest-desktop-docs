@@ -204,3 +204,5 @@ Project subpages
    .. card:: Lab book
 
       .. image:: /_static/img/screenshots/project/project-lab-book.png
+
+.. include:: controller-sidebar.rst

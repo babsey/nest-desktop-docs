@@ -65,6 +65,13 @@ Advanced guide
 Views
 -----
 
+.. toctree::
+   :hidden:
+
+   usage-advanced/project-view
+   usage-advanced/model-view
+
+
 .. grid:: 2
    :gutter: 2
 
@@ -102,6 +109,13 @@ Views
 
 Graphs
 ------
+
+.. toctree::
+   :hidden:
+
+   usage-advanced/network-graph
+   usage-advanced/activity-chart-graph
+   usage-advanced/activity-animation-graph
 
 .. grid:: 2
    :gutter: 2
@@ -157,6 +171,14 @@ Graphs
 Features
 --------
 
+.. toctree::
+   :hidden:
+
+   usage-advanced/copy-model
+   usage-advanced/compartmental-neuron
+   usage-advanced/synapse-model
+
+
 .. grid:: 2
    :gutter: 2
 
@@ -207,19 +229,6 @@ Features
             :columns: 8
 
             The user learns the implementation of a synapse model in a simulation
-
-.. toctree::
-   :hidden:
-
-   usage-advanced/project-view
-   usage-advanced/model-view
-   usage-advanced/network-graph
-   usage-advanced/activity-chart-graph
-   usage-advanced/activity-animation-graph
-   usage-advanced/controller-sidebar
-   usage-advanced/copy-model
-   usage-advanced/compartmental-neuron
-   usage-advanced/synapse-model
 
 
 External software

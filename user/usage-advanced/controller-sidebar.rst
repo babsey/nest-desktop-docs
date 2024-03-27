@@ -1,10 +1,12 @@
+.. _controller-sidebar:
+
 Controller sidebar
-==================
+------------------
 
 .. _controller-sidebar-network-controller:
 
 Network controller
-------------------
+^^^^^^^^^^^^^^^^^^
 
 .. grid:: 2
 
@@ -27,7 +29,7 @@ Network controller
 .. _controller-sidebar-kernel-settings:
 
 Kernel settings
----------------
+^^^^^^^^^^^^^^^
 
 The simulation parameters can be adjusted in the right sidebar. They are contained in the NEST Simulator code (more
 information below), so they will be passed to the NEST Simulator whenever a simulation is started.
@@ -63,7 +65,7 @@ information below), so they will be passed to the NEST Simulator whenever a simu
 .. _controller-sidebar-code-editor:
 
 Code editor
------------
+^^^^^^^^^^^
 
 .. grid:: 2
 
@@ -96,7 +98,7 @@ Code editor
 .. _controller-sidebar-activity-controller:
 
 Activity controller
--------------------
+^^^^^^^^^^^^^^^^^^^
 
 .. grid:: 2
 
@@ -115,13 +117,12 @@ Activity controller
 .. _controller-sidebar-activity-chart-controller:
 
 Activity chart controller
-^^^^^^^^^^^^^^^^^^^^^^^^^
+*************************
 
 Every chart panel has an own controller card fur individual customization. Other chart models can be chosen individually
 for each panel by clicking on the card toolbar in the activity controller.
 
-Analog signals
-**************
+**Analog signals**
 
 .. grid:: 2
 
@@ -141,8 +142,7 @@ Analog signals
 
       .. image:: /_static/img/screenshots/controller/activity-graph-panels-analog.png
 
-Spike activity
-**************
+**Spike activity**
 
 .. grid:: 2
 
@@ -160,7 +160,7 @@ Spike activity
 .. _controller-sidebar-activity-animation-controller:
 
 Activity animation controller
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*****************************
 
 .. grid:: 2
 
@@ -188,7 +188,7 @@ Activity animation controller
 .. _controller-sidebar-activity-statistics:
 
 Activity statistics
--------------------
+^^^^^^^^^^^^^^^^^^^
 
 .. grid:: 2
 
