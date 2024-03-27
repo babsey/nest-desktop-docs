@@ -1,22 +1,30 @@
 Poisson input into single neurons
 =================================
 
-In models, we often assume that presynaptic action potentials are arriving randomly at a certain rate. Synapses on the
+In models, we often assume that pre-synaptic action potentials are arriving randomly at a certain rate. Synapses on the
 dendrite of the postsynaptic neuron are then activated in a random fashion. The stochastic process that reflects such
 random arrival of point-like events is called a Poisson process. Its only parameter is the rate at which events occur.
 In view of the linearity of temporal and spatial dendritic integration, all synapses that have the same amplitude and
 sign can be treated as a single compound source of input. You can now employ the Poisson generator functionality of NEST
 to explore the response behavior of neurons:
 
-||||
+----
+
+.. card::
+
+   .. image:: /_static/img/screenshots/lecture/single-neuron-poisson-input-1.png
 
 1. Devise a method to display simulated Poisson spike trains, which will later be used as a source of input to our model
    neuron. Verify the randomness of the Poisson generator by repeating the same simulation multiple times.
 
-   A raster display with lines corresponding to “trials” rather
-   than “neurons” represents an adequate tool to illustrate this.
+   A raster display with lines corresponding to “trials” rather than “neurons” represents an adequate tool to illustrate
+   this.
 
-||||
+----
+
+.. card::
+
+   .. image:: /_static/img/screenshots/lecture/single-neuron-poisson-input-2.png
 
 2. Consider an LIF neuron that receives Poisson input of a constant rate using a synapse of a specific amplitude.
    Analyze how the input rate influences the membrane potential and the spiking response of the neuron. The parameters
@@ -25,13 +33,18 @@ to explore the response behavior of neurons:
 
    What happens if you change the strength of the synapse?
 
-||||
+----
+
+.. card::
+
+   .. image:: /_static/img/screenshots/lecture/single-neuron-poisson-input-3.png
 
 3. Now we consider the more realistic situation that a neuron receives input from two different and independent
    presynaptic populations, one consisting of excitatory, the other one consisting of inhibitory neurons.
 
    .. note::
-      The presynaptic population of a cortical nerve cell can be quite large, comprising up to 10,000 neurons, say.
+      The presynaptic population of a cortical nerve cell can be quite large, comprising up to 10,000 neurons,
+      say.
 
    What matters for the postsynaptic neuron is the accumulated spike rate for each type of input, so these input rates
    will also be large. The model has two parameters, the rate :math:`\lambda_{E}` of the excitatory Poisson process and
@@ -42,7 +55,9 @@ to explore the response behavior of neurons:
    until output spikes are generated (superthreshold). Describe your observations for weak and for strong input, both on
    the level of the membrane potential and on the level of output spike trains.
 
-||||
+----
+
+.. .. card::
 
 4. Considering synaptic bombardment from a large pool of presynaptic neurons, the mathematical model of shotnoise is
    appropriate to describe membrane potential fluctuations. Generally, the two relevant parameters :math:`\lambda_{E}`
@@ -60,7 +75,9 @@ to explore the response behavior of neurons:
 
    Perform some experiments that illustrate this relation.
 
-||||
+----
+
+.. .. card::
 
 5. If input rates are large enough, output spikes are generated. There is a loose correspondence between the mean
    membrane potential and the mean output rate, as well as between the membrane potential fluctuations (variance) and
@@ -73,7 +90,7 @@ to explore the response behavior of neurons:
    Explore the meaning of these two terms, and illustrate the two regimes by suitable simulations. Develop criteria that
    allow you to classify neuronal activity recorded in experiments accordingly.
 
-||||
+----
 
 NEST Desktop does not only offer direct current (DC) stimulators, but also noise current stimulators. In principle, they
 are used in the same way as a DC stimulator. “Poisson input” is just one specific form of “noise input”. Technically,

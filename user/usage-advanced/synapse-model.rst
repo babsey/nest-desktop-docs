@@ -1,3 +1,5 @@
+.. _synapse-model:
+
 Synapse model
 =============
 
@@ -14,60 +16,83 @@ First, you have to import synapse models.
 .. seeAlso::
    - :ref:`Import models in dialog <model-view-model-dialog>`
 
-|br|
 
 .. _synapse-model-connect-neurons-with-non-static-synapse:
 
 Connect neurons with non-static synapse
 ---------------------------------------
 
-.. image:: /_static/img/screenshots/synapse/tsodyks-synapse-controller.png
-   :align: right
-   :target: #connect-neurons-with-non-static-synapse
+.. grid:: 2
 
-After you have initially built the neurons with their connections, you can select another synapse model (Here:
-:bdg:`Tsodyks synapse`). Configure the parameter values for facilitating or depressing the synapse.
+   .. grid-item::
+      :columns: 7
 
-|br|
+      After you have initially built the neurons with their connections, you can select another synapse model (Here:
+      :bdg:`Tsodyks synapse`). Configure the parameter values for facilitating or depressing the synapse.
+
+   .. grid-item::
+      :columns: 5
+
+      .. image:: /_static/img/screenshots/synapse/tsodyks-synapse-controller.png
+         :target: #connect-neurons-with-non-static-synapse
+
 
 .. _synapse-model-observe-effects-of-short-term-synapses:
 
 Observe effects of short-term synapses
 --------------------------------------
 
-.. image:: /_static/img/screenshots/synapse/neuronal-activity-tsodyks.png
-   :align: left
-   :height: 450px
-   :target: #observe-effects-of-short-term-synapses
+.. grid:: 2
 
-After the simulation you might register changes of PSP of neurons receiving spike inputs from other neurons via
-non-static synapses.
+   .. grid-item::
+      :columns: 8
 
-|br|
+      .. image:: /_static/img/screenshots/synapse/neuronal-activity-tsodyks.png
+         :height: 450px
+         :target: #observe-effects-of-short-term-synapses
+
+   .. grid-item::
+      :columns: 4
+
+      After the simulation you might register changes of PSP of neurons receiving spike inputs from other neurons via
+      non-static synapses.
+
 
 .. _synapse-model-measure-synaptic-weights:
 
 Measure synaptic weights
 ------------------------
 
-.. image:: /_static/img/screenshots/synapse/copied-synapse-model.png
-   :align: right
-   :target: #measure-synaptic-weights
+.. grid:: 2
 
-A weight recorder is not a typical recorder like others. It can only be assigned to a synapse model to measure its
-weight.
+   .. grid-item::
+      :columns: 7
 
-First, import :bdg:`WEIGHT RECORDER` from GitHub. You need to copy the synapse model whose weight should be recorded.
-Select the copied synapse model for an existing connection between neurons.
+      A weight recorder is not a typical recorder like others. It can only be assigned to a synapse model to measure its
+      weight.
 
-Create a node with :bdg:`WEIGHT RECORDER` and connect it to a connection (use the connection as the target instead of a
-node). You can see in the copied synapse model that it is assigned to :bdg:`WEIGHT RECORDER`.
+      First, import :bdg:`WEIGHT RECORDER` from GitHub. You need to copy the synapse model whose weight should be
+      recorded. Select the copied synapse model for an existing connection between neurons.
 
-.. image:: /_static/img/screenshots/synapse/weight-recorder-graph.png
-   :align: left
+      Create a node with :bdg:`WEIGHT RECORDER` and connect it to a connection (use the connection as the target instead
+      of a node). You can see in the copied synapse model that it is assigned to :bdg:`WEIGHT RECORDER`.
 
-|br|
+   .. grid-item::
+      :columns: 5
 
-After the simulation, add a new panel showing only weights.
+      .. image:: /_static/img/screenshots/synapse/copied-synapse-model.png
+         :target: #measure-synaptic-weights
+
+.. grid:: 2
+
+   .. grid-item::
+      :columns: 5
+
+      .. image:: /_static/img/screenshots/synapse/weight-recorder-graph.png
+
+   .. grid-item::
+      :columns: 7
+
+      After the simulation, add a new panel showing only weights.
 
 .. image:: /_static/img/screenshots/synapse/weight-recorder.png

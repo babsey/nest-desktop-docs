@@ -4,11 +4,10 @@ Build and publish
 Currently, we build NEST Desktop for multiple targets and publish them on various platforms.
 
 .. note::
-   Please be aware that a lot of steps are already covered by our `GitLab CI process <continuous-integration.html#gitlab>`_.
+   Please be aware that a lot of steps are already covered by our `GitLab CI process <continuous-integration.html#gitlab>`__.
    Therefore, we recommend to inspect the ``.gitlab-ci.yml`` file together with this chapter.
    It might also be helpful to have a look at the commands defined in ``package.json``.
 
-|br|
 
 .. _production_python:
 
@@ -20,9 +19,8 @@ Python
    :width: 240px
    :target: #production-python
 
-|br|
 
-Building and pushing NEST Desktop on `PyPI <https://pypi.org/project/nest-desktop/>`_ is a required step for the
+Building and pushing NEST Desktop on `PyPI <https://pypi.org/project/nest-desktop/>`__ is a required step for the
 production. After that, Docker Hub can upgrade NEST Desktop in the provided Docker image.
 
 Requirements
@@ -80,7 +78,6 @@ Do not forget to commit the changes you made and set a new version tag in git.
    git tag -a v3.0 -m 'v3.0.0'
    git push --tags
 
-|br|
 
 .. _production_conda:
 
@@ -92,9 +89,9 @@ Conda
    :width: 240px
    :target: #production-conda
 
-We have a conda-smithy `repository for nest-desktop <https://github.com/nest-desktop/nest-desktop-conda>`_.
+We have a conda-smithy `repository for nest-desktop <https://github.com/nest-desktop/nest-desktop-conda>`__.
 When a new Python package is released, we can change the version in ``meta.yaml`` (|see| the meta content `online
-<https://github.com/nest-desktop/nest-desktop-conda/blob/main/recipe/meta.yaml>`_):
+<https://github.com/nest-desktop/nest-desktop-conda/blob/main/recipe/meta.yaml>`__):
 
 .. code-block::
 
@@ -105,7 +102,6 @@ When a new Python package is released, we can change the version in ``meta.yaml`
 
 Then make a pull request on the base branch of this repository.
 
-|br|
 
 .. _production_electron:
 
@@ -148,9 +144,4 @@ Finally, upload the snap file:
 
 .. seeAlso::
    For Snap packages, you can find more information in the `Snap repository for nest-desktop
-   <https://github.com/nest-desktop/nest-desktop-snap>`_.
-
-.. |see| image:: /_static/img/icons/arrow-right.svg
-   :alt: See
-   :height: 17.6px
-   :target: #
+   <https://github.com/nest-desktop/nest-desktop-snap>`__.

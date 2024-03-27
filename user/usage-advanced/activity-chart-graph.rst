@@ -1,3 +1,5 @@
+.. _activity-chart-graph:
+
 Activity chart graph
 ====================
 
@@ -9,66 +11,78 @@ quantities from the recording devices (:bdg:`voltmeter` or :bdg:`multimeter`).
 .. seeAlso::
    :ref:`Use controller for activity graph<controller-sidebar-activity-chart-controller>`
 
-|br|
+|
 
 .. _activity-chart-graph-analog-signals:
 
 |chart-line| Analog signals
 ---------------------------
 
-.. image:: /_static/img/screenshots/activity/activity-chart-graph-step-input.png
-   :align: left
-   :target: #chart-line-analog-signals
+.. grid:: 2
 
-By default, it displays a line trace of the membrane potential.
+   .. grid-item::
+      :columns: 7
 
-|br|
+      .. image:: /_static/img/screenshots/activity/activity-chart-graph-step-input.png
 
-.. image:: /_static/img/screenshots/activity/activity-chart-graph-noise.png
-   :align: left
-   :target: #chart-line-analog-signals
+   .. grid-item::
+      :columns: 5
 
-With noise input (:bdg:`noise generator`), it shows noise behavior (fluctuation) of the membrane potentials and
-histogram of distributed values.
+      By default, it displays a line trace of the membrane potential.
 
-|br|
+.. grid:: 2
+
+   .. grid-item::
+      :columns: 7
+
+      .. image:: /_static/img/screenshots/activity/activity-chart-graph-noise.png
+
+   .. grid-item::
+      :columns: 5
+
+      With noise input (:bdg:`noise generator`), it shows noise behavior (fluctuation) of the membrane potentials and
+      histogram of distributed values.
+
 
 .. _activity-chart-graph-spike-activity:
 
 |chart-scatter-plot| Spike activity
 -----------------------------------
 
-.. image:: /_static/img/screenshots/activity/activity-chart-graph-spike.png
-   :align: left
-   :target: #chart-scatter-plot-spike-activity
+.. grid:: 2
 
-By default, it displays a raster plot of the spike times as well as a time histogram of spikes.
+   .. grid-item::
+      :columns: 7
 
-|br|
+      .. image:: /_static/img/screenshots/activity/activity-chart-graph-spike.png
 
-.. image:: /_static/img/screenshots/activity/activity-chart-graph-spike-value-histogram.png
-   :align: left
-   :target: #chart-scatter-plot-spike-activity
+   .. grid-item::
+      :columns: 5
 
-It displays a value histogram of the inter-spike intervals (ISI) as well as of the coefficients of variation of the ISI
-(CV of ISI) for the population.
+      By default, it displays a raster plot of the spike times as well as a time histogram of spikes.
 
-|br|
+.. grid:: 2
 
-.. image:: /_static/img/screenshots/activity/activity-chart-graph-spike-sender-histogram.png
-   :align: left
-   :target: #chart-scatter-plot-spike-activity
+   .. grid-item::
+      :columns: 7
 
-It displays spike count, average Inter-spike interval (ISI) and coefficient of variation (CV of ISI) for each sender,
-e.g. neuron.
+      .. image:: /_static/img/screenshots/activity/activity-chart-graph-spike-value-histogram.png
 
+   .. grid-item::
+      :columns: 5
 
-.. |chart-line| image:: /_static/img/icons/chart-bell-curve-cumulative.svg
-   :alt: chart-line
-   :height: 32px
-   :target: #
+      It displays a value histogram of the inter-spike intervals (ISI) as well as of the coefficients of variation of
+      the ISI (CV of ISI) for the population.
 
-.. |chart-scatter-plot| image:: /_static/img/icons/chart-scatter-plot.svg
-   :alt: chart-scatter-plot
-   :height: 32px
-   :target: #
+.. grid:: 2
+
+   .. grid-item::
+      :columns: 7
+
+      .. image:: /_static/img/screenshots/activity/activity-chart-graph-spike-sender-histogram.png
+
+   .. grid-item::
+      :columns: 5
+
+      It displays spike count, average Inter-spike interval (ISI) and coefficient of variation (CV of ISI) for each
+      sender, e.g. neuron.

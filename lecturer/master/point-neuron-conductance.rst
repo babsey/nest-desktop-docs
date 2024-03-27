@@ -27,7 +27,7 @@ smaller. This scenario has been described as the “high-conductance state”. N
 their input integration becomes state-dependent: PSPs at rest are different to PSPs sitting on a background of many
 activated synapses.
 
-||||
+----
 
 1. Consider an isolated, conductance-based point neuron, with synapses that have alpha-functions as post-synaptic
    current transients, and a non-zero synaptic time constant. Simulate an individual excitatory postsynaptic potential,
@@ -36,7 +36,7 @@ activated synapses.
    This can be achieved by injecting additional subthreshold depolarizing currents of different strengths. Perform the
    same experiment for an inhibitory postsynaptic potential and discuss the differences to the case of excitation.
 
-||||
+----
 
 2. Now replace the DC input by an equivalent synaptic input, called synaptic background activity. It can be conveniently
    provided by a Poisson source, which is coupled to the neuron by an excitatory synapse. By systematic experimentation,
@@ -46,14 +46,14 @@ activated synapses.
    On top of the background activity, simulate again an individual excitatory postsynaptic potential. Describe how it
    changes its shape (amplitude and width) in the high-conductance state.
 
-||||
+----
 
 3. You can emphasize the high-conductance state even more, if you apply a combined excitatory and inhibitory Poisson
    input. In order to arrive at the same mean depolarization, the inhibitory input must be overcome by some extra
    excitatory input. The excessive excitatory and inhibitory synaptic bombardment, however, will reduce the effective
    input resistance and time constant even more.
 
-||||
+----
 
 4. Consider now synapses with different synaptic time constants. The reduction of synaptic strength in the
    high-conductance state is more prominent for slow synapses (large synaptic time constant) than it is for fast
@@ -63,7 +63,7 @@ activated synapses.
    assignment with a different synapse that has a smaller or larger synaptic time constant. Then you compare the
    attenuation of synaptic transmission due to background activity in both cases.
 
-||||
+----
 
 NEST Desktop enables strategies of analysis that cannot easily be adopted in a biological experiment. In order to
 display weak effects under noisy conditions, researchers have to perform many repetitions in several recording sessions

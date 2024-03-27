@@ -1,16 +1,26 @@
+.. _nest-desktop-on-helmholtz-cloud:
+
 NEST Desktop on Helmholtz Cloud
 ===============================
 
-.. image:: /_static/img/logo/helmholtz-cloud-logo.svg
-   :align: left
-   :height: 90px
+.. note::
+   It is in development stage. It means that selected institutions are permitted to access NEST Desktop on Helmholtz
+   Cloud.
 
-|br|
+|
 
-Helmholtz Cloud is the federated cloud platform of Germany's largest scientific organization - the Helmholtz
-Association.
+.. grid:: 2
 
-Requirements
+   .. grid-item::
+
+      Helmholtz Cloud is the federated cloud platform of Germany's largest scientific organization - the Helmholtz
+      Association.
+
+   .. grid-item::
+
+      .. image:: /_static/img/logo/helmholtz-cloud-logo.svg
+
+**Requirements**
    - Helmholtz ID
 
 .. note::
@@ -19,8 +29,15 @@ Requirements
    collaborate seamlessly.
 
 
-Steps on Helmholtz Cloud
-   #. Go to `NEST Desktop on Helmholtz Cloud <https://nest-desktop.helmholtz-cloud.desy.de/>`_.
+**Steps on Helmholtz Cloud**
+   #. Go to `NEST Desktop on Helmholtz Cloud <https://nest-desktop.helmholtz-cloud.desy.de/>`__.
 
    #. Login with your account via Helmholtz AAI.
 
+
+Acknowledgements
+----------------
+
+Thanks for deploying NEST Desktop on HIFIS Infrastructure:
+
+- Franz Rhee (HIFIS)

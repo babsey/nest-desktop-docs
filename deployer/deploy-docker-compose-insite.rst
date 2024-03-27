@@ -1,3 +1,5 @@
+.. _deploy-insite:
+
 Deploy NEST Desktop with Insite
 ===============================
 

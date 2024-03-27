@@ -1,23 +1,28 @@
+.. _nest-desktop-on-jupyter-jsc:
+
 NEST Desktop on Jupyter JSC
 ===========================
 
-.. image:: /_static/img/logo/jupyterjsc-logo.png
-   :align: left
-   :height: 120px
+.. grid:: 2
 
-|br|
+   .. grid-item::
+      :columns: 7
 
-`Jupyter JSC <https://jupyter-jsc.fz-juelich.de>`_ is designed to provide the rich high performance computing (HPC)
-ecosystem to the world's most popular software: web browsers. JupyterLab is a web-based interactive development
-environment for Jupyter notebooks, code, and data. JupyterLab is flexible to support a wide range of workflows in data
-science, scientific computing, and machine learning.
+      `Jupyter JSC <https://jupyter-jsc.fz-juelich.de>`__ is designed to provide the rich high performance computing
+      (HPC) ecosystem to the world's most popular software: web browsers. JupyterLab is a web-based interactive
+      development environment for Jupyter notebooks, code, and data. JupyterLab is flexible to support a wide range of
+      workflows in data science, scientific computing, and machine learning.
 
-Requirements
-   - `JSC account <https://judoor.fz-juelich.de/login>`_
+   .. grid-item::
+      :columns: 5
 
+      .. image:: /_static/img/logo/jupyterjsc-logo.png
 
-Steps on Jupyter JSC
-   #. Go to `Jupyter JSC <https://jupyter-jsc.fz-juelich.de/>`_.
+**Requirements**
+   - `JSC account <https://judoor.fz-juelich.de/login>`__
+
+**Steps on Jupyter JSC**
+   #. Go to `Jupyter JSC <https://jupyter-jsc.fz-juelich.de/>`__.
 
    #. Login with your JSC account.
 
@@ -47,3 +52,11 @@ Steps on Jupyter JSC
    Please stop lab in landing page when you do not require it.
 
    .. image:: /_static/img/screenshots/online-services/jupyter-jsc-lab-open-stop.png
+
+
+Acknowledgements
+----------------
+
+Thanks for deploying NEST Desktop on Jupyter JSC:
+
+- Jens Henrik Goebbert (Jülich)

@@ -1,15 +1,22 @@
+.. _apptainer:
+
 Apptainer |linux|
 =================
 
-.. image:: /_static/img/logo/apptainer-logo.png
-   :align: left
-   :target: #apptainer-linux
-   :width: 120px
+.. grid:: 2
 
-Apptainer, former Singularity, is an application container for **Linux** systems. For more information read the full
-documentation of Apptainer `here <https://apptainer.org/>`_.
+   .. grid-item::
+      :columns: 9
 
-|br|
+      Apptainer, former Singularity, is an application container for **Linux** systems. For more information read the
+      full documentation of Apptainer `here <https://apptainer.org/>`__.
+
+   .. grid-item::
+      :columns: 3
+
+      .. image:: /_static/img/logo/apptainer-logo.png
+         :target: #
+         :width: 120px
 
 Get recipes
 -----------
@@ -29,7 +36,7 @@ Get recipes
 
 .. note::
    You will have to repeat this every time you end a terminal session.If you like to register this command permanently,
-   please proceed according to the `full documentation <https://github.com/nest-desktop/nest-desktop-apptainer>`_.
+   please proceed according to the `full documentation <https://github.com/nest-desktop/nest-desktop-apptainer>`__.
 
 Build image
 -----------
@@ -59,7 +66,7 @@ Now NEST Desktop is started. You can use NEST Desktop in the web browser at http
 :doc:`Now we can start constructing networks for the simulation! </user/usage-basic/index>`
 
 For more information read the full documentation of `NEST Desktop Apptainer
-<https://github.com/nest-desktop/nest-desktop-apptainer>`_.
+<https://github.com/nest-desktop/nest-desktop-apptainer>`__.
 
 
 .. warning::

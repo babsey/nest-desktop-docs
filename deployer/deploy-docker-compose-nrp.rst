@@ -1,3 +1,5 @@
+.. _deploy-nrp:
+
 Deploy NEST Desktop with NRP
 ============================
 
@@ -21,7 +23,8 @@ First, download the configuration file of Docker Compose from GitHub:
 
    wget https://raw.githubusercontent.com/nest-desktop/nest-desktop-docker/main/examples/nrp/docker-compose.yml
 
-Then start all services (`nest-desktop`, `insite-nest-module`, `insite-access-module`, `nrp-backend` and `nrp-frontend`):
+Then start all services (`nest-desktop`, `insite-nest-module`, `insite-access-module`, `nrp-backend` and
+`nrp-frontend`):
 
 .. code-block:: bash
 
@@ -30,6 +33,6 @@ Then start all services (`nest-desktop`, `insite-nest-module`, `insite-access-mo
 It takes a few minutes to pull all five docker images and start all containers.
 
 .. seeAlso::
-   - Be sure that NEST Desktop runs two backends: NEST Simulator and Insite Access Node. For more information, please read
-   :doc:`/user/usage-external/simulate-with-insite`.
+   - Be sure that NEST Desktop runs two backends: NEST Simulator and Insite Access Node. For more information, please
+     read :doc:`/user/usage-external/simulate-with-insite`.
    - For the usage, please read :doc:`/user/usage-external/usage-with-nrp`.

@@ -1,5 +1,7 @@
-Compartmental model
-===================
+.. _compartmental-neuron:
+
+Compartmental neuron
+====================
 
 NEST Simulator is actually a simulation tool of point-neurons but it also provides a model :bdg:`cm_default` which is a
 neurons with compartments. Here, the guide shows the steps to create a simple neuron with compartments.
@@ -10,30 +12,35 @@ neurons with compartments. Here, the guide shows the steps to create a simple ne
 Step by step guide
 ------------------
 
-.. image:: /_static/img/screenshots/controller/compartmental-neuron-step1.png
-   :align: right
-   :target: #
+.. grid:: 2
 
-First import :bdg:`cm_default` from GitHub and create a node with :bdg:`cm_default`. Then open node selection popup, add
-compartments (|new|) and select compartment parameters to modify. Add receptors (|new|) in each compartment and select
-receptor parameters to modify.
+   .. grid-item::
+      :columns: 6
 
-Click on the chips (:bdg:`soma 1`, :bdg:`dendrite 1`, ...) of a compartment to see its content.
+      First import :bdg:`cm_default` from GitHub and create a node with :bdg:`cm_default`. Then open node selection
+      popup, add compartments (|new|) and select compartment parameters to modify. Add receptors (|new|) in each
+      compartment and select receptor parameters to modify.
 
-|br|
+      Click on the chips (:bdg:`soma 1`, :bdg:`dendrite 1`, ...) of a compartment to see its content.
 
-.. image:: /_static/img/screenshots/controller/compartmental-neuron-step2.png
-   :align: right
-   :target: #
+   .. grid-item::
+      :columns: 6
 
-You can modify the values in each compartment and and its receptors.
+      .. image:: /_static/img/screenshots/controller/compartmental-neuron-step1.png
+         :target: #
 
-|br|
+.. grid:: 2
+
+   .. grid-item::
+      :columns: 6
+
+      You can modify the values in each compartment and and its receptors.
+
+   .. grid-item::
+      :columns: 6
+
+      .. image:: /_static/img/screenshots/controller/compartmental-neuron-step2.png
+         :target: #
 
 .. note::
    Use :bdg:`multimeter` to record events from various compartments.
-
-.. |new| image:: /_static/img/icons/plus.svg
-   :alt: plus
-   :height: 17.6px
-   :target: #

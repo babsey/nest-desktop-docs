@@ -19,7 +19,7 @@ Our experiences so far highlight that NEST Desktop helps advancing both quality 
 computational neuroscience in regular university courses. We view the availability of the tool on public resources like
 the European ICT infrastructure for neuroscience EBRAINS as a contribution to equal opportunities [#f2]_.
 
-A paper for NEST Desktop is available on `eNeuro <https://www.eneuro.org/content/8/6/ENEURO.0274-21.2021>`_.
+A paper for NEST Desktop is available on `eNeuro <https://www.eneuro.org/content/8/6/ENEURO.0274-21.2021>`__.
 
 .. rubric:: References
 .. [#f1] https://github.com/nest-desktop/nest-desktop

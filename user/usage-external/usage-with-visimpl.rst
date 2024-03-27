@@ -1,13 +1,22 @@
+.. _use-nest-desktop-with-visimpl:
+
 Use NEST Desktop with ViSimpl
 =============================
 
-.. image:: /_static/img/gif/external-visimpl.gif
-   :align: left
-   :alt: ViSimpl
-   :target: #
+.. grid:: 2
 
-ViSimpl visualizes neural activity from brain simulation data. It displays spike activity in space and can be co-used
-with NEST Desktop.
+   .. grid-item::
+      :columns: 4
+
+      .. image:: /_static/img/gif/external-visimpl.gif
+         :alt: ViSimpl
+         :target: #
+
+   .. grid-item::
+      :columns: 8
+
+      ViSimpl visualizes neural activity from brain simulation data. It displays spike activity in space and can be co-used
+      with NEST Desktop.
 
 .. seeAlso::
    For this approach, we need to run the simulation with Insite as recording backend.
@@ -15,7 +24,6 @@ with NEST Desktop.
    When you want to learn how to use NEST Desktop with Insite, please read
    :doc:`/user/usage-external/simulate-with-insite`.
 
-|br|
 
 .. _usage-with-visimpl-preparation:
 
@@ -40,9 +48,9 @@ Afterwards, you can start NEST Desktop (with Insite).
 
    docker-compose up
 
-||||
+----
 
-For ViSimpl, download the (binary) AppImage from the `page <https://vg-lab.es/visimpl/#downloads>`_, make it executable
+For ViSimpl, download the (binary) AppImage from the `page <https://vg-lab.es/visimpl/#downloads>`__, make it executable
 and then open it.
 
 .. code-block:: bash
@@ -55,7 +63,6 @@ and then open it.
 .. hint::
    You can place NEST Desktop and ViSimpl side by side to see them both.
 
-|br|
 
 .. _usage-with-visimpl-how-to-use-nest-desktop-with-visimpl:
 
@@ -82,11 +89,10 @@ How to use NEST Desktop with ViSimpl
    - Increase the :bdg:`Delay` to 5ms in :bdg:`Visual Configuration`.
 
 
-
 Acknowledgements
 ----------------
 
-Thanks for the collaboration on ViSimpl and NEST Desktop:
+Thanks for the collaboration of ViSimpl and NEST Desktop:
 
 - Félix De Las Pozas Álvarez (Collaboration on ViSimpl and NEST Desktop)
 - Marcel Krüger (Insite as recording backend)

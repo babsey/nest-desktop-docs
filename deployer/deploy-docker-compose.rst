@@ -1,26 +1,32 @@
+.. _deploy-docker-compose:
+
 Deploy with Docker Compose
 ==========================
 
-.. image:: /_static/img/logo/docker-compose-logo.png
-   :align: right
-   :alt: Docker Compose
-   :width: 240px
+.. grid:: 2
 
-Docker is a virtualization software packaging applications and its dependencies in a virtual container
-that can run on any Linux server.
-It is available for a variety of the operating systems, e.g. Linux, Mac and Windows.
-For more information follow the link `here <https://www.docker.com/resources/what-container>`_.
+   .. grid-item::
+      :columns: 7
 
-NEST Desktop and NEST Simulator are prepared in different containers,
-but you can use docker-compose to start multiple containers, e.g. NEST Desktop, NEST Simulator.
-Docker Compose needs the configuration file (``docker-compose.yml``).
+      Docker is a virtualization software packaging applications and its dependencies in a virtual container that can
+      run on any Linux server. It is available for a variety of the operating systems, e.g. Linux, macOS and Windows.
+      For more information follow the link `here <https://www.docker.com/resources/what-container>`__.
 
-Here, the guide shows you how to build containers with ``docker-compose``.
+      NEST Desktop and NEST Simulator are prepared in different containers, but you can use docker-compose to start
+      multiple containers, e.g. NEST Desktop, NEST Simulator. Docker Compose needs the configuration file
+      (``docker-compose.yml``).
+
+      Here, the guide shows you how to build containers with ``docker-compose``.
+
+   .. grid-item::
+      :columns: 5
+
+      .. image:: /_static/img/logo/docker-compose-logo.png
+         :alt: Docker Compose
+         :width: 240px
 
 Requirements:
-  - `Docker Compose <https://docs.docker.com/compose/>`_
-
-|
+  - `Docker Compose <https://docs.docker.com/compose/>`__
 
 .. _deploy-docker-compose_preparation:
 
@@ -32,8 +38,6 @@ Prepare your local environment by installing Docker (if you have not installed i
 .. code-block:: bash
 
    apt install docker-compose
-
-|
 
 .. _deploy-docker-compose_get-configuration-file:
 
@@ -52,8 +56,6 @@ https://docker-registry.ebrains.eu/harbor/projects/6/repositories/nest-desktop
 and NEST Simulator can be started from within the official NEST image
 (https://docker-registry.ebrains.eu/harbor/projects/6/repositories/nest-simulator).
 
-|
-
 .. _deploy-docker-compose_getting-started:
 
 Getting started
@@ -66,7 +68,7 @@ Build and start the NEST Desktop and NEST Simulator containers.
    docker-compose up --build
 
 NEST Desktop and NEST Simulator are now serving at ``http://localhost:54286`` and ``http://localhost:52425``,
-respectively. With :bdg:`CTRL` + :bdg:`C` you can shutdown these services.
+respectively. With :keys:`ctrl+c` you can shutdown these services.
 
 .. rubric:: Configurations in :code:`docker-compose.yml`
 

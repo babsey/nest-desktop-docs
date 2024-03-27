@@ -1,13 +1,24 @@
+.. _appimage:
+
 AppImage |linux|
 ================
 
-.. image:: /_static/img/logo/App-image-logo.svg
-   :align: left
-   :target: #appimage-linux
-   :width: 120px
+.. grid:: 2
+
+   .. grid-item::
+      :columns: 9
+
+      AppImage are Linux apps that run anywhere.
+
+   .. grid-item::
+      :columns: 3
+
+      .. image:: /_static/img/logo/AppImage-logo.svg
+         :target: #
+         :width: 120px
 
 You can download an AppImage from the `releases page
-<https://github.com/nest-desktop/nest-desktop-AppImage/releases>`_.
+<https://github.com/nest-desktop/nest-desktop-AppImage/releases>`__.
 
 Click on the `.AppImage` file to open NEST Desktop.
 

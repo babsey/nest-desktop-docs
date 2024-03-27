@@ -1,3 +1,5 @@
+.. _lecturer-guide:
+
 =========================
 |lecturer| Lecturer guide
 =========================
@@ -8,11 +10,8 @@ Numerical experiments of increasing complexity help to understand how brain netw
 their dynamic behavior are.
 
 .. note::
-
-   This section assumes that you have prior knowledge of how to use NEST Desktop. If you have not used NEST Desktop before,
-   please read the User Documentation first (:doc:`/user/index`).
-
-
+   This section assumes that you have prior knowledge of how to use NEST Desktop. If you have not used NEST Desktop
+   before, please read the User Documentation first (:doc:`/user/index`).
 
 
 Course organisation
@@ -57,6 +56,15 @@ neuron responds to different types of input.
 - :doc:`/lecturer/bachelor/single-neuron-synaptic-input`
 - :doc:`/lecturer/bachelor/single-neuron-poisson-input`
 
+.. toctree::
+   :hidden:
+   :maxdepth: 0
+
+   bachelor/single-neuron-direct-current-injection
+   bachelor/single-neuron-noise-current-injection
+   bachelor/single-neuron-synaptic-input
+   bachelor/single-neuron-poisson-input
+
 
 Master students
 ---------------
@@ -68,6 +76,14 @@ dynamics of single neurons and of neuronal networks.
 - :doc:`/lecturer/master/point-neuron-conductance`
 - :doc:`/lecturer/master/network-dynamics`
 
+.. toctree::
+   :hidden:
+   :maxdepth: 0
+
+   master/hodgkin-huxley-action-potential
+   master/point-neuron-conductance
+   master/network-dynamics
+
 
 Doctoral students
 -----------------
@@ -77,9 +93,8 @@ covers the activity dynamics of neuronal networks with multiple interacting popu
 
 - :doc:`/lecturer/doctorate/networks-decision-making`
 
-|
+.. toctree::
+   :hidden:
+   :maxdepth: 0
 
-.. |lecturer| image:: /_static/img/icons/user-graduate.svg
-   :alt: Lecturer
-   :height: 80px
-   :target: #
+   doctorate/networks-decision-making

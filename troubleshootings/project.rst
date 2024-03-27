@@ -26,7 +26,7 @@ How can I rename the current project?
       - :ref:`Edit project name in project bar <project-view-project-bar>`
 
 How can I save projects?
-   You find a save icon |save| appended in each loaded project item.
+   You find a save icon |save-ok| appended in each loaded project item.
 
    .. seeAlso::
       - :ref:`Save a project in the project list <project-view-project-list>`
@@ -55,38 +55,3 @@ How can I import projects?
       - :ref:`Import project in the project toolbar <project-view-project-toolbar>`
       - :ref:`Import project in the project list <project-view-project-dialog>`
 
-
-.. |delete| image:: /_static/img/icons/trash-can-outline.svg
-   :alt: delete
-   :height: 17.6px
-   :target: #
-
-.. |dots| image:: /_static/img/icons/dots-vertical.svg
-   :alt: dots
-   :height: 17.6px
-   :target: #
-
-.. |duplicate| image:: /_static/img/icons/content-duplicate.svg
-   :alt: duplicate
-   :height: 17.6px
-   :target: #
-
-.. |export| image:: /_static/img/icons/export.svg
-   :alt: export
-   :height: 17.6px
-   :target: #
-
-.. |import| image:: /_static/img/icons/import.svg
-   :alt: import
-   :height: 17.6px
-   :target: #
-
-.. |new| image:: /_static/img/icons/plus.svg
-   :alt: plus
-   :height: 17.6px
-   :target: #
-
-.. |save| image:: /_static/img/icons/content-save-check-outline.svg
-   :alt: save
-   :height: 17.6px
-   :target: #

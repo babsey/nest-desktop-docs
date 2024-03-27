@@ -1,17 +1,24 @@
-Conda |linux| |windows| |apple|
+.. _conda:
+
+Conda |linux| |macOS| |windows|
 ===============================
 
-.. image:: /_static/img/logo/conda-logo.png
-   :align: left
-   :target: #conda-linux-windows-apple
-   :width: 120px
+.. grid:: 2
 
-Anaconda provides packages for `NEST Desktop <https://anaconda.org/conda-forge/nest-desktop>`_. and `NEST Simulator
-<https://anaconda.org/conda-forge/nest-simulator>`_. These packages can be installed with Conda (from
-:bdg:`conda-forge`). Since NEST 3, the API server (i.e. :bdg:`NEST Server`) is included which is necessary for
-:bdg:`NEST Desktop`.
+   .. grid-item::
+      :columns: 9
 
-|br|
+      Anaconda provides packages for `NEST Desktop <https://anaconda.org/conda-forge/nest-desktop>`__. and `NEST
+      Simulator <https://anaconda.org/conda-forge/nest-simulator>`__. These packages can be installed with Conda (from
+      :bdg:`conda-forge`). Since NEST 3, the API server (i.e. :bdg:`NEST Server`) is included which is necessary for
+      :bdg:`NEST Desktop`.
+
+   .. grid-item::
+      :columns: 3
+
+      .. image:: /_static/img/logo/conda-logo.png
+         :target: #
+         :width: 120px
 
 Prequistion for conda-forge
 ---------------------------
@@ -21,12 +28,10 @@ cannot install packages from the :bdg:`conda-forge`.
 
 Add channel for :bdg:`conda-forge`:
 
-   .. code-block:: bash
+.. code-block:: bash
 
-      conda config --add channels conda-forge
-      conda config --set channel_priority strict
-
-|br|
+   conda config --add channels conda-forge
+   conda config --set channel_priority strict
 
 Install with Conda
 ------------------

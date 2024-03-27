@@ -11,17 +11,16 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 import os
+
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-import sphinx_material
-
 # -- Project information -----------------------------------------------------
 
-project = 'NEST Desktop'
-author = 'Sebastian Spreizer'
-copyright = '2016-2023, Sebastian Spreizer'
-version = '3.3'
+project = "NEST Desktop"
+author = "Sebastian Spreizer"
+copyright = "2016-present Sebastian Spreizer"
+version = "3.3"
 
 
 # -- General configuration ---------------------------------------------------
@@ -30,46 +29,42 @@ version = '3.3'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx_copybutton',
-    'sphinx_design',
-    "sphinx_new_tab_link",
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosectionlabel',
-    'sphinx.ext.intersphinx',
+    "sphinx.ext.autodoc",
+    "sphinx.ext.autosectionlabel",
+    "sphinx.ext.extlinks",
+    "sphinx.ext.intersphinx",
+    "sphinx_copybutton",
+    "sphinx_design",
+    "sphinx_immaterial.kbd_keys",
 ]
 
 # Ensure unique targets
-autosectionlabel_prefix_document = True
 
 # root_doc = 'contents'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = ["_templates"]
 
 # Include text at the beginning of every file.
-if os.environ.get('READTHEDOCS') == 'True':
-  READTHEDOCS_VERSION = os.environ.get('READTHEDOCS_VERSION')
-  if READTHEDOCS_VERSION in ['dev', 'doc']:
-    rst_prolog = """
+if os.environ.get("READTHEDOCS") == "True":
+    READTHEDOCS_VERSION = os.environ.get("READTHEDOCS_VERSION")
+    if READTHEDOCS_VERSION in ["dev", "doc"]:
+        rst_prolog = """
         .. warning:: This version of the documentation is NOT an official release. \
         You are reading the documentation version which is in active and ongoing development.
         """
-  elif READTHEDOCS_VERSION not in ['latest', version]:
-    rst_prolog = """
+    elif READTHEDOCS_VERSION not in ["latest", version]:
+        rst_prolog = """
         .. warning:: You are not reading the documentation of the latest release of NEST Desktop. \
         Some guide might be outdated.
         """
 
-rst_epilog = '\n'.join([
-    '.. |br| raw:: html',
-    '',
-    '   <div style="display: inline-block; width: 100%" />',
-])
+rst_epilog = "\n.. include:: /substitutions.rst\n"
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -78,72 +73,185 @@ rst_epilog = '\n'.join([
 # See the documentation for a list of builtin themes.
 #
 
-extensions.append("sphinx_material")
-
 # html_additional_pages = {'index': 'index.html'}
-html_context = sphinx_material.get_html_context()
 
 html_css_files = [
-    'css/bootstrap.min.css',
-    'css/styles.css'
+    "css/fontawesome.min.css",
+    "css/brands.min.css",
+    "css/solid.min.css",
+    "css/styles.css",
 ]
 
-html_logo = '_static/img/logo/nest-desktop-logo.png'
-html_favicon = '_static/favicon.ico'
+# html_logo = "_static/img/logo/nest-desktop-logo.png"
+html_favicon = "_static/favicon.ico"
 
 html_js_files = []
-
-html_show_sourcelink = False
-
-html_sidebars = {
-    "**": ["globaltoc.html", "localtoc.html", "searchbox.html"]
-    # "logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"
-}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
-html_theme = 'sphinx_material'
+html_static_path = ["_static"]
+html_theme = ["sphinx_book_theme", "sphinx_immaterial", "sphinx_material"][1]
 
-html_theme_options = {
-    'base_url': 'https://nest-desktop.readthedocs.io/en/latest/',
-    'color_primary': 'deep-orange',
-    'color_accent': 'white',
-    'css_minify': True,
-    'heroes': {},
-    'globaltoc_collapse': True,
-    'globaltoc_depth': 3,
-    'globaltoc_includehidden': True,
-    'html_minify': False,
-    'html_prettify': False,
-    "master_doc": False,
-    "nav_links": [
-        {
-            "href": "https://nest-desktop.github.io/",
-            "internal": False,
-            "title": "Offical page",
+if html_theme == "sphinx_book_theme":
+
+    html_theme_options = {
+        "home_page_in_toc": True,
+        "path_to_docs": "docs",
+        "repository_branch": "main",
+        "repository_url": "https://github.com/nest-desktop/nest-desktop-docs",
+        "use_edit_page_button": True,
+        "use_fullscreen_button": False,
+        "use_issues_button": True,
+        "use_repository_button": True,
+    }
+
+elif html_theme == "sphinx_immaterial":
+
+    extensions.append("sphinx_immaterial")
+
+    html_theme_options = {
+        "icon": {
+            "repo": "fontawesome/brands/github",
+            "edit": "material/file-edit-outline",
         },
-        {
-            "href": "https://nest-simulator.readthedocs.io/",
-            "internal": False,
-            "title": "NEST Simulator",
-        },
-    ],
-    'nav_title': 'NEST Desktop',
-    'repo_name': 'Edit on GitHub',
-    'repo_url': 'https://github.com/nest-desktop/nest-desktop/',
-    'theme_color': 'ff6633',
-    "version_dropdown": True,
-}
+        "site_url": "https://nest-desktop.github.io/",
+        "repo_url": "https://github.com/nest-desktop/nest-desktop/",
+        "repo_name": "NEST Desktop",
+        "globaltoc_collapse": True,
+        "features": [
+            "navigation.expand",
+            # "navigation.tabs",
+            # "toc.integrate",
+            "navigation.sections",
+            "navigation.instant",
+            # "header.autohide",
+            "navigation.top",
+            # "navigation.tracking",
+            # "search.highlight",
+            "search.share",
+            "toc.follow",
+            "toc.sticky",
+            "content.tabs.link",
+            "announce.dismiss",
+        ],
+        "palette": [
+            {
+                "media": "(prefers-color-scheme: light)",
+                "scheme": "default",
+                "primary": "deep-orange",
+                "accent": "white",
+                "toggle": {
+                    "icon": "material/lightbulb-outline",
+                    "name": "Switch to dark mode",
+                },
+            },
+            {
+                "media": "(prefers-color-scheme: dark)",
+                "scheme": "slate",
+                "primary": "deep-orange",
+                "accent": "dark-grey",
+                "accent": "lime",
+                "toggle": {
+                    "icon": "material/lightbulb",
+                    "name": "Switch to light mode",
+                },
+            },
+        ],
+        # BEGIN: version_dropdown
+        "version_dropdown": True,
+        "version_info": [
+            {
+                "version": "https://nest-desktop.github.io",
+                "title": "Github Pages",
+                "aliases": [],
+            },
+            {
+                "version": "https://nest-simulator.readthedocs.io",
+                "title": "NEST Simulator",
+                "aliases": [],
+            },
+        ],
+        # END: version_dropdown
+        "toc_title_is_page_title": False,
+        # BEGIN: social icons
+        "social": [
+            {
+                "icon": "fontawesome/brands/github",
+                "link": "https://github.com/nest-desktop/nest-desktop",
+                "name": "Source on github.com",
+            },
+            {
+                "icon": "fontawesome/brands/python",
+                "link": "https://pypi.org/project/nest-desktop/",
+            },
+            # {
+            #     "icon": "fontawesome/brands/conda",
+            #     "link": "https://anaconda.org/conda-forge/nest-desktop",
+            # },
+            # {
+            #     "icon": "img/logo/ebrains-logo.svg",
+            #     "link": "https://www.ebrains.eu/tools/nest-desktop",
+            # },
+        ],
+        # END: social icons
+    }
 
-html_show_sphinx = False
-html_show_copyright = False
+elif html_theme == "sphinx_material":
 
-html_theme_path = sphinx_material.html_theme_path()
+    import sphinx_material
+
+    autosectionlabel_prefix_document = True
+
+    extensions.append("sphinx_material")
+
+    html_context = sphinx_material.get_html_context()
+
+    html_show_sourcelink = False
+
+    html_sidebars = {
+        "**": ["globaltoc.html", "localtoc.html", "searchbox.html"]
+        #     # "logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"
+    }
+
+    html_theme_options = {
+        "base_url": "https://nest-desktop.readthedocs.io/en/latest/",
+        "color_primary": "deep-orange",
+        "color_accent": "white",
+        "css_minify": True,
+        "heroes": {},
+        "globaltoc_collapse": True,
+        "globaltoc_depth": 3,
+        "globaltoc_includehidden": True,
+        "html_minify": False,
+        "html_prettify": False,
+        "master_doc": False,
+        "nav_links": [
+            {
+                "href": "https://nest-desktop.github.io/",
+                "internal": False,
+                "title": "Offical page",
+            },
+            {
+                "href": "https://nest-simulator.readthedocs.io/",
+                "internal": False,
+                "title": "NEST Simulator",
+            },
+        ],
+        "nav_title": "NEST Desktop",
+        "repo_name": "Edit on GitHub",
+        "repo_url": "https://github.com/nest-desktop/nest-desktop/",
+        "theme_color": "ff6633",
+        "version_dropdown": True,
+    }
+
+    html_show_sphinx = False
+    html_show_copyright = False
+
+    html_theme_path = sphinx_material.html_theme_path()
 
 # add links to modules and objects.
 intersphinx_mapping = {
-    'nest-simulator': ('https://nest-simulator.readthedocs.io/en/latest/', None),
-    'nestml': ('https://nestml.readthedocs.io/en/latest/', None),
+    "nest-simulator": ("https://nest-simulator.readthedocs.io/en/latest/", None),
+    "nestml": ("https://nestml.readthedocs.io/en/latest/", None),
 }

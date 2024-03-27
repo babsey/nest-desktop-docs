@@ -1,12 +1,25 @@
-Snap |linux|
-============
+.. _snap:
 
-.. image:: /_static/img/logo/snapcraft-logo.png
-   :align: left
-   :target: #snap-linux
-   :width: 120px
+Snap |linux| |macOS|
+====================
 
-You can download NEST Desktop via Snap.
+.. grid:: 2
+
+   .. grid-item::
+      :columns: 9
+
+      You can download NEST Desktop via Snap.
+
+   .. grid-item::
+      :columns: 3
+
+      .. image:: /_static/img/logo/snapcraft-logo.png
+         :target: #
+         :width: 120px
+
+.. note::
+   In macOS |macOS| you need to install `snapcraft`. See https://snapcraft.io/docs/installing-snapcraft#heading--macos for
+   details.
 
 .. code-block:: bash
 

@@ -9,7 +9,7 @@
    :caption: Guides
    :hidden:
 
-   user/index
-   lecturer/index
-   deployer/index
-   developer/index
+   User guide <user/index>
+   Lecturer guide <lecturer/index>
+   Deployer guide <deployer/index>
+   Developer guide <developer/index>

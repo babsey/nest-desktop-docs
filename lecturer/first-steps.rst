@@ -18,5 +18,20 @@ to get the most out of it.
 
 Specifically, students learn how to ...
 
-.. raw:: html
-   :file: ./templates/first-steps.html
+.. grid:: 2
+   :gutter: 4
+
+   .. grid-item-card::
+
+      * select a neuron model
+      * construct a neuronal network model
+      * apply a stimulus to the network
+      * record the activity of neurons
+
+   .. grid-item-card::
+
+      * run a simulation
+      * visualize the results
+      * analyze the activity data
+      * write a protocol of a simulation
+

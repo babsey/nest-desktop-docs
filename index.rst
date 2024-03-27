@@ -2,38 +2,26 @@
 NEST Desktop
 ============
 
+.. grid:: 2
 
-.. image:: ./_static/img/logo/nest-desktop-logo.png
-   :align: right
-   :alt: NEST Desktop
+   .. grid-item::
+      :columns: 8
 
-Hello there! :-)
+      Hello there! :-)
 
-NEST Desktop is a web-based GUI application for NEST Simulator,
-an advanced simulation tool for the computational neuroscience.
+      NEST Desktop is a web-based GUI application for NEST Simulator,
+      an advanced simulation tool for the computational neuroscience.
 
-It's so great that you want to use NEST Desktop!
+      It's so great that you want to use NEST Desktop!
 
-|br|
+   .. grid-item::
+      :columns: 4
 
-.. _conceptual-approach:
+      .. image:: ./_static/img/logo/nest-desktop-logo.png
+         :alt: NEST Desktop
+         :width: 75%
 
-Conceptual approach
--------------------
-
-NEST Desktop enables to construct a neuronal network model graphically and to perform a simulation experiment.
-Thus, no programming skills are required.
-
-.. image:: /_static/img/edited/conceptual-approach.png
-   :target: #conceptual-approach
-   :width: 100%
-
-
-You can tryout NEST Desktop as a restricted `live demo <https://nest-desktop.github.io/app>`_ without the simulation
-backend.
-
-
-|
+----
 
 Content structure
 -----------------
@@ -41,100 +29,100 @@ Content structure
 The documentation is organized in four sections.
 Select the appropriate section that fits your needs:
 
-.. raw:: html
-   :file: ./templates/content-structure.html
+.. grid:: 2
+   :gutter: 2
 
+   .. grid-item-card:: I am user
+      :columns: 6
+      :link: user-guide
+      :link-type: ref
 
-|br|
+      .. grid:: 2
+         :gutter: 2
 
-Version info
-------------
+         .. grid-item::
+            :columns: 2
+            :class: card-img
 
-On ReadTheDocs, it is possible to select versions of this documentation.
-These versions basically relate to the program versions (as found in the GitHub repository).
-This can be noticed when clicking on the "Edit on GitHub" text at the top right.
+            |user|
 
-Since the changes between patch level versions (e.g. 3.0.0 and 3.0.1) are usually not noticeable,
-we show a single branch for the recent minor version releases (e.g. '3.0' for all 3.0.x releases).
-This branch contains all patch releases and always points to the latest patch release of that release branch.
-Please keep this in mind when searching for information on a specific version of NEST Desktop!
+         .. grid-item::
+            :columns: 10
 
-||||
+            The user learns how to build networks, parameterize nodes and links, and perform simulations on the
+            graphical interface.
 
-:General: |docs| |license| |paper|
-:GitHub: |github-release| |github-commit-activitiy| |github-forks| |github-stars|
-:Docker: |docker-version| |docker-image-size| |docker-pulls|
-:Python: |python-version| |python-downloads|
-:Conda: |conda-version| |conda-downloads|
-:AppImage: |appImage-release| |appImage-downloads|
-:Snap: |snap-version|
+   .. grid-item-card:: I am lecturer
+      :columns: 6
+      :link: lecturer-guide
+      :link-type: ref
 
-.. |docs| image:: https://img.shields.io/readthedocs/nest-desktop?label=Documentation
-   :alt: Documentation status
-   :target: https://nest-desktop.readthedocs.io
+      .. grid:: 2
+         :gutter: 2
 
-.. |license| image:: https://img.shields.io/github/license/nest-desktop/nest-desktop
-   :alt: MIT License
-   :target: https://github.com/nest-desktop/nest-desktop/blob/main/LICENSE
+         .. grid-item::
+            :columns: 2
+            :class: card-img
 
-.. |paper| image:: https://img.shields.io/badge/DOI-10.1523%2Feneuro.0274--21.2021-blue
-   :alt: Paper
-   :target: https://doi.org/10.1523/eneuro.0274-21.2021
+            |lecturer|
 
-.. |github-release| image:: https://img.shields.io/github/release/nest-desktop/nest-desktop?logo=github&logoColor=white
-   :alt: Latest version
-   :target: https://github.com/nest-desktop/nest-desktop
+         .. grid-item::
+            :columns: 10
 
-.. |github-commit-activitiy| image:: https://img.shields.io/github/commit-activity/y/nest-desktop/nest-desktop
-   :alt: GitHub repository commit activity
-   :target: https://github.com/nest-desktop/nest-desktop/commits/main
+            The lecturer learns how to teach computational neuroscience using NEST Desktop.
 
-.. |github-forks| image:: https://img.shields.io/github/forks/nest-desktop/nest-desktop?style=social
-   :alt: GitHub repository forks
-   :target: https://github.com/nest-desktop/nest-desktop/network/members
+   .. grid-item-card:: I am deployer
+      :columns: 6
+      :link: deployer-guide
+      :link-type: ref
 
-.. |github-stars| image:: https://img.shields.io/github/stars/nest-desktop/nest-desktop?style=social
-   :alt: GitHub repository stars
-   :target: https://github.com/nest-desktop/nest-desktop/stargazers
+      .. grid:: 2
+         :gutter: 2
 
-.. |docker-version| image:: https://img.shields.io/docker/v/nest/nest-desktop/latest?logo=docker&logoColor=white
-   :alt: Docker version
-   :target: https://hub.docker.com/r/nest/nest-desktop
+         .. grid-item::
+            :columns: 2
+            :class: card-img
 
-.. |docker-image-size| image:: https://img.shields.io/docker/image-size/nest/nest-desktop/latest
-   :alt: Docker image size
-   :target: https://hub.docker.com/r/nest/nest-desktop
+            |deployer|
 
-.. |docker-pulls| image:: https://img.shields.io/docker/pulls/nest/nest-desktop
-   :alt: Docker pulls total
-   :target: https://hub.docker.com/r/nest/nest-desktop
+         .. grid-item::
+            :columns: 10
 
-.. |python-version| image:: https://img.shields.io/pypi/v/nest-desktop.svg?label=Python&logo=python&logoColor=white
-   :alt: Python version
-   :target: https://pypi.org/project/nest-desktop/
+            The deployer learns how to set up NEST Desktop on a machine via the Python Package, Docker or Apptainer
+            installation.
 
-.. |python-downloads| image:: https://img.shields.io/pypi/dm/nest-desktop.svg
-   :alt: Python downloads per month
-   :target: https://pypi.org/project/nest-desktop/
+   .. grid-item-card:: I am developer
+      :columns: 6
+      :link: developer-guide
+      :link-type: ref
 
-.. |conda-version| image:: https://img.shields.io/conda/vn/conda-forge/nest-desktop?logo=conda-forge&logoColor=white
-   :alt: Conda version
-   :target: https://anaconda.org/conda-forge/nest-desktop
+      .. grid:: 2
+         :gutter: 2
 
-.. |conda-downloads| image:: https://img.shields.io/conda/dn/conda-forge/nest-desktop.svg
-   :alt: Conda downloads total
-   :target: https://anaconda.org/conda-forge/nest-desktop
+         .. grid-item::
+            :columns: 2
+            :class: card-img
 
-.. |appImage-release| image:: https://img.shields.io/github/release/nest-desktop/nest-desktop-appImage.svg?color=brightgreen&label=AppImage&logo=linux&logoColor=white
-   :alt: AppImage version
-   :target: https://github.com/nest-desktop/nest-desktop-appImage/releases
+            |developer|
 
-.. |appImage-downloads| image:: https://img.shields.io/github/downloads/nest-desktop/nest-desktop-appImage/total
-   :alt: AppImage downloads
-   :target: https://github.com/nest-desktop/nest-desktop-appImage
+         .. grid-item::
+            :columns: 10
 
-.. |snap-version| image:: https://snapcraft.io/nest-desktop/badge.svg
-   :alt: Snap version
-   :target: https://snapcraft.io/nest-desktop
+            The developer learns the source code architecture of NEST Desktop and how to contribute code or
+            enhancements to the project.
+
+.. note::
+   On ReadTheDocs, it is possible to select versions of this documentation.
+   These versions basically relate to the program versions (as found in the GitHub repository).
+   This can be noticed when clicking on the "Edit on GitHub" text at the top right.
+
+   Since the changes between patch level versions (e.g. 3.0.0 and 3.0.1) are usually not noticeable,
+   we show a single branch for the recent minor version releases (e.g. '3.0' for all 3.0.x releases).
+   This branch contains all patch releases and always points to the latest patch release of that release branch.
+   Please keep this in mind when searching for information on a specific version of NEST Desktop!
+
+----
+
+.. include:: badges.rst
 
 .. include:: contents.rst

@@ -1,53 +1,71 @@
+.. _simulate-with-insite:
+
 Simulate with Insite
 ====================
 
+.. grid:: 2
 
-.. image:: /_static/img/gif/external-insite.gif
-   :align: left
-   :alt: Insite
-   :target: #
+   .. grid-item::
+      :columns: 5
 
-This is a guide to show how to use NEST Desktop with Insite.
+         .. image:: /_static/img/gif/external-insite.gif
+            :alt: Insite
+            :target: #
 
-Insite is a recording backend module which is also usable with NEST Simulator. Basically, with Insite, neuronal or
-network activity can be observed during the simulation.
+   .. grid-item::
+      :columns: 7
 
-|br|
+      This is a guide to show how to use NEST Desktop with Insite.
+
+      Insite is a recording backend module which is also usable with NEST Simulator. Basically, with Insite, neuronal or
+      network activity can be observed during the simulation.
 
 .. note::
    Simulations with Insite need to be run with the Insite docker images :bdg:`nest-module` and :bdg:`access-node`.
    The best method is to use Docker Compose, which also deploys NEST Desktop and Insite. For more information,
    please read the :doc:`deployment guide of Insite </deployer/deploy-docker-compose-insite>`.
 
-|br|
 
 .. _simulate-with-insite-check-if-insite-is-running:
 
 Check if Insite is running
 --------------------------
 
-.. image:: /_static/img/screenshots/external/settings-insite.png
-   :align: left
-   :target: #simulate-with-insite-check-if-insite-is-running
+.. grid:: 2
 
-In the settings page you can check whether the Insite backend is running. When it is disabled, you can toggle the slide
-to enable it.
+   .. grid-item::
+      :columns: 6
 
-|br|
+      .. image:: /_static/img/screenshots/external/settings-insite.png
+         :target: #simulate-with-insite-check-if-insite-is-running
+
+   .. grid-item::
+      :columns: 6
+
+      In the settings page you can check whether the Insite backend is running. When it is disabled, you can toggle the
+      slide to enable it.
+
 
 .. _simulate-with-insite-enable-simulation-with-insite:
 
 Enable simulation with Insite
 -----------------------------
 
-.. image:: /_static/img/screenshots/external/code-editor-toolbar-insite.png
-   :align: right
-   :target: #simulate-with-insite-enable-simulation-with-insite
+.. grid:: 2
 
-After successfully receiving a ping from the Insite access node of the backend, you can activate the button
-:bdg:`Insite` (second from left) in the toolbar of the code editor. Then, NEST Desktop generates the script such that
-Insite is used during the simulation.
-|br|
+   .. grid-item::
+      :columns: 7
+
+      After successfully receiving a ping from the Insite access node of the backend, you can activate the button
+      :bdg:`Insite` (second from left) in the toolbar of the code editor. Then, NEST Desktop generates the script such
+      that Insite is used during the simulation.
+
+   .. grid-item::
+      :columns: 5
+
+      .. image:: /_static/img/screenshots/external/code-editor-toolbar-insite.png
+         :target: #simulate-with-insite-enable-simulation-with-insite
+
 
 .. _simulate-with-insite-script-code-for-simulation-with-insite:
 
@@ -76,9 +94,8 @@ receives activity from the Insite access node on another port (default: ``52056`
 
 .. seeAlso::
    For more information about Insite, please visit the official
-   `documentation of Insite <https://vrgrouprwth.github.io/insite/>`_ from the VR Group of RWTH Aachen.
+   `documentation of Insite <https://vrgrouprwth.github.io/insite/>`__ from the VR Group of RWTH Aachen.
 
-|br|
 
 Acknowledgements
 ----------------

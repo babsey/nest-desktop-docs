@@ -1,3 +1,5 @@
+.. _deployer-guide:
+
 =========================
 |deployer| Deployer guide
 =========================
@@ -9,8 +11,58 @@ clicking one of these images below.
 Deploy NEST Desktop
 ===================
 
-.. raw:: html
-   :file: ./templates/deploy-nest-desktop.html
+.. grid:: 2
+   :gutter: 2
+
+   .. grid-item-card:: Docker Compose
+      :link: deploy-docker-compose
+      :link-type: ref
+
+      .. grid:: 2
+
+         .. grid-item::
+            :columns: 9
+
+            Start multiple Docker services at once via Docker Compose
+
+         .. grid-item::
+            :columns: 3
+
+            |docker-compose|
+
+   .. grid-item-card:: OpenShift
+      :link: deploy-openshift
+      :link-type: ref
+
+      .. grid:: 2
+
+         .. grid-item::
+            :columns: 9
+
+            Build and deploy Docker images via web service or CLI commands
+
+         .. grid-item::
+            :columns: 3
+
+            .. image:: /_static/img/logo/openshift-logo.png
+               :alt: Openshift
+
+   .. grid-item-card:: OpenStack
+      :link: deploy-openstack
+      :link-type: ref
+
+      .. grid:: 2
+
+         .. grid-item::
+            :columns: 9
+
+            Build app with Ansible and deploy on a cloud computing platform via web service
+
+         .. grid-item::
+            :columns: 3
+
+            .. image:: /_static/img/logo/openstack-logo.svg
+               :alt: Openstack
 
 .. toctree::
    :hidden:
@@ -24,8 +76,40 @@ Deploy NEST Desktop
 Deploy with external software
 =============================
 
-.. raw:: html
-   :file: ./templates/deploy-external-software.html
+.. grid:: 2
+   :gutter: 2
+
+   .. grid-item-card:: NEST Desktop with Insite
+      :link: deploy-insite
+      :link-type: ref
+
+      .. grid:: 2
+
+         .. grid-item::
+            :columns: 9
+
+            Deploy Docker Compose with Insite
+
+         .. grid-item::
+            :columns: 3
+
+            |docker-compose|
+
+   .. grid-item-card:: NEST Desktop with NRP
+      :link: deploy-nrp
+      :link-type: ref
+
+      .. grid:: 2
+
+         .. grid-item::
+            :columns: 9
+
+            Deploy Docker Compose with NRP
+
+         .. grid-item::
+            :columns: 3
+
+            |docker-compose|
 
 .. toctree::
    :hidden:
@@ -33,9 +117,3 @@ Deploy with external software
 
    deploy-docker-compose-insite
    deploy-docker-compose-nrp
-
-
-.. |deployer| image:: /_static/img/icons/user-gear.svg
-   :alt: Deployer
-   :height: 80px
-   :target: #

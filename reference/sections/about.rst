@@ -1,3 +1,5 @@
+.. _section-about-view:
+
 About view
 ==========
 

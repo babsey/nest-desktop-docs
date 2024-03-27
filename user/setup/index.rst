@@ -1,6 +1,18 @@
+.. _setup-guide:
+
 ===========
 Setup Guide
 ===========
+
+.. toctree::
+   :hidden:
+
+   AppImage <appimage>
+   Apptainer <apptainer>
+   Conda <conda>
+   Docker Compose <docker-compose>
+   Python <python>
+   Snap <snap>
 
 This guide provides a detailed documentation on how to install and start both instances: NEST Desktop and NEST
 Simulator.
@@ -13,74 +25,140 @@ Simulator.
    You can find the detailed information on NEST Server in
    :doc:`NEST Simulator user documentation <nest-simulator:connect_nest/nest_server>`.
 
-.. raw:: html
-   :file: ./templates/setup.html
+----
 
-|br|
+**Desktop applications**
+
+You are able to use NEST Desktop as Snap (with NEST Simulator) or as AppImage (without NEST Simulator).
+
+.. grid:: 2
+   :gutter: 2
+
+   .. grid-item-card:: Snap |linux| |macOS|
+      :columns: 6
+      :link: snap
+      :link-type: ref
+
+      .. grid:: 2
+
+         .. grid-item::
+            :columns: 4
+
+            |snap|
+
+         .. grid-item::
+            :columns: 8
+
+            Install and start NEST Desktop with Snap (with NEST Server).
+
+   .. grid-item-card:: AppImage |linux|
+      :columns: 6
+      :link: setup-appimage
+      :link-type: ref
+
+      .. grid:: 2
+
+         .. grid-item::
+            :columns: 4
+
+            |AppImage|
+
+         .. grid-item::
+            :columns: 8
+
+            Download and start NEST Desktop as AppImage (without NEST Server).
+
+
+**Virtualizations**
 
 Docker (or Docker Compose) and Apptainer provide both NEST Desktop and NEST Simulator, so you have everything you need
 to run NEST Desktop and NEST Simulator.
 
+.. grid:: 2
+   :gutter: 2
+
+   .. grid-item-card:: Docker Compose |linux| |windows| |macOS|
+      :columns: 6
+      :link: setup-docker-compose
+      :link-type: ref
+
+      .. grid:: 2
+
+         .. grid-item::
+            :columns: 4
+
+            |docker-compose|
+
+         .. grid-item::
+            :columns: 8
+
+            Deploy NEST Desktop and NEST Simulator with Docker Compose.
+
+   .. grid-item-card:: Apptainer (Former Singularity) |linux|
+      :columns: 6
+      :link: setup-apptainer
+      :link-type: ref
+
+      .. grid:: 2
+
+         .. grid-item::
+            :columns: 4
+
+            |apptainer|
+
+         .. grid-item::
+            :columns: 8
+
+            Deploy NEST Desktop and NEST Simulator with Apptainer.
+
+
+**Packages**
+
 Alternatively, you can install NEST Desktop with the ``conda`` or ``pip`` command.
 
-You are able to download and start the NEST Desktop application, e.g. AppImage (without NEST Simulator) or Snap (with
-NEST Simulator) in Linux.
+.. grid:: 2
+   :gutter: 2
 
-If you only have NEST Desktop (i.e., NEST Simulator is not running as back-end), you can create networks but cannot run
-simulations within the application. In this case, you have to start NEST Server in a terminal or with Docker.
+   .. grid-item-card:: Conda |linux| |windows| |macOS|
+      :columns: 6
+      :link: setup-conda
+      :link-type: ref
 
-.. seeAlso::
-   :doc:`NEST Server user documentation <nest-simulator:connect_nest/nest_server>`
+      .. grid:: 2
 
+         .. grid-item::
+            :columns: 4
 
-|br|
+            |conda|
 
-.. _setup_docker-compose-linux-windows-apple:
+         .. grid-item::
+            :columns: 8
 
-.. include:: docker-compose.rst
+            Deploy NEST Desktop and NEST Simulator with Conda.
 
-|br|
+   .. grid-item-card:: Python |linux| |windows| |macOS|
+      :columns: 6
+      :link: setup-python
+      :link-type: ref
 
-.. _setup_apptainer-linux:
+      .. grid:: 2
 
-.. include:: apptainer.rst
+         .. grid-item::
+            :columns: 4
 
-|br|
+            |python-logo|
 
-.. _setup_conda-linux-windows-apple:
+         .. grid-item::
+            :columns: 8
 
-.. include:: conda.rst
+            Install and start only NEST Desktop from Python Package.
 
-|br|
+----
 
-.. _setup_python-linux-windows-apple:
+Once you start NEST Desktop, you can see the start page containing an image of a laptop with the NEST logo on its
+screen. At the bottom it shows a short description of NEST Desktop (left) and some useful links and the current version
+(right).
 
-.. include:: python.rst
-
-|br|
-
-.. _setup_appimage-linux:
-
-.. include:: appimage.rst
-
-|br|
-
-.. _setup_snap-linux:
-
-.. include:: snap.rst
-
-
-.. |apple| image:: /_static/img/icons/apple.svg
-   :alt: apple
+.. image:: /_static/img/screenshots/start-page.png
    :target: #
-   :width: 24px
-
-.. |linux| image:: /_static/img/icons/linux.svg
-   :alt: linux
-   :target: #
-   :width: 24px
-
-.. |windows| image:: /_static/img/icons/windows.svg
-   :alt: windows
-   :target: #
-   :width: 24px
+   :width: 100%

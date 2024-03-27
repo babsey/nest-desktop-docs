@@ -32,10 +32,10 @@ How can I connect nodes?
       - :ref:`Connect nodes in the usage guide <usage-basic-connect-nodes>`
 
 How can I connect a node with multiple nodes?
-   Hold down the :bdg:`ALT` key when clicking on the target nodes.
+   Hold down the :keys:`alt` key when clicking on the target nodes.
 
 How can I (un)select a node / a connection?
-   When a node or connection is selected you can press :bdg:`ESC` to unselect it or in the network graph you can click
+   When a node or connection is selected you can press :keys:`esc` to unselect it or in the network graph you can click
    on another node or connection to select it (and to remove the selection of the former one).
 
    Click on the background area of the network graph or on the selected entry in the network controller to unselect a
@@ -91,8 +91,3 @@ How can I generate grid/free positions?
 How can I generate an array?
    In the context menu of the array parameters (e.g. the spike times of a spike generator) you will find a method to
    generate an array.
-
-.. |network| image:: /_static/img/icons/network.svg
-   :alt: network
-   :height: 17.6px
-   :target: #

@@ -1,16 +1,25 @@
+.. _deploy-openshift:
+
 Deploy on OpenShift
 ===================
 
-.. image:: /_static/img/logo/openshift-logo.png
-   :align: right
-   :alt: OpenShift
-   :width: 240px
+.. grid:: 2
 
-This part of the documentation shows how to deploy NEST Desktop on OpenShift resources. In the following, we will use
-the deployment process of NEST Desktop on the OpenShift resources of EBRAINS as an example of practice.
+   .. grid-item::
+      :columns: 7
+
+      This part of the documentation shows how to deploy NEST Desktop on OpenShift resources. In the following, we will
+      use the deployment process of NEST Desktop on the OpenShift resources of EBRAINS as an example of practice.
+
+   .. grid-item::
+      :columns: 5
+
+      .. image:: /_static/img/logo/openshift-logo.png
+         :alt: OpenShift
+         :width: 240px
 
 Requirements:
-  - `OC Client Tools <https://www.okd.io/download.html#oc-platforms>`_
+  - `OC Client Tools <https://www.okd.io/download.html#oc-platforms>`__
 
 
 .. _deploy-openshift_deploy-nest-desktop-on-ebrains:
@@ -18,21 +27,25 @@ Requirements:
 Deploy NEST Desktop on EBRAINS
 ------------------------------
 
-.. image:: /_static/img/logo/ebrains-logo.svg
-   :alt: EBRAINS
-   :width: 320px
+.. grid:: 2
 
-|
+   .. grid-item::
+      :columns: 7
 
-EBRAINS provides two OKD infrastructures:
+      EBRAINS provides two OKD infrastructures:
 
-- https://okd-dev.hbp.eu for the development and
-- https://okd.hbp.eu for the production.
+      - https://okd-dev.hbp.eu for the development and
+      - https://okd.hbp.eu for the production.
+
+   .. grid-item::
+      :columns: 5
+
+      .. image:: /_static/img/logo/ebrains-logo.svg
+         :alt: EBRAINS
+         :width: 320px
 
 .. note::
    We strongly recommend to use the development page for testing.
-
-|
 
 .. _deploy-openshift_register-client-for-authentication-on-ebrains:
 
@@ -55,8 +68,6 @@ Change the configuration file and then create a client for your application.
    bash create-client.sh
 
 Keep ``client_id`` and ``client_secret`` for the **okd** infrastructure.
-
-|
 
 .. _deploy-openshift_build-nest-desktop-on-ebrains:
 
@@ -86,8 +97,6 @@ Execute the bash script to deploy the ``nest-desktop``, ``nest-server`` and ``ap
 
    bash setup-nest-desktop.sh
 
-|
-
 .. _deploy-openshift_further-usage:
 
 Further usage
@@ -99,7 +108,7 @@ Scaling up the replicas (pods or nodes):
 
    oc scale --replicas=2 dc nest-desktop
 
-|
+.. _deploy-openshift-acknowledgements:
 
 Acknowledgements
 ----------------
