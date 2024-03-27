@@ -59,4 +59,4 @@ Acknowledgements
 
 Thanks for deploying NEST Desktop on Jupyter JSC:
 
-- Jens Henrik Goebbert (Jülich)
+- Jens Henrik Göbbert (Jülich)

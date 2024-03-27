@@ -1,8 +1,8 @@
 .. _setup-guide:
 
-===========
-Setup Guide
-===========
+===================
+|setup| Setup Guide
+===================
 
 .. toctree::
    :hidden:

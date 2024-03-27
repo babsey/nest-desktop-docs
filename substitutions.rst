@@ -1,37 +1,3 @@
-.. |deployer| raw:: html
-
-    <i class="fa-solid fa-user-gear"></i>
-
-.. |developer| raw:: html
-
-    <i class="fa-solid fa-user-pen"></i>
-
-.. |lecturer| raw:: html
-
-    <i class="fa-solid fa-user-graduate"></i>
-
-.. |user| raw:: html
-
-    <i class="fa-solid fa-user"></i>
-
-
-.. |macOS| raw:: html
-
-    <i class="fa-brands fa-apple"></i>
-
-.. |linux| raw:: html
-
-    <i class="fa-brands fa-linux"></i>
-
-.. |python| raw:: html
-
-    <i class="fa-brands fa-python"></i>
-
-.. |windows| raw:: html
-
-    <i class="fa-brands fa-windows"></i>
-
-
 .. |appImage| image:: /_static/img/logo/AppImage-logo.svg
    :alt: appImage
    :target: #
@@ -63,22 +29,60 @@
    :width: 80px
 
 
+.. |deployer| raw:: html
+
+   <i class="fa-solid fa-user-gear"></i>
+
+.. |developer| raw:: html
+
+   <i class="fa-solid fa-user-pen"></i>
+
+.. |lecturer| raw:: html
+
+   <i class="fa-solid fa-user-graduate"></i>
+
+.. |user| raw:: html
+
+   <i class="fa-solid fa-user"></i>
 
 
-.. |axis-arrow| image:: /_static/img/icons/axis-arrow.svg
-   :alt: axis-arrow
-   :height: 17.6px
-   :target: #
+.. |macOS| raw:: html
 
-.. |chart-line| image:: /_static/img/icons/chart-bell-curve-cumulative.svg
-   :alt: chart-line
-   :height: 17.6px
-   :target: #
+   <i class="fa-brands fa-apple"></i>
 
-.. |chart-scatter-plot| image:: /_static/img/icons/chart-scatter-plot.svg
-   :alt: chart-scatter-plot
-   :height: 17.6px
-   :target: #
+.. |linux| raw:: html
+
+   <i class="fa-brands fa-linux"></i>
+
+.. |python| raw:: html
+
+   <i class="fa-brands fa-python"></i>
+
+.. |windows| raw:: html
+
+   <i class="fa-brands fa-windows"></i>
+
+
+.. |setup| raw:: html
+
+   <span class="mdi mdi-monitor-arrow-down-variant" />
+
+.. |usage| raw:: html
+
+   <span class="mdi mdi-monitor-eye" />
+
+
+.. |axis-arrow| raw:: html
+
+   <span class="mdi mdi-monitor-eye" />
+
+.. |chart-line| raw:: html
+
+   <span class="mdi mdi-chart-bell-curve-cumulative" />
+
+.. |chart-scatter-plot|  raw:: html
+
+   <span class="mdi mdi-chart-scatter-plot" />
 
 .. |close| image:: /_static/img/icons/close-circle.svg
    :alt: close

@@ -26,8 +26,9 @@ How to use NEST Desktop
 
          .. grid-item::
             :columns: 3
+            :class: card-img
 
-            .. image:: /_static/img/icons/setup.svg
+            |setup|
 
          .. grid-item::
             :columns: 9
@@ -42,8 +43,9 @@ How to use NEST Desktop
 
          .. grid-item::
             :columns: 3
+            :class: card-img
 
-            .. image:: /_static/img/icons/television-play.svg
+            |usage|
 
          .. grid-item::
             :columns: 9
@@ -55,8 +57,8 @@ How to use NEST Desktop
 .. toctree::
    :hidden:
 
-   setup/index
-   usage-basic/index
+   Setup <setup/index>
+   Basic usage <usage-basic/index>
 
 
 Advanced guide
@@ -113,9 +115,9 @@ Graphs
 .. toctree::
    :hidden:
 
-   usage-advanced/network-graph
-   usage-advanced/activity-chart-graph
-   usage-advanced/activity-animation-graph
+   Network graph <usage-advanced/network-graph>
+   Activity chart graph <usage-advanced/activity-chart-graph>
+   Activity animation graph <usage-advanced/activity-animation-graph>
 
 .. grid:: 2
    :gutter: 2

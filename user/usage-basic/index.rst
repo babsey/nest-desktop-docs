@@ -1,8 +1,8 @@
 .. _basic-usage-guide:
 
-=================
-Basic Usage Guide
-=================
+=========================
+|usage| Basic Usage Guide
+=========================
 
 This is a basic usage guide for the Graphical User Interface (GUI) of NEST Desktop.
 
