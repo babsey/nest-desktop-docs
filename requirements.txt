@@ -6,4 +6,4 @@ sphinx-material==0.0.36
 sphinx==7.2.*
 sphinx_design==0.5.0
 sphinx_immaterial==0.11.11
-sphinx-immaterial[keys]==6.0.1
+sphinx-immaterial[keys]
