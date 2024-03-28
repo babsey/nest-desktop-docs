@@ -23,6 +23,28 @@
   max-width: 73rem;
 }
 
+.events dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.events dt {
+  width: 150px;
+}
+
+.events dd {
+  margin: 0 !important;
+  width: calc(100% - 150px);
+}
+
+.events dd p {
+  margin: 0 !important;
+}
+
+.footnote p {
+  display: inline;
+}
+
 .card-img {
   font-size: 48px;
 }
@@ -56,4 +78,14 @@
 
 .timeline .entry.right::before {
   left: -0.55em;
+}
+
+.timeline .left.year {
+  text-align: right;
+}
+
+.timeline .year p {
+  font-size: 28px;
+  line-height: 60px;
+  margin: 0 32px;
 }

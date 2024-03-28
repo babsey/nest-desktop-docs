@@ -13,12 +13,12 @@ experiment. In the LIF neuron model, spikes are generated each time the membrane
 threshold. Spike waveforms are not modeled explicitly, and you recognize a spike only by the reset (strong downward
 deflection) of the membrane potential that follows a threshold crossing.
 
-.. button-link:: https://github.com/nest-desktop/nest-desktop-projects/blob/main/single_neuron_models/psc_vs_cond.json
-   :align: center
-   :color: primary
-   :outline:
+.. .. button-link:: https://github.com/nest-desktop/nest-desktop-projects/blob/main/single_neuron_models/psc_vs_cond.json
+      :align: center
+      :color: primary
+      :outline:
 
-   :octicon:`mark-github` Download sample projects
+      :octicon:`mark-github` Download sample projects
 
 ----
 
