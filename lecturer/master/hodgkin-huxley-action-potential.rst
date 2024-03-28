@@ -35,6 +35,7 @@ other circumstantial factors matter during this process. You will now perform si
 3. Use a spike recorder to characterize the spiking response to superthreshold current input. The goal is again to
    characterize the neuron by a curve that depicts the firing rate response as a function of the applied current.
 
+----
 
 NEST Desktop offers different neuron models. Here you should select :code:`hh_psc_alpha` and compare its behavior to the
 simpler :code:`iaf_psc_alpha` model that we have studied previously. As these two models have an entirely different
@@ -78,6 +79,7 @@ channels eventually hyperpolarizes the membrane towards the reversal potential o
    What happens if you only partially knock-out these channels by setting them to a non-zero, but reduced value?
    Formulate and explain your expectations before you perform the experiments.
 
+----
 
 NEST Desktop allows you to record the activation of :code:`h`, :code:`m` and :code:`n` particles directly, using a
 :code:`multimeter`. In a biological neuron, this would never be possible. To assess their dynamics, multiple separate
