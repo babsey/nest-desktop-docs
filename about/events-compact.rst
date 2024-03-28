@@ -1,5 +1,6 @@
 **2024**
 
+:12 - 23 Feb: BSc course "Simple Neuron Models" at BCF [#fc1]_, Freiburg, Germany.
 :08 Jan - 02 Feb: Tutorial at `LASCON <http://www.sisne.org/lascon-ix>`__, presented by Hans Ekkehard Plesser, University of Sao Paulo, Sao Paulo, Brazil
 
 **2023**

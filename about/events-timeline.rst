@@ -2,6 +2,15 @@
     :class-container: timeline
     :gutter: 0
 
+    .. grid-item::
+        :class: left
+
+    .. grid-item-card:: 12 - 23 Feb
+        :class-item: entry right
+        :text-align: left
+
+        BSc course "Simple Neuron Models" at BCF [#ft1]_, Freiburg, Germany.
+
     .. grid-item-card:: 08 Jan - 02 Feb
         :class-item: entry left
         :text-align: right
@@ -82,7 +91,7 @@
         :class-item: entry left
         :text-align: right
 
-        BSc course "Simple Neuron Models" at BCF [#fl1]_, Freiburg, Germany.
+        BSc course "Simple Neuron Models" at BCF [#ft1]_, Freiburg, Germany.
 
     .. grid-item::
 
@@ -192,13 +201,13 @@
         :class-item: entry right
         :text-align: left
 
-        MSc course "Biophysics of Neurons and Networks" at BCF [#fl1]_, Freiburg, Germany.
+        MSc course "Biophysics of Neurons and Networks" at BCF [#ft1]_, Freiburg, Germany.
 
     .. grid-item-card:: 07 - 18 Feb
         :class-item: entry left
         :text-align: right
 
-        BSc course "Simple Neuron Models" at BCF [#fl1]_, online, (Freiburg, Germany).
+        BSc course "Simple Neuron Models" at BCF [#ft1]_, online, (Freiburg, Germany).
 
     .. grid-item::
         :class: year
@@ -325,7 +334,7 @@
         :class-item: entry right
         :text-align: left
 
-        MSc course "Biophysics of Neurons and Networks" at BCF [#fl1]_, online (Freiburg, Germany).
+        MSc course "Biophysics of Neurons and Networks" at BCF [#ft1]_, online (Freiburg, Germany).
 
     .. grid-item-card:: 08 - 09 Apr
         :class-item: entry left
@@ -344,7 +353,7 @@
         :class-item: entry right
         :text-align: left
 
-        BSc course "Simple Neuron Models" at BCF [#fl1]_, online, (Freiburg, Germany).
+        BSc course "Simple Neuron Models" at BCF [#ft1]_, online, (Freiburg, Germany).
 
     .. grid-item-card:: 30 Sep - 01 Oct
         :class-item: entry left
@@ -381,7 +390,7 @@
         :class-item: entry right
         :text-align: left
 
-        MSc course "Biophysics of Neurons and Networks" at BCF [#fl1]_, online (Freiburg, Germany).
+        MSc course "Biophysics of Neurons and Networks" at BCF [#ft1]_, online (Freiburg, Germany).
 
     .. grid-item-card:: 16 Apr
         :class-item: entry left
@@ -438,13 +447,13 @@
         :class-item: entry right
         :text-align: left
 
-        Talk and Tutorial/Hand-on session at INM-6 [#fl3]_, Julich, Germany.
+        Talk and Tutorial/Hand-on session at INM-6 [#ft3]_, Julich, Germany.
 
     .. grid-item-card:: 18 Jul
         :class-item: entry left
         :text-align: right
 
-        NESTML/NEST Desktop integration workshop, BCF [#fl1]_, Freiburg, Germany.
+        NESTML/NEST Desktop integration workshop, BCF [#ft1]_, Freiburg, Germany.
 
     .. grid-item::
 
@@ -456,13 +465,13 @@
         :text-align: left
 
         Talk and Tutorial/Hand-on session `"NEST Desktop"
-        <https://indico-jsc.fz-juelich.de/event/92/material/0/0.pdf>`__ at NEST Conference at NMBU [#fl4]_, As, Norway.
+        <https://indico-jsc.fz-juelich.de/event/92/material/0/0.pdf>`__ at NEST Conference at NMBU [#ft4]_, As, Norway.
 
     .. grid-item-card:: 16 Apr
         :class-item: entry left
         :text-align: right
 
-        Kick-Off workshop at HCI [#fl2]_, Trier, Germany.
+        Kick-Off workshop at HCI [#ft2]_, Trier, Germany.
 
     .. grid-item::
 
@@ -473,13 +482,13 @@
         :class-item: entry right
         :text-align: left
 
-        Tutorial workshop for `IICCSSS <http://iiccsss.org/>`__ at BCF [#fl1]_, Freiburg, Germany.
+        Tutorial workshop for `IICCSSS <http://iiccsss.org/>`__ at BCF [#ft1]_, Freiburg, Germany.
 
     .. grid-item-card:: 11 - 22 Feb
         :class-item: entry left
         :text-align: right
 
-        BSc course "Simple Neuron Models" at BCF [#fl1]_, Freiburg, Germany.
+        BSc course "Simple Neuron Models" at BCF [#ft1]_, Freiburg, Germany.
 
     .. grid-item::
         :class: year
@@ -501,7 +510,7 @@
         :class-item: entry left
         :text-align: right
 
-        Technical meeting at BCF [#fl1]_, Freiburg, Germany.
+        Technical meeting at BCF [#ft1]_, Freiburg, Germany.
 
     .. grid-item::
 
@@ -513,13 +522,13 @@
         :text-align: left
 
         Talk `"NEST Web API" <https://indico-jsc.fz-juelich.de/event/71/material/3/2.pdf>`__ at NEST Conference at NMBU
-        [#fl4]_, As, Norway.
+        [#ft4]_, As, Norway.
 
     .. grid-item-card:: 23 - 27 Apr
         :class-item: entry left
         :text-align: right
 
-        MSc course "Biophysics of Neurons and Networks" at BCF [#fl1]_, Freiburg, Germany.
+        MSc course "Biophysics of Neurons and Networks" at BCF [#ft1]_, Freiburg, Germany.
 
     .. grid-item::
 
@@ -532,7 +541,7 @@
         :class-item: entry right
         :text-align: left
 
-        BSc course "Simple Neuron Models" at BCF [#fl1]_, Freiburg, Germany.
+        BSc course "Simple Neuron Models" at BCF [#ft1]_, Freiburg, Germany.
 
     .. grid-item-card:: 19 - 20 Dec
         :class-item: entry left
@@ -557,7 +566,7 @@
         :class-item: entry left
         :text-align: right
 
-        MSc course "Biophysics of Neurons and Networks" at BCF [#fl1]_, Freiburg, Germany.
+        MSc course "Biophysics of Neurons and Networks" at BCF [#ft1]_, Freiburg, Germany.
 
     .. grid-item::
 
@@ -571,7 +580,7 @@
         :text-align: left
 
         Talk (Informal Seminar) `"NEST Desktop"
-        <https://www.bcf.uni-freiburg.de/events/informal-seminar/announcements/170124_Spreizer.htm>`__ at  BCF [#fl1]_,
+        <https://www.bcf.uni-freiburg.de/events/informal-seminar/announcements/170124_Spreizer.htm>`__ at  BCF [#ft1]_,
         Freiburg, Germany.
 
     .. grid-item-card:: Dec
@@ -586,7 +595,7 @@
         2016
 
 .. rubric:: Footnotes
-.. [#fl1] BCF - Bernstein Center Freiburg, Faculty of Biology, University of Freiburg, Freiburg, Germany
-.. [#fl2] HCI - Human-Computer Interaction - Department IV - Computer Science, University of Trier, Trier, Germany
-.. [#fl3] INM-6 - Institute of Neuroscience and Medicine (INM-6), Jülich Research Center, Jülich, Germany
-.. [#fl4] NMBU - Norwegian University of Life Sciences, As, Norway
+.. [#ft1] BCF - Bernstein Center Freiburg, Faculty of Biology, University of Freiburg, Freiburg, Germany
+.. [#ft2] HCI - Human-Computer Interaction - Department IV - Computer Science, University of Trier, Trier, Germany
+.. [#ft3] INM-6 - Institute of Neuroscience and Medicine (INM-6), Jülich Research Center, Jülich, Germany
+.. [#ft4] NMBU - Norwegian University of Life Sciences, As, Norway
