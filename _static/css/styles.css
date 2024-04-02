@@ -1,3 +1,11 @@
+:root {
+  --nest-orange: #ff6633;
+}
+
+.md-header {
+  background: var(--nest-orange);
+}
+
 /* only override for dark/slate scheme */
 [data-md-color-scheme="slate"] .md-banner--warning {
   background: var(--md-footer-bg-color);
