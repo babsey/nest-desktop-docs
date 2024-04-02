@@ -3,7 +3,13 @@
 }
 
 .md-header {
-  background: var(--nest-orange);
+  background-color: var(--nest-orange) !important;
+}
+
+@media screen and (max-width: 60em) {
+  .md-sidebar .md-nav__title {
+    background-color: var(--nest-orange) !important;
+  }
 }
 
 /* only override for dark/slate scheme */
