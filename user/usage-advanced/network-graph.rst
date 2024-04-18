@@ -189,7 +189,7 @@ Node label
       (dc) for a stimulus and a voltmeter (vm) for a recording device. Neurons are just labeled with (n). You can find
       the full label of the node model in the network controller.
 
-      Note: *Node label* is not defined in [1]_.
+      .. note:: *Node label* is not defined in [1]_.
 
    .. grid-item::
       :columns: 3
@@ -204,7 +204,7 @@ In NEST Desktop, nodes and connections contain parameter configurations which ar
 the side navigation. The color of nodes helps you to associate the network graph with the controller as well as the
 corresponding visualization of the network activity.
 
-Note: *Node color* is not defined in [1]_.
+.. note:: *Node color* is not defined in [1]_.
 
 
 .. _network-graph-edge:
@@ -341,7 +341,7 @@ Edge color
 
 The edge color is determined by the color of the source node.
 
-Note: *Edge color* is not defined in [1]_.
+.. note:: *Edge color* is not defined in [1]_.
 
 
 .. _network-graph-annotation:
@@ -352,7 +352,7 @@ Note: *Edge color* is not defined in [1]_.
 Network edges can be annotated with information about the connection or projection they represent. Details on the rule
 specifying the existence of connections and their parameterization may be put along the arrow.
 
-Note: *Annotation* is not available in NEST Desktop.
+.. note:: *Annotation* is not available in NEST Desktop.
 
 .. _connectivity_concept:
 
@@ -494,8 +494,7 @@ constraints that autapses are prohibited (:math:`\cancel{A}`) and multapses are 
 
 Here, the NEST Desktop version also displays spike recorders.
 
-.. note::
-   :ref:`Annotations <annotation>` are not available in NEST Desktop.
+.. note:: :ref:`Annotations <annotation>` are not available in NEST Desktop.
 
 To generate static publication-ready visualizations of network graphs in agreement with the graphical notation
 (corresponding to the figure on the left), please refer to this lightweight :ref:`libreoffice_extension`.
