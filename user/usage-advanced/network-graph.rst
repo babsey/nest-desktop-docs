@@ -371,7 +371,7 @@ Concept
       :columns: 8
 
       The definitions and symbols given in the connectivity concepts defined in [1]_ (for a permanent reference) and in
-      the :ref:`Connectivity concept <nest-simulator:connectivity_concept>` (for a living reference) are the basis for
+      the :ref:`Connectivity concepts <nest-simulator:connectivity_concepts>` (for a living reference) are the basis for
       this property.
 
    .. grid-item::

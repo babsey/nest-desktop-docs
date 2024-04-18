@@ -47,8 +47,8 @@ Annotation
 
 Annotations of edges are best realized with the LibreOffice extension `TexMaths
 <https://extensions.libreoffice.org/en/extensions/show/texmaths-1>`__. This tool facilitates easy insertion of correct
-annotations through the following abbreviations defined in NEST's :ref:`Connectivity concept
-<nest-simulator:connectivity_concept>`.
+annotations through the following abbreviations defined in NEST's :ref:`Connectivity concepts
+<nest-simulator:connectivity_concepts>`.
 
 .. image:: /_static/img/screenshots/network/annotations.png
    :align: center
