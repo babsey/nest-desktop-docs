@@ -28,6 +28,20 @@
    :target: #
    :width: 80px
 
+.. |nest| image:: /_static/img/logo/nest-logo.png
+   :alt: nest
+   :height: 80px
+   :target: #
+
+.. |nestml| image:: /_static/img/logo/nestml-logo.png
+   :alt: nestml
+   :height: 80px
+   :target: #
+
+.. |norse| image:: /_static/img/logo/norse-logo.png
+   :alt: norse
+   :height: 80px
+   :target: #
 
 .. |deployer| raw:: html
 
