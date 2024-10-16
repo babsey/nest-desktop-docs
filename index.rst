@@ -14,6 +14,8 @@ NEST Desktop
 
       It's so great that you want to use NEST Desktop!
 
+      You can watch :ref:`usage-basic-video-tutorial` or make :ref:`usage-basic-first-steps`.
+
    .. grid-item::
       :columns: 4
 
