@@ -1,8 +1,8 @@
 
 .. card::
    :margin: auto
+   :shadow: none
    :width: 75%
-   :class-body: sd-mb-0
 
    .. grid:: 2
       :gutter: 1
