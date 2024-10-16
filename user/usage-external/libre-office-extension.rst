@@ -26,7 +26,7 @@ recommend to use `LibreOffice Draw <https://www.libreoffice.org/discover/draw/>`
 installed, access the gallery by going to "Insert" - "Media" - "Gallery". On the right side you can click on the gallery
 icon (:octicon:`image;1em;`) and go to "Graphical Notation".
 
-.. image:: /_static/img/screenshots/network/installation.png
+.. image:: /_static/img/screenshots/external/extension_graphical_notation/installation.png
    :align: center
 
 
@@ -36,7 +36,7 @@ How to use
 To utilize the various components, drag them onto the workspace. To establish a connection between nodes, drag the
 desired edge onto the workspace and connect the start and end points to the desired node.
 
-.. image:: /_static/img/screenshots/network/how-to-use.png
+.. image:: /_static/img/screenshots/external/extension_graphical_notation/how-to-use.png
    :align: center
 
 
@@ -50,7 +50,7 @@ Annotations of edges are best realized with the LibreOffice extension `TexMaths
 annotations through the following abbreviations defined in NEST's :ref:`Connectivity concepts
 <nest-simulator:connectivity_concepts>`.
 
-.. image:: /_static/img/screenshots/network/annotations.png
+.. image:: /_static/img/screenshots/external/extension_graphical_notation/annotations.png
    :align: center
 
 
@@ -121,7 +121,7 @@ code based on the graphical notation for the following connection rules:
     .. grid-item::
 	:columns: 4
 
-		Pairwise Bernoulli:
+        Pairwise Bernoulli:
 
     .. grid-item::
 

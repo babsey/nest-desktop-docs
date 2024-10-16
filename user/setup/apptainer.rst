@@ -1,4 +1,4 @@
-.. _apptainer:
+.. _setup-apptainer:
 
 Apptainer |linux|
 =================
@@ -51,6 +51,8 @@ Build image
    This command (and the following ones) need to be executed inside the folder where the container files are located,
    i.e. the ``nest-desktop-apptainer`` folder.
 
+**The installation is now complete!**
+
 Start container
 ---------------
 
@@ -62,12 +64,15 @@ Start container
 
 Now NEST Desktop is started. You can use NEST Desktop in the web browser at http://localhost:54286.
 
-**The installation is now complete!**
-:doc:`Now we can start constructing networks for the simulation! </user/usage-basic/index>`
-
 For more information read the full documentation of `NEST Desktop Apptainer
 <https://github.com/nest-desktop/nest-desktop-apptainer>`__.
 
 
 .. warning::
    If the apptainer (esp. NEST Simulator) is running, your system is exposed for unauthorized access!
+
+
+Next steps
+----------
+
+- :doc:`Now you can start constructing networks for the simulation! </user/usage-basic/index>`

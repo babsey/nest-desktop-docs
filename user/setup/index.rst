@@ -7,6 +7,7 @@
 .. toctree::
    :hidden:
 
+   Backends <backends/index>
    AppImage <appimage>
    Apptainer <apptainer>
    Conda <conda>
@@ -14,29 +15,26 @@
    Python <python>
    Snap <snap>
 
-This guide provides a detailed documentation on how to install and start both instances: NEST Desktop and NEST
-Simulator.
+This guide provides a detailed documentation on how to install and start NEST Desktop.
 
 .. note::
-   To enable the full functionality of NEST Desktop, you also need to install NEST Simulator on your computer. NEST
-   Simulator provides an API Server which can forward requests to the simulation engine. In summary, you have to start
-   NEST Server as well.
+   To enable the full functionality of NEST Desktop, you also need to install backends on your computer. Each backend
+   provides an API Server which can forward requests to the simulation engine.
 
-   You can find the detailed information on NEST Server in
-   :doc:`NEST Simulator user documentation <nest-simulator:connect_nest/nest_server>`.
+   You can find the detailed information on backend setup :doc:`here <backends/index>`.
 
 ----
 
 **Desktop applications**
 
-You are able to use NEST Desktop as Snap (with NEST Simulator) or as AppImage (without NEST Simulator).
+You are able to use NEST Desktop as Snap (with NEST Backend) or as AppImage (without NEST Backend).
 
 .. grid:: 2
    :gutter: 2
 
    .. grid-item-card:: Snap |linux| |macOS|
       :columns: 6
-      :link: snap
+      :link: setup-snap
       :link-type: ref
 
       .. grid:: 2
@@ -49,7 +47,7 @@ You are able to use NEST Desktop as Snap (with NEST Simulator) or as AppImage (w
          .. grid-item::
             :columns: 8
 
-            Install and start NEST Desktop with Snap (with NEST Server).
+            Install and start NEST Desktop with Snap (with NEST Backend).
 
    .. grid-item-card:: AppImage |linux|
       :columns: 6
@@ -66,13 +64,13 @@ You are able to use NEST Desktop as Snap (with NEST Simulator) or as AppImage (w
          .. grid-item::
             :columns: 8
 
-            Download and start NEST Desktop as AppImage (without NEST Server).
+            Download and start NEST Desktop as AppImage (without NEST Backend).
 
 
 **Virtualizations**
 
-Docker (or Docker Compose) and Apptainer provide both NEST Desktop and NEST Simulator, so you have everything you need
-to run NEST Desktop and NEST Simulator.
+Docker (or Docker Compose) and Apptainer provide both NEST Desktop and NEST Backend, so you have everything you need
+to run NEST Desktop and NEST Backend.
 
 .. grid:: 2
    :gutter: 2
@@ -152,13 +150,3 @@ Alternatively, you can install NEST Desktop with the ``conda`` or ``pip`` comman
             :columns: 8
 
             Install and start only NEST Desktop from Python Package.
-
-----
-
-Once you start NEST Desktop, you can see the start page containing an image of a laptop with the NEST logo on its
-screen. At the bottom it shows a short description of NEST Desktop (left) and some useful links and the current version
-(right).
-
-.. image:: /_static/img/screenshots/start-page.png
-   :target: #
-   :width: 100%

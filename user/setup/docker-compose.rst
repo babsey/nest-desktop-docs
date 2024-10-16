@@ -1,4 +1,4 @@
-.. _docker-compose:
+.. _setup-docker-compose:
 
 Docker Compose |linux| |macOS| |windows|
 ========================================
@@ -47,7 +47,7 @@ macOS and Windows.
 
             wget https://raw.githubusercontent.com/nest-desktop/nest-desktop/main/docker-compose.yml
 
-      #. Start NEST Desktop and NEST Simulator in a single command:
+      #. Pull images and start containers for NEST Desktop and NEST Simulator in a single command:
 
          .. code-block:: bash
 
@@ -63,9 +63,14 @@ macOS and Windows.
 Now, the service starts the containers for NEST Desktop and NEST Simulator. You can use NEST Desktop in the web browser
 at http://localhost:54286.
 
-**The installation is now complete!** :doc:`Now you can start constructing networks for the simulation!
-</user/usage-basic/index>`
+**The installation is now complete!**
 
 .. seeAlso::
    For more information (like running the containers without root password, etc.), please read the full documentation
    of `NEST Desktop Docker <https://github.com/nest-desktop/nest-desktop-docker>`__.
+
+
+Next steps
+----------
+
+- :doc:`Now you can start constructing networks for the simulation! </user/usage-basic/index>`

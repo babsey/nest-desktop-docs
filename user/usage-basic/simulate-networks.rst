@@ -1,9 +1,6 @@
-Step 2: Simulate
-----------------
-
 .. grid:: 2
 
-   .. grid-item-card:: Simulate networks
+   .. grid-item-card:: Step 2: Simulate networks
       :columns: 7
 
       You can click on the :bdg:`SIMULATE` button to start the simulation of your network. In the code editor you can

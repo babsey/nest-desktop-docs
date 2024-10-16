@@ -16,9 +16,9 @@ Network controller
       The network controller displays cards of models, nodes and connections.
 
       .. seeAlso::
-         - :doc:`/user/usage-advanced/copy-model`
-         - :doc:`/user/usage-advanced/compartmental-neuron`
-         - :doc:`/user/usage-advanced/synapse-model`
+         - :doc:`/user/usage-advanced/nest/copy-model`
+         .. - :doc:`/user/usage-advanced/nest/compartmental-neuron`
+         .. - :doc:`/user/usage-advanced/nest/synapse-model`
 
    .. grid-item::
       :columns: 6
