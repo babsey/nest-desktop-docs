@@ -10,7 +10,7 @@ not use any of the container systems mentioned below, you will need to `install 
 to install `Yarn`.
 
 Requirements
-  - Node.js, Yarn
+  - Node.js LTS (v20 or higher), Yarn
   - NEST Simulator 3.0 or higher
 
 You can install these requirements in the host system.
@@ -19,7 +19,7 @@ However, we prefer to use an Apptainer container and leave the host system uncha
 recipe that builds a container with the required packages for the development.
 |
 
-.. _preparation_build-an-environment-with-apptainer:
+.. _preparation-build-an-environment-with-apptainer:
 
 Build an environment with Apptainer
 -----------------------------------
@@ -28,25 +28,25 @@ Get an Apptainer recipe:
 
 .. code-block:: bash
 
-   wget https://raw.githubusercontent.com/nest-desktop/nest-desktop-apptainer/master/recipes/development/dev-node-16-alpine.def
+   wget https://raw.githubusercontent.com/nest-desktop/nest-desktop-apptainer/master/recipes/development/dev-node-0-alpine.def
 
-The definition file ``dev-node-16-alpine.def`` contains an adequate environment to develop and build NEST Desktop.
+The definition file ``dev-node-20-alpine.def`` contains an adequate environment to develop and build NEST Desktop.
 
 Build an Apptainer image:
 
 .. code-block:: bash
 
-   apptainer build dev-node-16-alpine.sif dev-node-16-alpine.def
+   apptainer build dev-node-20-alpine.sif dev-node-20-alpine.def
 
 Go to the shell inside the Apptainer container:
 
 .. code-block:: bash
 
-   apptainer shell dev-node-16-alpine.sif
+   apptainer shell dev-node-20-alpine.sif
 
 |
 
-.. _preparation_commands:
+.. _preparation-commands:
 
 Commands
 --------
@@ -61,7 +61,7 @@ Start a development server:
 
 .. code-block:: bash
 
-   yarn serve
+   yarn dev
 
 .. note::
 
@@ -84,7 +84,7 @@ Start a development server:
 
 |
 
-.. _preparation_useful-commands:
+.. _preparation-useful-commands:
 
 Useful commands
 ---------------

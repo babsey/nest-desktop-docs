@@ -14,17 +14,17 @@ Use the working directory: ``nest-desktop/docs``. To install Sphinx and the Read
 
 .. code-block:: bash
 
-   wget https://raw.githubusercontent.com/nest-desktop/nest-desktop/main/docs/requirements.txt
+   wget https://raw.githubusercontent.com/nest-desktop/nest-desktop-docs/main/requirements.txt
    python3 -m pip install -r requirements.txt
 
 |
 
-.. _documentation_development-build-html-locally:
+.. _documentation-development-build-html-locally:
 
 Development: Build HTML locally
 -------------------------------
 
-Build the documentation which your created with Sphinx in the ``docs`` folder offline:
+Build the documentation which your created with Sphinx offline:
 
 .. code-block:: bash
 
@@ -40,7 +40,7 @@ Then open the URL ``http://localhost:8000`` with your browser.
 
 |
 
-.. _documentation_publication-push-to-readthedocs:
+.. _documentation-publication-push-to-readthedocs:
 
 Publication: Push to ReadTheDocs
 --------------------------------
