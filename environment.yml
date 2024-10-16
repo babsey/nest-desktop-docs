@@ -1,0 +1,12 @@
+name: py311_nest_desktop_docs
+dependencies:
+  - python=3.11
+  - pip
+  - pip==24.0.*
+  - pip:
+      - sphinx-copybutton==0.5.2
+      - sphinx-material==0.0.36
+      - sphinx==7.2.*
+      - sphinx_design==0.5.0
+      - sphinx_immaterial==0.11.11
+      - sphinx-immaterial[keys]
