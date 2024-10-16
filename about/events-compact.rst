@@ -1,5 +1,8 @@
 **2024**
 
+:30 Sep - 02 Oct: Poster and Booth at Bernstein Conference, Frankfurt, Germany.
+:23 - 26 Jul: Talk at Summer Colloquium, Trier, Germany.
+:17 - 18 Jun: Talk at NEST Conference, online.
 :12 - 23 Feb: BSc course "Simple Neuron Models" at BCF [#fc1]_, Freiburg, Germany.
 :08 Jan - 02 Feb: Tutorial at `LASCON <http://www.sisne.org/lascon-ix>`__, presented by Hans Ekkehard Plesser, University of Sao Paulo, Sao Paulo, Brazil
 
@@ -9,7 +12,7 @@
 :26 - 29 Sep: Poster "Complex workflows with NEST Desktop" at `Bernstein Conference 2023 <https://abstracts.g-node.org/conference/BC23/abstracts#/uuid/1ed0a0a8-2b8b-44f6-be75-4d5a44ef53c0>`__, Berlin, Germany.
 :11 - 13 Sep: Workshop and talk at HBP Concluding Event, Jülich, Germany.
 :15 Jul: Part of the tutorial "From single-cell modeling to large-scale network dynamics with NEST Simulator" at `CNS 23 <https://www.cnsorg.org/cns-2023>`__, Leipzig, Germany.
-:05 - 07 Jul: Talk at HCI Sommer Colloquium, Trier, Germany.
+:05 - 07 Jul: Talk at HCI Summer Colloquium, Trier, Germany.
 :08 May: Crash course for student course "Models of Neurons and Networks", BCF, Freiburg, Germany.
 :27 - 31 Mar: Workshop at `HBP Summit 2023 <https://summit2023.humanbrainproject.eu>`__, Marseille, France.
 :13 - 24 Feb: BSc course "Simple Neuron Models" at BCF [#fc1]_, Freiburg, Germany.

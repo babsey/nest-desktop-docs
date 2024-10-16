@@ -2,6 +2,31 @@
     :class-container: timeline
     :gutter: 0
 
+    .. grid-item-card:: 30 Sep - 02 Oct
+        :class-item: entry left
+        :text-align: right
+
+        Poster and Booth at Bernstein Conference, Frankfurt, Germany.
+
+    .. grid-item::
+
+    .. grid-item::
+        :class: left
+
+    .. grid-item-card:: 23 - 26 Jul
+        :class-item: entry right
+        :text-align: left
+
+        Talk at Summer Colloquium, Trier, Germany.
+
+    .. grid-item-card:: 17 - 18 Jun
+        :class-item: entry left
+        :text-align: right
+
+        Talk at NEST Conference, online.
+
+    .. grid-item::
+
     .. grid-item::
         :class: left
 
