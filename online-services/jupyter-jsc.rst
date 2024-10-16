@@ -21,30 +21,80 @@ NEST Desktop on Jupyter JSC
 **Requirements**
    - `JSC account <https://judoor.fz-juelich.de/login>`__
 
-**Steps on Jupyter JSC**
-   #. Go to `Jupyter JSC <https://jupyter-jsc.fz-juelich.de/>`__.
 
-   #. Login with your JSC account.
+Steps
+-----
+
+.. grid:: 2
+   :gutter: 4
+
+   .. grid-item::
+      :columns: 4
+
+      Step 1: Go to `Jupyter JSC <https://jupyter-jsc.fz-juelich.de/>`__.
+
+      Login with your JSC account.
+
+   .. grid-item::
+      :columns: 8
 
       .. image:: /_static/img/screenshots/online-services/jupyter-jsc-login.png
+         :width: 50%
 
-   #. Create a new JupyterLab.
+   .. grid-item::
+      :columns: 4
+
+      Step 2: Create a new JupyterLab.
+
+   .. grid-item::
+      :columns: 8
 
       .. image:: /_static/img/screenshots/online-services/jupyter-jsc-new-jupyterlab.png
 
-      - Possible systems: JUWELS, JUWELSBooster, JURECA, HDF-Cloud
+   .. grid-item::
+      :columns: 4
 
-         .. image:: /_static/img/screenshots/online-services/jupyter-jsc-lab-config.png
+      Step 3a: Configure your lab
 
-      - In :bdg:`Kernel and Extensions`: Check NEST Desktop and then save the config.
+      Name your lab, select the latest version of JupyterLab and then select a system: JURECA.
 
-         .. image:: /_static/img/screenshots/online-services/jupyter-jsc-lab-kernels-extensions.png
+   .. grid-item::
+      :columns: 8
 
-   #. Start lab (with NEST Desktop proxy).
+      .. image:: /_static/img/screenshots/online-services/jupyter-jsc-lab-config.png
+
+   .. grid-item::
+      :columns: 4
+
+      Step 3b: In Kernel and Extensions tab
+
+      Check NEST Desktop and then save the config.
+
+   .. grid-item::
+      :columns: 8
+
+      .. image:: /_static/img/screenshots/online-services/jupyter-jsc-lab-kernels-extensions.png
+
+   .. grid-item::
+      :columns: 4
+
+      Step 4: Start lab
+
+   .. grid-item::
+      :columns: 8
 
       .. image:: /_static/img/screenshots/online-services/jupyter-jsc-lab-start.png
 
-   #. In JupyterLab launcher, click on NEST Desktop icon.
+   .. grid-item::
+      :columns: 4
+
+      Step 5: In JupyterLab launcher
+
+      Click on NEST Desktop icon
+
+
+   .. grid-item::
+      :columns: 8
 
       .. image:: /_static/img/screenshots/online-services/jupyter-jsc-lab-notebook.png
 

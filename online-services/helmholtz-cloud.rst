@@ -3,12 +3,6 @@
 NEST Desktop on Helmholtz Cloud
 ===============================
 
-.. note::
-   It is in development stage. It means that selected institutions are permitted to access NEST Desktop on Helmholtz
-   Cloud.
-
-|
-
 .. grid:: 2
 
    .. grid-item::
@@ -27,6 +21,8 @@ NEST Desktop on Helmholtz Cloud
    Simply sign in through your home institution. Helmholtz ID is also connected to a large number of educational
    institutions all over the world, so your international research partners can do the same. This enables you to
    collaborate seamlessly.
+
+   For more information, please read the use-case: https://hifis.net/use-case/2024/01/24/uc-nest.html
 
 
 **Steps on Helmholtz Cloud**
