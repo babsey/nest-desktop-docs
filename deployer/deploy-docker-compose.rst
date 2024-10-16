@@ -28,7 +28,7 @@ Deploy with Docker Compose
 Requirements:
   - `Docker Compose <https://docs.docker.com/compose/>`__
 
-.. _deploy-docker-compose_preparation:
+.. _deploy-docker-compose-preparation:
 
 Preparation
 -----------
@@ -39,7 +39,7 @@ Prepare your local environment by installing Docker (if you have not installed i
 
    apt install docker-compose
 
-.. _deploy-docker-compose_get-configuration-file:
+.. _deploy-docker-compose-get-configuration-file:
 
 Get the configuration file
 --------------------------
@@ -56,7 +56,7 @@ https://docker-registry.ebrains.eu/harbor/projects/6/repositories/nest-desktop
 and NEST Simulator can be started from within the official NEST image
 (https://docker-registry.ebrains.eu/harbor/projects/6/repositories/nest-simulator).
 
-.. _deploy-docker-compose_getting-started:
+.. _deploy-docker-compose-getting-started:
 
 Getting started
 ---------------
