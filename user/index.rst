@@ -8,8 +8,8 @@
 The user guide provides detailed documentation of the GUI of NEST Desktop.
 
 .. note::
-   If you want to see a quick start guide for in NEST Desktop, we have prepared a :ref:`video <first-steps>` showing
-   the steps how to :ref:`usage-basic-construct-networks` and :ref:`usage-basic-explore-activity`.
+   If you want to see a quick start guide for in NEST Desktop, we have prepared a
+   :ref:`usage-basic-video-tutorial` showing the :ref:`usage-basic-first-steps`.
 
 
 How to use NEST Desktop

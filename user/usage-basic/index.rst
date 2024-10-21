@@ -27,6 +27,10 @@ Video tutorial
 
 The video shows the first steps to construct a network and explore its activity.
 
+.. note::
+   This video shows older NEST Desktop (v3.1). Some components might look differently but they can be interpreted for
+   the new one.
+
 .. raw:: html
    :file: ../../templates/iframe-first-steps.html
 

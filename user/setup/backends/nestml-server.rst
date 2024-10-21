@@ -1,4 +1,4 @@
-.. _nestml-server:
+.. _setup-nestml-server:
 
 NESTML Server
 =============
@@ -11,11 +11,11 @@ brain activity on several platforms, in particular the NEST Simulator.
 NESTML combines:
 - Concise yet expressive syntax inspired by Python. Easy to write and understand. Precise and unambiguous.
 - Direct language support for (spike) events, differential equations, convolutions, stochasticity, and arbitrary
-  algorithms using imperative programming concepts.
+algorithms using imperative programming concepts.
 - Generated code approaches runtime and memory efficiency of hand-coded models.
 
 .. seeAlso::
-   Read the full installation guide of NESTML :doc:`here <nestml:installation/index>`.
+   Read the full installation guide of NESTML :doc:`here <nestml:installation>`.
 
 The API Server for NESTML is referred to as **NESTML Server**.
 

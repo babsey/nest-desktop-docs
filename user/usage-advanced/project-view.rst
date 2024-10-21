@@ -33,7 +33,7 @@ contains a :ref:`project-view-project-navigation-sidebar`, a :ref:`project-view-
 
 
 If you want to explore the network activity of the project, you have to start the simulation before (|see|
-:ref:`usage-basic-simulate-networks`).
+:ref:`Simulate networks <usage-basic-simulate-networks>`).
 
 
 .. _project-view-project-navigation-sidebar:
@@ -89,14 +89,13 @@ It is possible to import projects from different sources: You can choose between
 (other one than GitHub URLs). The GitHub category points to a model collection available in the separate `NEST Desktop
 model repository <https://github.com/nest-desktop/nest-desktop-projects>`__.
 
-.. image:: /_static/img/screenshots/project/projects-import.png
+.. image:: /_static/img/screenshots/project/project-import-dialog.png
 
 ----
 
-Also you are able to export multiple projects. The selection checkbox appears when the project is loaded (check the
-:bdg:`validate` box by clicking it).
+In export dialog you are able to export multiple projects and models together to a single file.
 
-.. image:: /_static/img/screenshots/project/projects-export.png
+.. image:: /_static/img/screenshots/project/project-export-dialog.png
 
 ----
 
@@ -149,14 +148,14 @@ Network history
 .. grid:: 2
 
    .. grid-item::
-      :columns: 8
+      :columns: 10
 
       After every network change, NEST Desktop pushes a snapshot of the current network to the edit history list. With
       that history of the network, you can undo or redo the network changes. Loading a snapshot from this history is
       called `checkout network`.
 
    .. grid-item::
-      :columns: 4
+      :columns: 2
 
       .. image:: /_static/img/gif/network-history.gif
 
@@ -169,12 +168,12 @@ Simulation button
 .. grid:: 2
 
    .. grid-item::
-      :columns: 7
+      :columns: 8
 
       You can click on the :bdg:`SIMULATE` button to start the simulation.
 
    .. grid-item::
-      :columns: 5
+      :columns: 4
 
       .. image:: /_static/img/gif/simulation-button.gif
 

@@ -17,6 +17,7 @@ Network controller
 
       .. seeAlso::
          - :doc:`/user/usage-advanced/nest/copy-model`
+
          .. - :doc:`/user/usage-advanced/nest/compartmental-neuron`
          .. - :doc:`/user/usage-advanced/nest/synapse-model`
 
@@ -70,7 +71,7 @@ Code editor
 .. grid:: 2
 
    .. grid-item::
-      :columns: 5
+      :columns: 6
 
       NEST Desktop generates textual code from the constructed network. The generated code can be executed in any Python
       interpreter. This way, the code semantics of the NEST Simulator is understandable and easy to learn. The script
@@ -90,7 +91,7 @@ Code editor
       positions, and activity events.
 
    .. grid-item::
-      :columns: 7
+      :columns: 6
 
       .. image:: /_static/img/screenshots/controller/code-editor.png
 
@@ -105,7 +106,7 @@ Activity controller
    .. grid-item::
       :columns: 3
 
-      .. image:: /_static/img/screenshots/activity/activity-graph-mode.png
+      .. image:: /_static/img/screenshots/project/project-bar-activity-explorer.png
 
    .. grid-item::
       :columns: 9
@@ -193,7 +194,7 @@ Activity statistics
 .. grid:: 2
 
    .. grid-item::
-      :columns: 5
+      :columns: 6
 
       It displays multiple panels for each recording device. In each panel a table shows the activity statistics of
       recorded elements (rows) of a node (population).
@@ -204,7 +205,7 @@ Activity statistics
       In analog signals (e.g. membrane potentials), the columns show the mean and standard deviation of the values.
 
    .. grid-item::
-      :columns: 7
+      :columns: 6
 
-      .. image:: /_static/img/screenshots/controller/activity-stats.png
+      .. image:: /_static/img/screenshots/controller/activity-stats-spike.png
 

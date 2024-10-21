@@ -212,6 +212,39 @@ corresponding visualization of the network activity.
 .. note:: *Node color* is not defined in connectivity concept [1]_.
 
 
+.. _usage-advanced-node-group:
+
+Node group
+^^^^^^^^^^
+
+.. grid:: 2
+   :gutter: 1
+
+   .. grid-item::
+      :columns: 9
+
+      Nodes can be grouped for better network structure, e.g. hierarchical structure. Select multiple nodes with
+      :keys:`ctrl` key and then click on group button.
+
+      It creates a group containing selected nodes.
+
+      In code editor it shows a new group :code:`g1 = n1 + n2`.
+
+      Node group can be connected with nodes or other node groups.
+
+
+   .. grid-item::
+      :columns: 3
+
+      .. image:: /_static/img/screenshots/network/node-group-button.png
+
+      |
+
+      .. image:: /_static/img/screenshots/network/node-group.png
+
+.. note:: *Node group* is not defined in connectivity concept [1]_.
+
+
 .. _network-graph-edge:
 
 **Network edge**

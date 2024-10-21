@@ -20,7 +20,7 @@ requests to the simulation engine.
 
    .. grid-item-card:: NEST Simulator
       :columns: 4
-      :link: nest-server
+      :link: setup-nest-server
       :link-type: ref
 
       |nest|
@@ -29,7 +29,7 @@ requests to the simulation engine.
 
    .. grid-item-card:: NESTML
       :columns: 4
-      :link: nestml-server
+      :link: setup-nestml-server
       :link-type: ref
 
       |nestml|
@@ -38,7 +38,7 @@ requests to the simulation engine.
 
    .. grid-item-card:: Norse Simulator
       :columns: 4
-      :link: norse-server
+      :link: setup-norse-server
       :link-type: ref
 
       |norse|

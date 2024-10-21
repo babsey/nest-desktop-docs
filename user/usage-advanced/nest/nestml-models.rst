@@ -18,22 +18,108 @@ and network models.
 .. note::
    You have to start NESTML server that you are able to create your custom models.
 
-   For more information about NESTML server, please follow these instructions :doc:`here <nestml>`
+   For more information about NESTML server, please follow these instructions :ref:`here <setup-nestml-server>`
 
 
 Workflow
 --------
 
+.. grid:: 2
+   :gutter: 1
 
+   .. grid-item::
+      :columns: 2
 
-Creating a new model (1) opens a text editor in which the NESTML model code can be entered (2). NESTML models can also
-be fetched from GitHub (3). Eachodel is assigned to a specific module (4) for dynamical loading into the NEST kernel.
+      .. image:: /_static/img/screenshots/model/nestml/create-model-button.png
 
+   .. grid-item::
+      :columns: 10
 
-After the NESTML model has been defined, the code for the NESTML backend can be generated. Clicking the module button
-opens a dialog (5) in which user can select a module to generate its models on NESTML backend (6). The module is then
-available for loading in the simulation kernel on the NEST backend (7).
+      .. grid:: 1
+         :gutter: 1
+
+         .. grid-item::
+            :child-align: center
+
+            In model navigation sidebar, you find a :bdg:`+` button to create a new model. Clicking it opens a dialog.
+
+.. grid:: 2
+   :gutter: 1
+
+   .. grid-item::
+      :columns: 8
+
+      .. image:: /_static/img/screenshots/model/nestml/create-model-dialog.png
+   .. grid-item::
+      :columns: 4
+
+      .. grid:: 1
+         :gutter: 1
+
+         .. grid-item::
+            :child-align: center
+
+            In dialog you enter name for new model and select a template of NESTML models which can also be fetched from
+            GitHub.
+
+Next, you are able to enter text editor in Model editor view and then save it. It gets parameter and state
+specifications from NESTML Server which are fetched from NESTML code.
+
+.. image:: /_static/img/screenshots/model/nestml/model-editor.png
+
+----
+
+.. grid:: 2
+   :gutter: 1
+
+   .. grid-item::
+      :columns: 9
+
+      After the NESTML model has been defined, the code for the NESTML backend can be generated. Clicking the module
+      button in model bar opens a dialog.
+
+   .. grid-item::
+      :columns: 3
+
+      .. image:: /_static/img/screenshots/model/nestml/module-button.png
+
+.. grid:: 2
+   :gutter: 1
+
+   .. grid-item::
+      :columns: 8
+
+      In dialog user can select a module to generate its models on NESTML backend.
+
+   .. grid-item::
+      :columns: 4
+
+      .. image:: /_static/img/screenshots/model/nestml/module-dialog.png
+
+.. grid:: 2
+   :gutter: 1
+
+   .. grid-item::
+      :columns: 7
+
+      Now, the module is then available for loading in the simulation kernel on the NEST backend.
+
+   .. grid-item::
+      :columns: 5
+
+      .. image:: /_static/img/screenshots/model/nestml/simulation-kernel-module.png
+
+      |
+
+      .. grid:: 1
+         :gutter: 1
+
+         .. grid-item::
+
+            .. image:: /_static/img/screenshots/model/nestml/code-install-module.png
+               :width: 60%
+
 
 The neuron model is now available to be instantiated in a network. As a first validation step, we create one single
-neuron and stimulate it with a constant current, while measuring the membrane potential and recovery variable (8). The
-recordings can be viewed interactively within the NEST Desktop environment (9).
+neuron and stimulate it with a constant current, while measuring the membrane potential and recovery variable. The
+recordings can be viewed interactively within the NEST Desktop environment.

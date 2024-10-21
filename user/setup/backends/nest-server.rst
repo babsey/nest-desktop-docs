@@ -1,4 +1,4 @@
-.. _nest-server:
+.. _setup-nest-server:
 
 NEST Server
 ===========
@@ -33,8 +33,8 @@ server is implemented.
    :doc:`here <nest-simulator:connect_nest/nest_server>`.
 
 
-Conda |linux| |macOS| |windows|
--------------------------------
+Conda
+-----
 
 #. Activate the Conda environment :bdg:`nest`:
 
@@ -59,8 +59,8 @@ Conda |linux| |macOS| |windows|
 NEST Server is now running at http://localhost:52425.
 
 
-Python |linux| |macOS| |windows|
---------------------------------
+Python
+------
 
 NEST Simulator has no python package but you can install it via conda or on host system:
 
@@ -81,8 +81,8 @@ NEST Simulator has no python package but you can install it via conda or on host
 NEST Server is now running at http://localhost:52425.
 
 
-Source install |linux| |macOS|
-------------------------------
+Source install
+--------------
 
 #. Download and unpack latest release package of NEST source code:
 

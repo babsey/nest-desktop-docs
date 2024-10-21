@@ -1,4 +1,4 @@
-.. _norse-server:
+.. _setup-norse-server:
 
 Norse Server
 ============
@@ -10,11 +10,15 @@ fundamental difference from artificial neural networks. Norse expands PyTorch wi
 components, bringing you two advantages: a modern and proven infrastructure based on PyTorch and deep
 learning-compatible spiking neural network components.
 
+.. seeAlso::
+   Read the full installation guide of Norse :doc:`here <norse:pages/installing>`.
 
-Conda |linux| |macOS| |windows|
--------------------------------
+The API Server for Norse Simulator is referred to as **Norse Server**.
 
-#. Activate the Conda environment :bdg:`nest`:
+Conda
+-----
+
+#. Activate the Conda environment :bdg:`norse`:
 
    .. code-block:: bash
 
@@ -24,14 +28,13 @@ Conda |linux| |macOS| |windows|
 
    .. code-block:: bash
 
-      python3 -m pip install norse-server@git+https://github.com/babsey/nestml-server
+      python3 -m pip install norse-server@git+https://github.com/babsey/norse-server
 
-#. Start NEST Server as the back end:
+#. Start Norse Server as the backend:
 
-   The API Server for NEST Simulator is referred to as **NEST Server**.
 
    .. code-block:: bash
 
-      nest-server start
+      norse-server start
 
-NEST Server is now running at http://localhost:52425.
+Norse Server is now running at http://localhost:11428.

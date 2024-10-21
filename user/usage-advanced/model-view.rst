@@ -157,12 +157,12 @@ Model explorer
 
 
    .. grid-item::
-      :columns: 4
+      :columns: 3
 
       .. image:: /_static/img/screenshots/model/model-explorer-projects.png
 
    .. grid-item::
-      :columns: 8
+      :columns: 9
 
       First, choose a simulation to see the neuronal response to a specific stimulus device. Then start the simulation
       by clicking on the :bdg:`SIMULATE` button. You can use the code editor to see changes in activity.

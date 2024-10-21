@@ -75,7 +75,7 @@ How to copy models - step by step
    .. grid-item::
       :columns: 7
 
-      .. image:: /_static/img/screenshots/controller/copy-model-step1.png
+      .. image:: /_static/img/screenshots/controller/nest/copy-model-step1.png
         :target: #
 
 .. grid:: 2
@@ -90,7 +90,7 @@ How to copy models - step by step
    .. grid-item::
       :columns: 7
 
-      .. image:: /_static/img/screenshots/controller/copy-model-step2.png
+      .. image:: /_static/img/screenshots/controller/nest/copy-model-step2.png
         :target: #
 
 
@@ -108,5 +108,5 @@ How to copy models - step by step
    .. grid-item::
       :columns: 7
 
-      .. image:: /_static/img/screenshots/controller/copy-model-step3.png
+      .. image:: /_static/img/screenshots/controller/nest/copy-model-step3.png
         :target: #

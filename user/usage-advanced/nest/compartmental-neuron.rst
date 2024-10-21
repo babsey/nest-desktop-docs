@@ -26,7 +26,7 @@ Step by step guide
    .. grid-item::
       :columns: 6
 
-      .. image:: /_static/img/screenshots/controller/compartmental-neuron-step1.png
+      .. image:: /_static/img/screenshots/controller/nest/compartmental-neuron-step1.png
          :target: #
 
 .. grid:: 2
@@ -39,7 +39,7 @@ Step by step guide
    .. grid-item::
       :columns: 6
 
-      .. image:: /_static/img/screenshots/controller/compartmental-neuron-step2.png
+      .. image:: /_static/img/screenshots/controller/nest/compartmental-neuron-step2.png
          :target: #
 
 .. note::
