@@ -1,4 +1,4 @@
-.. _deploy-openstack
+.. _deploy-openstack:
 
 Deploy on OpenStack
 ===================

@@ -19,6 +19,12 @@ Use the working directory: ``nest-desktop/docs``. To install Sphinx and the Read
 
 |
 
+Make images
+-----------
+
+Make screenshots in web browser or use `Kooha <https://github.com/SeaDve/Kooha>`_ to record screen and stores animated images to gif file.
+
+
 .. _documentation-development-build-html-locally:
 
 Development: Build HTML locally
