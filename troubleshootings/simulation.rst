@@ -1,4 +1,4 @@
-.. faq-simulation:
+.. _faq-simulation:
 
 Simulation
 ==========

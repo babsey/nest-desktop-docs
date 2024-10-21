@@ -7,7 +7,7 @@ NEST Desktop cannot find the NEST Simulator.
 It has two possible reasons:
 
 - NEST Desktop has a wrong URL under which it tries to contact the server.
-  (|see| the :doc:`FAQ for NEST Simulator </troubleshootings/nest-simulator>`.)
+  (|see| the :doc:`FAQ for NEST Simulator </troubleshootings/backends>`.)
 
 - NEST Server is not running. Try to (re-)start NEST Server.
 

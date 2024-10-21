@@ -1,3 +1,4 @@
+================
 Troubleshootings
 ================
 
@@ -7,7 +8,7 @@ some answers to commonly asked questions and troublesome spots.
 .. _error-messages-frequently-asked-questions:
 
 Error messages and known problems
----------------------------------
+=================================
 
 .. toctree::
 
@@ -17,11 +18,11 @@ Error messages and known problems
 .. _troubleshootings-frequently-asked-questions:
 
 Frequently Asked Questions
---------------------------
+==========================
 
 .. toctree::
 
-   nest-simulator
+   backends
    project
    network
    simulation
@@ -32,7 +33,7 @@ Frequently Asked Questions
 .. _troubleshootings-services:
 
 Problems with services
-----------------------
+======================
 
 .. toctree::
 

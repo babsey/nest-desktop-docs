@@ -1,4 +1,4 @@
-.. faq-network:
+.. _faq-network:
 
 Network
 =======
@@ -41,6 +41,12 @@ How can I (un)select a node / a connection?
    Click on the background area of the network graph or on the selected entry in the network controller to unselect a
    node or connection. An other method to (un)select is to click on the node label or the connection toolbar in the
    network controller on the right side again.
+
+How can I group multiple nodes?
+   Hold down the :keys:`ctrl` key when clicking on nodes and then group them.
+
+   .. seeAlso::
+      - :ref:`Group nodes <usage-advanced-node-group>`
 
 How can I colorize nodes?
    You will find the method to color in the context menu of the node by clicking with the right mouse button on the node
