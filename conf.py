@@ -254,4 +254,5 @@ elif html_theme == "sphinx_material":
 intersphinx_mapping = {
     "nest-simulator": ("https://nest-simulator.readthedocs.io/en/latest/", None),
     "nestml": ("https://nestml.readthedocs.io/en/latest/", None),
+    "norse": ("https://norse.github.io/norse", None),
 }
