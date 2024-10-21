@@ -24,11 +24,14 @@ NEST Desktop on Helmholtz Cloud
 
    For more information, please read the use-case: https://hifis.net/use-case/2024/01/24/uc-nest.html
 
+.. _helmholtz-cloud-steps:
 
-**Steps on Helmholtz Cloud**
-   #. Go to `NEST Desktop on Helmholtz Cloud <https://nest-desktop.helmholtz-cloud.desy.de/>`__.
+Steps
+^^^^^
 
-   #. Login with your account via Helmholtz AAI.
+#. Go to `NEST Desktop on Helmholtz Cloud <https://nest-desktop.helmholtz-cloud.desy.de/>`__.
+
+#. Login with your account via Helmholtz AAI.
 
 
 Acknowledgements

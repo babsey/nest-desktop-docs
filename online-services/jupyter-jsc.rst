@@ -21,6 +21,7 @@ NEST Desktop on Jupyter JSC
 **Requirements**
    - `JSC account <https://judoor.fz-juelich.de/login>`__
 
+.. _jupyter-jsc-steps:
 
 Steps
 -----
@@ -31,7 +32,7 @@ Steps
    .. grid-item::
       :columns: 4
 
-      Step 1: Go to `Jupyter JSC <https://jupyter-jsc.fz-juelich.de/>`__.
+      | 1. Go to `Jupyter JSC <https://jupyter-jsc.fz-juelich.de/>`__.
 
       Login with your JSC account.
 
@@ -44,7 +45,7 @@ Steps
    .. grid-item::
       :columns: 4
 
-      Step 2: Create a new JupyterLab.
+      | 2. Create a new JupyterLab.
 
    .. grid-item::
       :columns: 8
@@ -54,7 +55,7 @@ Steps
    .. grid-item::
       :columns: 4
 
-      Step 3a: Configure your lab
+      | 3a. Configure your lab
 
       Name your lab, select the latest version of JupyterLab and then select a system: JURECA.
 
@@ -66,7 +67,7 @@ Steps
    .. grid-item::
       :columns: 4
 
-      Step 3b: In Kernel and Extensions tab
+      | 3b. In Kernel and Extensions tab
 
       Check NEST Desktop and then save the config.
 
@@ -78,7 +79,7 @@ Steps
    .. grid-item::
       :columns: 4
 
-      Step 4: Start lab
+      | 4. Start lab
 
    .. grid-item::
       :columns: 8
@@ -88,7 +89,7 @@ Steps
    .. grid-item::
       :columns: 4
 
-      Step 5: In JupyterLab launcher
+      | 5. In JupyterLab launcher
 
       Click on NEST Desktop icon
 
