@@ -238,7 +238,7 @@ NEST features
          .. grid-item::
             :columns: 4
 
-            .. image:: /_static/img/thumbnails/nestml-models.png
+            .. image:: /_static/img/thumbnails/nestml-model.png
 
          .. grid-item::
             :columns: 8
@@ -256,6 +256,16 @@ External software
    .. usage-external/usage-with-nrp
    .. usage-external/usage-with-visimpl
    usage-external/libre-office-extension
+
+
+.. note::
+
+   Insite, NRP and ViSimpl has been removed in this version because it is not working with these external softwares
+   anymore. We are working on reimplement these software in next release.
+
+   If you like to see the documentation about these external softwares, please go to the older version of docs:
+   - https://nest-desktop.readthedocs.io/en/3.3/user/index.html#external-software
+
 
 .. grid:: 2
    :gutter: 2
