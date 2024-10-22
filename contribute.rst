@@ -1,5 +1,5 @@
-Getting help
-============
+Contribute
+==========
 
 NEST Desktop draws its strength from the many people that use and improve it. We are happy to consider your
 contributions (e.g. discussion, bug or documentation fixes) for addition to the official version of NEST Desktop.
@@ -26,5 +26,5 @@ links:
 **Deployment**
     - Rancher: `<https://github.com/nest-desktop/nest-desktop-rancher>`_
 
-
-Make sure to check that your issue has not already been reported there before creating a new one.
+.. note::
+    Make sure to check that your issue has not already been reported there before creating a new one.
