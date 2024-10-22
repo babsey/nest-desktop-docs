@@ -160,28 +160,28 @@ elif html_theme == "sphinx_immaterial":
         },
         "toc_title_is_page_title": False,
         # BEGIN: social icons
-        "social": [
-            {
-                "icon": "fontawesome/brands/github",
-                "link": "https://github.com/nest-desktop/nest-desktop",
-                "name": "Source on github.com",
-            },
-            {
-                "icon": "fontawesome/brands/python",
-                "link": "https://pypi.org/project/nest-desktop/",
-            },
-            # {
-            #     "icon": "fontawesome/brands/conda",
-            #     "link": "https://anaconda.org/conda-forge/nest-desktop",
-            # },
-            # {
-            #     "icon": "img/logo/ebrains-logo.svg",
-            #     "link": "https://www.ebrains.eu/tools/nest-desktop",
-            # },
-        ],
+        # "social": [
+        #     {
+        #         "icon": "fontawesome/brands/github",
+        #         "link": "https://github.com/nest-desktop/nest-desktop",
+        #         "name": "Source on github.com",
+        #     },
+        # {
+        #     "icon": "fontawesome/brands/python",
+        #     "link": "https://pypi.org/project/nest-desktop/",
+        # },
+        # {
+        #     "icon": "fontawesome/brands/conda",
+        #     "link": "https://anaconda.org/conda-forge/nest-desktop",
+        # },
+        # {
+        #     "icon": "img/logo/ebrains-logo.svg",
+        #     "link": "https://www.ebrains.eu/tools/nest-desktop",
+        # },
+        # ],
         # END: social icons
         # BEGIN: version_dropdown
-        "version_dropdown": True,
+        "version_dropdown": False,
         "version_info": [
             {
                 "version": "https://nest-desktop.github.io",
