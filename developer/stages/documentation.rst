@@ -34,7 +34,7 @@ Build the documentation which your created with Sphinx offline:
 
 .. code-block:: bash
 
-   make clean; make html
+   make clean html
 
 Start the Python server to serve the documentation locally, i.e. available only on your personal machine.
 
