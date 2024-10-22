@@ -114,7 +114,7 @@ Graphs
 
    Network graph <usage-advanced/network-graph>
    Activity chart graph <usage-advanced/activity-chart-graph>
-   Activity animation graph <usage-advanced/activity-animation-graph>
+   Activity animation graph <usage-advanced/nest/activity-animation-graph>
 
 .. grid:: 2
    :gutter: 2
