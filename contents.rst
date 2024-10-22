@@ -4,7 +4,7 @@
    about/index
    online-services/index
    troubleshootings/index
-   getting-help
+   contribute
 
 .. toctree::
    :caption: Guides
