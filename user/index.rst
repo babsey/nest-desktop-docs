@@ -259,12 +259,11 @@ External software
 
 
 .. note::
-
    Insite, NRP and ViSimpl has been removed in this version because it is not working with these external softwares
    anymore. We are working on reimplement these software in next release.
 
-   If you like to see the documentation about these external softwares, please go to the older version of docs:
-   - https://nest-desktop.readthedocs.io/en/3.3/user/index.html#external-software
+   If you like to see the documentation about these external softwares, please visit the older docs version
+   (https://nest-desktop.readthedocs.io/en/3.3/user/index.html#external-software)
 
 
 .. grid:: 2
