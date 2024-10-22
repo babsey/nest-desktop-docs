@@ -9,3 +9,4 @@ dependencies:
       - sphinx-material==0.0.36
       - sphinx-design==0.6.1
       - sphinx-immaterial==0.12.4
+      - sphinx-immaterial[keys]
