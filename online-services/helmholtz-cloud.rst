@@ -1,7 +1,7 @@
 .. _nest-desktop-on-helmholtz-cloud:
 
-NEST Desktop on Helmholtz Cloud
-===============================
+Helmholtz Cloud
+===============
 
 .. grid:: 2
 

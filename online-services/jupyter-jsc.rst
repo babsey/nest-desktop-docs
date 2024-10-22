@@ -1,7 +1,7 @@
 .. _nest-desktop-on-jupyter-jsc:
 
-NEST Desktop on Jupyter JSC
-===========================
+Jupyter JSC
+===========
 
 .. grid:: 2
 

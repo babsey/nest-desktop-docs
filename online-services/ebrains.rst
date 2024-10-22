@@ -1,7 +1,7 @@
 .. _nest-desktop-on-ebrains:
 
-NEST Desktop on EBRAINS
-=======================
+EBRAINS
+=======
 
 .. grid:: 2
 
