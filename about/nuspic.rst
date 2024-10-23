@@ -5,14 +5,15 @@ Predecessor software
 nuSPIC
 ------
 
-Before NEST Desktop, there existed a soctware called nuSPIC, which targeted a similar goal as NEST Desktop:
+Before NEST Desktop, there existed a software called nuSPIC, which targeted a similar goal as NEST Desktop: A challenge
+to identify the function of the neuronal network.
+
+nuSPIC is also a web interface working with NEST Simulator. However the project is not maintained.
+
 
 .. image:: /_static/img/screenshots/nuspic.png
   :align: center
   :width: 75%
-
-nuSPIC is also a web interface working with NEST Simulator.
-However, the development is inactive and the project is outdated.
 
 .. seeAlso::
 
