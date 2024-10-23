@@ -57,7 +57,7 @@ How can I activate the seed randomization?
       - :ref:`Activate seed randomization in the kernel controller <controller-sidebar-kernel-settings>`
 
 How can I find the Python script code of the simulation?
-   On the right side you can find a code symbol :bdg:`<\\>` opening the code editor.
+   On the right side you can find a code symbol :bdg:`</>` opening the code editor.
 
    .. seeAlso::
       - :ref:`Code editor <controller-sidebar-code-editor>`
