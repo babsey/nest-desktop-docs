@@ -197,6 +197,19 @@ elif html_theme == "sphinx_immaterial":
         # END: version_dropdown
     }
 
+    sphinx_immaterial_custom_admonitions = [
+        # {
+        #     "name": "question",
+        #     "color": (255, 102, 51),
+        #     "override": True,
+        # },
+        # {
+        #     "name": "example",
+        #     "color": (18, 129, 179),
+        #     "override": True,
+        # },
+    ]
+
 elif html_theme == "sphinx_material":
 
     import sphinx_material
