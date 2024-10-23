@@ -67,13 +67,13 @@ How to copy models - step by step
 .. grid:: 2
 
    .. grid-item::
-      :columns: 5
+      :columns: 4
 
       Click on the :bdg:`MODEL` tab in the network controller and then select a model to copy. Then confirm with a click
       on :bdg:`COPY`.
 
    .. grid-item::
-      :columns: 7
+      :columns: 8
 
       .. image:: /_static/img/screenshots/controller/nest/copy-model-step1.png
         :target: #
@@ -84,7 +84,7 @@ How to copy models - step by step
       :columns: 5
 
       Enter the name of the new model. If you like to have other model parameters than the default one, just click on
-      the model title and select the parameters you want to change. This opens the sliders and fields to edit their
+      the model title and select the parameters you want to change. This shows sliders and fields to edit their
       values.
 
    .. grid-item::
@@ -99,7 +99,7 @@ How to copy models - step by step
    .. grid-item::
       :columns: 5
 
-      Choose the copied node model for your node (e.g. in the nodes list).
+      Choose the copied node model for your node and you are able to customize parameters as well.
 
       .. note::
          Copied synapse models can also be applied for synapses (analogously as above).

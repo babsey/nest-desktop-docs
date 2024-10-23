@@ -48,7 +48,7 @@ Conda
 
    .. code-block:: bash
 
-      python3 -m pip install nestml-server@git+https://github.com/babsey/nestml-server@v1.0-b6
+      python3 -m pip install nestml-server@git+https://github.com/babsey/nestml-server@v1.0
 
 #. Start NESTML Server as backend:
 
@@ -67,7 +67,13 @@ Python
 
    .. code-block:: bash
 
-      pip install nestml flask flask-cors gunicorn
+      python3 -m pip install nestml flask flask-cors gunicorn
+
+#. Install NESTML Server:
+
+   .. code-block:: bash
+
+      python3 -m pip install nestml-server@git+https://github.com/babsey/nestml-server@v1.0
 
 #. Start NESTML Server as the back end:
 

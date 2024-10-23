@@ -27,7 +27,7 @@ This guide provides a detailed documentation on how to install and start NEST De
 
 **Desktop applications**
 
-You are able to use NEST Desktop as Snap (with NEST Backend) or as AppImage (without NEST Backend).
+You are able to use NEST Desktop as Snap or as AppImage.
 
 .. grid:: 2
    :gutter: 2
@@ -64,7 +64,7 @@ You are able to use NEST Desktop as Snap (with NEST Backend) or as AppImage (wit
          .. grid-item::
             :columns: 8
 
-            Download and start NEST Desktop as AppImage (without NEST Backend).
+            Download and start NEST Desktop as AppImage (without any backends).
 
 
 **Virtualizations**
@@ -90,7 +90,7 @@ to run NEST Desktop and NEST Backend.
          .. grid-item::
             :columns: 8
 
-            Deploy NEST Desktop and NEST Simulator with Docker Compose.
+            Setup NEST Desktop and NEST Simulator with Docker Compose.
 
    .. grid-item-card:: Apptainer (Former Singularity) |linux|
       :columns: 6
@@ -107,7 +107,7 @@ to run NEST Desktop and NEST Backend.
          .. grid-item::
             :columns: 8
 
-            Deploy NEST Desktop and NEST Simulator with Apptainer.
+            Setup NEST Desktop and NEST Simulator with Apptainer.
 
 
 **Packages**
@@ -132,7 +132,7 @@ Alternatively, you can install NEST Desktop with the ``conda`` or ``pip`` comman
          .. grid-item::
             :columns: 8
 
-            Deploy NEST Desktop and NEST Simulator with Conda.
+            Setup NEST Desktop with Conda.
 
    .. grid-item-card:: Python |linux| |windows| |macOS|
       :columns: 6
@@ -149,4 +149,4 @@ Alternatively, you can install NEST Desktop with the ``conda`` or ``pip`` comman
          .. grid-item::
             :columns: 8
 
-            Install and start only NEST Desktop from Python Package.
+            Setup NEST Desktop from Python Package (without backends).

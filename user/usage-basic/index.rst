@@ -9,15 +9,6 @@ This is a basic usage guide for the Graphical User Interface (GUI) of NEST Deskt
 .. note::
    You can reload the application (:keys:`strg+r` or :keys:`F5`) if NEST Desktop has somehow crashed.
 
-.. _conceptual-approach:
-
-NEST Desktop enables to construct a neuronal network model graphically and to perform a simulation experiment. Thus,no
-programming skills are required.
-
-.. image:: /_static/img/edited/conceptual-approach.png
-   :target: #conceptual-approach
-   :width: 100%
-
 |
 
 .. _usage-basic-video-tutorial:
