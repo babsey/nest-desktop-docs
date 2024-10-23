@@ -13,46 +13,78 @@ should now explore all these aspects by performing the following numerical exper
 
 ----
 
-.. card::
+.. question::
 
-   .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-1.png
+   1. Devise a simulation method to study single postsynaptic potentials. Which simulation parameter reflects the
+      “strength” of a synapse? Systematically explore the effect of activating single excitatory and inhibitory
+      synapses.
 
-1. Devise a simulation method to study single postsynaptic potentials. Which simulation parameter reflects the
-   “strength” of a synapse? Systematically explore the effect of activating single excitatory and inhibitory synapses.
+      Under which conditions can activating a single synapse elicit an output spike?
 
-   Under which conditions can activating a single synapse elicit an output spike?
+.. example::
+   :collapsible:
 
-----
+   .. md-tab-set::
 
-.. card-carousel:: 1
+      .. md-tab-item:: Lab book
 
-   .. card::
+         |
 
-      .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-2a.png
+         .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-1-1.png
 
-   .. card::
+      .. md-tab-item:: Activity
 
-      .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-2b.png
+         .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-1-2.png
 
-2. Multiple PSPs elicited in rapid succession at one and the same synapse add up to a compound signal if they
-   sufficiently overlap in time. This phenomenon is called “temporal integration”.
+|
 
-   Multiple PSPs elicited at different synapses are also superimposed, all contributing to the membrane potential of the
-   postsynaptic neuron. This is called “spatial integration”.
+.. question::
 
-   Design a set of experiments to illustrate the phenomena of temporal and spatial synaptic integration in the
-   subthreshold regime. Which parameters of the neuron are mainly responsible for the temporal overlap between
-   individual PSPs?
+   2. Multiple PSPs elicited in rapid succession at one and the same synapse add up to a compound signal if they
+      sufficiently overlap in time. This phenomenon is called “temporal integration”.
 
-----
+      Multiple PSPs elicited at different synapses are also superimposed, all contributing to the membrane potential of
+      the postsynaptic neuron. This is called “spatial integration”.
 
-.. .. card::
+      Design a set of experiments to illustrate the phenomena of temporal and spatial synaptic integration in the
+      subthreshold regime. Which parameters of the neuron are mainly responsible for the temporal overlap between
+      individual PSPs?
 
-3. A hallmark of the LIF model, which is shared by many biological neurons, is the linearity of temporal and spatial
-   integration. The membrane potential response to a combined input is just the sum of the individual responses to the
-   individual inputs, as long as all of them remain subthreshold. Design an experiment that demonstrates the linearity
-   of synaptic integration for the LIF neuron model. Does linearity also hold for superthreshold inputs that lead to
-   action potential firing?
+.. example::
+   :collapsible:
+
+   .. md-tab-set::
+
+      .. md-tab-item:: Temporal integration: lab book
+
+         |
+
+         .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-2a-1.png
+
+      .. md-tab-item:: Temporal integration: activity
+
+         .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-2a-2.png
+
+      .. md-tab-item:: Spatial integration: lab book
+
+         |
+
+         .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-2b-1.png
+
+      .. md-tab-item:: Spatial integration: activity
+
+         .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-2b-2.png
+
+|
+
+.. question::
+
+   3. A hallmark of the LIF model, which is shared by many biological neurons, is the linearity of temporal and spatial
+      integration. The membrane potential response to a combined input is just the sum of the individual responses to
+      the individual inputs, as long as all of them remain subthreshold. Design an experiment that demonstrates the
+      linearity of synaptic integration for the LIF neuron model. Does linearity also hold for superthreshold inputs
+      that lead to action potential firing?
+
 
 ----
 
