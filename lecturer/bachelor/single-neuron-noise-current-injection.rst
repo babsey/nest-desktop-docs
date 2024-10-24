@@ -173,7 +173,7 @@ distributed Gaussian random variables to approximate a particular type of white 
 
    .. md-tab-set::
 
-      .. md-tab-item:: Spike threshold: lab book
+      .. md-tab-item:: Spike threshold
 
          .. md-tab-set::
 
