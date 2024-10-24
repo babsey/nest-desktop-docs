@@ -31,6 +31,44 @@ distributed Gaussian random variables to approximate a particular type of white 
 
          .. image:: /_static/img/screenshots/lecture/single-neuron-noise-current-injection-1-1.png
 
+      .. md-tab-item:: Code
+
+         .. code-block:: Python
+
+            nest.ResetKernel()
+
+            # Set simulation kernel
+            nest.SetKernelStatus({
+               "resolution": 0.1,
+            })
+
+            # Create nodes
+            n1 = nest.Create("iaf_psc_alpha")
+            n2 = nest.Create("iaf_psc_alpha")
+            ng1 = nest.Create("noise_generator", params={
+               "mean": 10,
+               "std": 0,
+               "start": 100,
+               "stop": 600,
+            })
+            ng2 = nest.Create("noise_generator", params={
+               "mean": 10,
+               "std": 2,
+               "start": 300,
+               "stop": 800,
+            })
+            vm1 = nest.Create("voltmeter")
+            vm2 = nest.Create("voltmeter")
+
+            # Connect nodes
+            nest.Connect(ng1, n1)
+            nest.Connect(ng2, n2)
+            nest.Connect(vm1, n1)
+            nest.Connect(vm2, n2)
+
+            # Run simulation
+            nest.Simulate(1000)
+
       .. md-tab-item:: Activity
 
          .. image:: /_static/img/screenshots/lecture/single-neuron-noise-current-injection-1-2.png
@@ -58,6 +96,55 @@ distributed Gaussian random variables to approximate a particular type of white 
          |
 
          .. image:: /_static/img/screenshots/lecture/single-neuron-noise-current-injection-2-1.png
+
+
+      .. md-tab-item:: Code
+
+         .. code-block:: Python
+
+            nest.ResetKernel()
+
+            # Set simulation kernel
+            nest.SetKernelStatus({
+               "resolution": 0.1,
+            })
+
+            # Create nodes
+            n1 = nest.Create("iaf_psc_alpha", 10)
+            n2 = nest.Create("iaf_psc_alpha", 100)
+            ng1 = nest.Create("noise_generator", params={
+               "mean": 376,
+               "std": 0,
+               "start": 100,
+               "stop": 900,
+            })
+            ng2 = nest.Create("noise_generator", params={
+               "mean": 370,
+               "std": 10,
+               "start": 100,
+               "stop": 900,
+            })
+            vm1 = nest.Create("voltmeter")
+            vm2 = nest.Create("voltmeter")
+            sr1 = nest.Create("spike_recorder")
+            sr2 = nest.Create("spike_recorder")
+
+            # Connect nodes
+            nest.Connect(ng1, n1)
+            nest.Connect(ng2, n2)
+            nest.Connect(vm1, n1, conn_spec={
+               "rule": "fixed_outdegree",
+               "outdegree": 1,
+            })
+            nest.Connect(vm2, n2, conn_spec={
+               "rule": "fixed_outdegree",
+               "outdegree": 1,
+            })
+            nest.Connect(n1, sr1)
+            nest.Connect(n2, sr2)
+
+            # Run simulation
+            nest.Simulate(1000)
 
       .. md-tab-item:: Activity
 
@@ -88,23 +175,105 @@ distributed Gaussian random variables to approximate a particular type of white 
 
       .. md-tab-item:: Spike threshold: lab book
 
-         |
+         .. md-tab-set::
 
-         .. image:: /_static/img/screenshots/lecture/single-neuron-noise-current-injection-3a-1.png
+            .. md-tab-item:: Lab book
 
-      .. md-tab-item:: Spike threshold: activity
+               |
 
-         .. image:: /_static/img/screenshots/lecture/single-neuron-noise-current-injection-3a-2.png
+               .. image:: /_static/img/screenshots/lecture/single-neuron-noise-current-injection-3a-1.png
 
-      .. md-tab-item:: Irregularity of neuronal spiking: lab book
+            .. md-tab-item:: Code
 
-         |
+               .. code-block:: Python
 
-         .. image:: /_static/img/screenshots/lecture/single-neuron-noise-current-injection-3b-1.png
+                  nest.ResetKernel()
 
-      .. md-tab-item:: Irregularity of neuronal spiking: activity
+                  # Set simulation kernel
+                  nest.SetKernelStatus({
+                     "resolution": 0.1,
+                  })
 
-         .. image:: /_static/img/screenshots/lecture/single-neuron-noise-current-injection-3b-2.png
+                  # Create nodes
+                  n1 = nest.Create("iaf_psc_alpha")
+                  n2 = nest.Create("iaf_psc_alpha")
+                  ng1 = nest.Create("noise_generator", params={
+                     "mean": 360,
+                     "std": 25,
+                     "start": 100,
+                     "stop": 900,
+                  })
+                  vm1 = nest.Create("voltmeter")
+                  vm2 = nest.Create("voltmeter")
+
+                  # Connect nodes
+                  nest.Connect(ng1, n1)
+                  nest.Connect(ng1, n2)
+                  nest.Connect(vm1, n1)
+                  nest.Connect(vm2, n2)
+
+                  # Run simulation
+                  nest.Simulate(1000)
+
+            .. md-tab-item:: Activity
+
+               .. image:: /_static/img/screenshots/lecture/single-neuron-noise-current-injection-3a-2.png
+
+      .. md-tab-item:: Irregularity of neuronal spiking
+
+         .. md-tab-set::
+
+            .. md-tab-item:: Lab book
+
+               |
+
+               .. image:: /_static/img/screenshots/lecture/single-neuron-noise-current-injection-3b-1.png
+
+
+            .. md-tab-item:: Code
+
+               .. code-block:: Python
+
+                  nest.ResetKernel()
+
+                  # Set simulation kernel
+                  nest.SetKernelStatus({
+                     "resolution": 0.1,
+                  })
+
+                  # Create nodes
+                  n1 = nest.Create("iaf_psc_alpha")
+                  n2 = nest.Create("iaf_psc_alpha")
+                  n2 = nest.Create("iaf_psc_alpha")
+                  ng1 = nest.Create("noise_generator", params={
+                     "mean": 376,
+                     "std": 50,
+                  })
+                  ng2 = nest.Create("noise_generator", params={
+                     "mean": 376,
+                     "std": 5,
+                  })
+                  ng3 = nest.Create("noise_generator", params={
+                     "mean": 376,
+                  })
+                  vm1 = nest.Create("voltmeter")
+                  vm2 = nest.Create("voltmeter")
+                  vm3 = nest.Create("voltmeter")
+
+                  # Connect nodes
+                  nest.Connect(ng1, n1)
+                  nest.Connect(ng2, n2)
+                  nest.Connect(ng3, n3)
+                  nest.Connect(vm1, n1)
+                  nest.Connect(vm2, n2)
+                  nest.Connect(vm3, n3)
+
+                  # Run simulation
+                  nest.Simulate(1000)
+
+            .. md-tab-item:: Activity
+
+               .. image:: /_static/img/screenshots/lecture/single-neuron-noise-current-injection-3b-2.png
 
 
 |
@@ -128,6 +297,39 @@ distributed Gaussian random variables to approximate a particular type of white 
          |
 
          .. image:: /_static/img/screenshots/lecture/single-neuron-noise-current-injection-4-1.png
+
+      .. md-tab-item:: Code
+
+         .. code-block:: Python
+
+            nest.ResetKernel()
+
+            # Set simulation kernel
+            nest.SetKernelStatus({
+               "resolution": 0.1,
+            })
+
+            # Create nodes
+            n1 = nest.Create("iaf_psc_alpha", 100)
+            n2 = nest.Create("iaf_psc_alpha", 100)
+            ng1 = nest.Create("noise_generator", 100, params={
+               "mean": np.linspace(350, 450, 100),
+               "std": 50,
+            })
+            ng2 = nest.Create("noise_generator", 100, params={
+               "mean": np.linspace(350, 450, 100),
+            })
+            sr1 = nest.Create("spike_recorder")
+            sr2 = nest.Create("spike_recorder")
+
+            # Connect nodes
+            nest.Connect(ng1, n1, "one_to_one")
+            nest.Connect(ng2, n2, "one_to_one")
+            nest.Connect(n1, sr1)
+            nest.Connect(n2, sr2)
+
+            # Run simulation
+            nest.Simulate(1000)
 
       .. md-tab-item:: Activity
 

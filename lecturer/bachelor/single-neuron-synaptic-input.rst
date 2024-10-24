@@ -32,6 +32,34 @@ should now explore all these aspects by performing the following numerical exper
 
          .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-1-1.png
 
+
+      .. md-tab-item:: Code
+
+         .. code-block:: Python
+
+            nest.ResetKernel()
+
+            # Set simulation kernel
+            nest.SetKernelStatus({
+               "resolution": 0.1,
+            })
+
+            # Create nodes
+            n1 = nest.Create("iaf_psc_alpha")
+            sg1 = nest.Create("spike_generator", params={
+               "spike_times": [200],
+            })
+            vm1 = nest.Create("voltmeter")
+
+            # Connect nodes
+            nest.Connect(sg1, n1, syn_spec={
+               "weight": 1154
+            })
+            nest.Connect(vm1, n1)
+
+            # Run simulation
+            nest.Simulate(1000)
+
       .. md-tab-item:: Activity
 
          .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-1-2.png
@@ -55,25 +83,99 @@ should now explore all these aspects by performing the following numerical exper
 
    .. md-tab-set::
 
-      .. md-tab-item:: Temporal integration: lab book
+      .. md-tab-item:: Temporal integration
 
-         |
+         .. md-tab-set::
 
-         .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-2a-1.png
+            .. md-tab-item:: Lab book
 
-      .. md-tab-item:: Temporal integration: activity
+               |
 
-         .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-2a-2.png
+               .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-2a-1.png
 
-      .. md-tab-item:: Spatial integration: lab book
+            .. md-tab-item:: Code
 
-         |
+               .. code-block:: Python
 
-         .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-2b-1.png
+                  nest.ResetKernel()
 
-      .. md-tab-item:: Spatial integration: activity
+                  # Set simulation kernel
+                  nest.SetKernelStatus({
+                     "resolution": 0.1,
+                  })
 
-         .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-2b-2.png
+                  # Create nodes
+                  n1 = nest.Create("iaf_psc_alpha")
+                  sg1 = nest.Create("spike_generator", params={
+                     "spike_times": [200,210,220,230],
+                  })
+                  vm1 = nest.Create("voltmeter", params={
+                     "interval": 0.1,
+                  })
+
+                  # Connect nodes
+                  nest.Connect(sg1, n1)
+                  nest.Connect(vm1, n1)
+
+                  # Run simulation
+                  nest.Simulate(1000)
+
+            .. md-tab-item:: Activity
+
+               .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-2a-2.png
+
+      .. md-tab-item:: Spatial integration
+
+         .. md-tab-set::
+
+            .. md-tab-item:: Lab book
+
+               |
+
+               .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-2b-1.png
+
+            .. md-tab-item:: Code
+
+               .. code-block:: Python
+
+                  nest.ResetKernel()
+
+                  # Set simulation kernel
+                  nest.SetKernelStatus({
+                     "resolution": 0.1,
+                  })
+
+                  # Create nodes
+                  n1 = nest.Create("iaf_psc_alpha")
+                  sg1 = nest.Create("spike_generator", params={
+                     "spike_times": [200],
+                  })
+                  sg2 = nest.Create("spike_generator", params={
+                     "spike_times": [210],
+                  })
+                  sg3 = nest.Create("spike_generator", params={
+                     "spike_times": [220],
+                  })
+                  sg4 = nest.Create("spike_generator", params={
+                     "spike_times": [230],
+                  })
+                  vm1 = nest.Create("voltmeter", params={
+                     "interval": 0.1,
+                  })
+
+                  # Connect nodes
+                  nest.Connect(sg1, n1)
+                  nest.Connect(sg2, n1)
+                  nest.Connect(sg3, n1)
+                  nest.Connect(sg4, n1)
+                  nest.Connect(vm1, n1)
+
+                  # Run simulation
+                  nest.Simulate(1000)
+
+            .. md-tab-item:: Activity
+
+               .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-2b-2.png
 
 |
 

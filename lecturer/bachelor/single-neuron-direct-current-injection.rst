@@ -33,6 +33,39 @@ deflection) of the membrane potential that follows a threshold crossing.
 
          .. image:: /_static/img/screenshots/lecture/single-neuron-direct-current-injection-1-1.png
 
+      .. md-tab-item:: Code
+
+         .. code-block:: Python
+
+            nest.ResetKernel()
+
+            # Set simulation kernel
+            nest.SetKernelStatus({
+               "resolution": 0.1,
+            })
+
+            # Create nodes
+            n1 = nest.Create("iaf_psc_alpha")
+            dc1 = nest.Create("dc_generator", params={
+               "amplitude": 1,
+               "start": 100,
+               "stop": 400,
+            })
+            dc2 = nest.Create("dc_generator", params={
+               "amplitude": -1,
+               "start": 600,
+               "stop": 900,
+            })
+            vm1 = nest.Create("voltmeter")
+
+            # Connect nodes
+            nest.Connect(dc1, n1)
+            nest.Connect(dc2, n1)
+            nest.Connect(vm1, n1)
+
+            # Run simulation
+            nest.Simulate(1000)
+
       .. md-tab-item:: Activity
 
          .. image:: /_static/img/screenshots/lecture/single-neuron-direct-current-injection-1-2.png
@@ -58,6 +91,42 @@ deflection) of the membrane potential that follows a threshold crossing.
          |
 
          .. image:: /_static/img/screenshots/lecture/single-neuron-direct-current-injection-2-1.png
+
+
+      .. md-tab-item:: Code
+
+         .. code-block:: Python
+
+            nest.ResetKernel()
+
+            # Set simulation kernel
+            nest.SetKernelStatus({
+               "resolution": 0.1,
+            })
+
+            # Create nodes
+            n1 = nest.Create("iaf_psc_alpha", params={
+               "tau_m": 10
+            })
+            n2 = nest.Create("iaf_psc_alpha", params={
+               "tau_m": 20
+            })
+            dc1 = nest.Create("dc_generator", params={
+               "mean": 1,
+               "start": 100,
+               "stop": 600,
+            })
+            vm1 = nest.Create("voltmeter")
+            vm2 = nest.Create("voltmeter")
+
+            # Connect nodes
+            nest.Connect(dc1, n1)
+            nest.Connect(dc1, n2)
+            nest.Connect(vm1, n1)
+            nest.Connect(vm2, n2)
+
+            # Run simulation
+            nest.Simulate(1000)
 
       .. md-tab-item:: Activity
 

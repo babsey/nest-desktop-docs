@@ -30,6 +30,36 @@ You can now employ the Poisson generator functionality of NEST to explore the re
 
          .. image:: /_static/img/screenshots/lecture/single-neuron-poisson-input-1-1.png
 
+      .. md-tab-item:: Code
+
+         .. code-block:: Python
+
+            nest.ResetKernel()
+
+            # Set simulation kernel
+            nest.SetKernelStatus({
+               "resolution": 0.1,
+            })
+
+            # Create nodes
+            n1 = nest.Create("iaf_psc_alpha", 100)
+            pg1 = nest.Create("poisson_generator", params={
+               "rate": 67000,
+            })
+            vm1 = nest.Create("voltmeter")
+            sr1 = nest.Create("spike_recorder")
+
+            # Connect nodes
+            nest.Connect(pg1, n1)
+            nest.Connect(n1, sr1)
+            nest.Connect(vm1, n1, conn_spec={
+               "rule": "fixed_outdegree",
+               "outdegree": 1,
+            })
+
+            # Run simulation
+            nest.Simulate(1000)
+
       .. md-tab-item:: Activity
 
          .. image:: /_static/img/screenshots/lecture/single-neuron-poisson-input-1-2.png
@@ -57,10 +87,53 @@ You can now employ the Poisson generator functionality of NEST to explore the re
 
          .. image:: /_static/img/screenshots/lecture/single-neuron-poisson-input-2-1.png
 
+      .. md-tab-item:: Code
+
+         .. code-block:: Python
+
+            nest.ResetKernel()
+
+            # Set simulation kernel
+            nest.SetKernelStatus({
+               "resolution": 0.1,
+            })
+
+            # Create nodes
+            n1 = nest.Create("iaf_psc_alpha", 100)
+            n2 = nest.Create("iaf_psc_alpha", 100)
+            pg1 = nest.Create("poisson_generator", params={
+               "rate": 70000,
+            })
+            pg2 = nest.Create("poisson_generator", params={
+               "rate": 700,
+            })
+            sr1 = nest.Create("spike_recorder")
+            sr2 = nest.Create("spike_recorder")
+            vm1 = nest.Create("voltmeter")
+            vm2 = nest.Create("voltmeter")
+
+            # Connect nodes
+            nest.Connect(pg1, n1)
+            nest.Connect(pg2, n2, syn_spec={
+               "weight": 100,
+            })
+            nest.Connect(n1, sr1)
+            nest.Connect(n2, sr2)
+            nest.Connect(vm1, n1, conn_spec={
+               "rule": "fixed_outdegree",
+               "outdegree": 1,
+            })
+            nest.Connect(vm2, n2, conn_spec={
+               "rule": "fixed_outdegree",
+               "outdegree": 1,
+            })
+
+            # Run simulation
+            nest.Simulate(1000)
+
       .. md-tab-item:: Activity
 
          .. image:: /_static/img/screenshots/lecture/single-neuron-poisson-input-2-2.png
-
 
 |
 
@@ -93,17 +166,52 @@ You can now employ the Poisson generator functionality of NEST to explore the re
 
          .. image:: /_static/img/screenshots/lecture/single-neuron-poisson-input-3-1.png
 
-      .. md-tab-item:: Activity: rate = 10 Hz
+      .. md-tab-item:: Code
 
-         .. image:: /_static/img/screenshots/lecture/single-neuron-poisson-input-3-2.png
+         .. code-block:: Python
 
-      .. md-tab-item:: Activity: rate = 100 Hz
+            nest.ResetKernel()
 
-         .. image:: /_static/img/screenshots/lecture/single-neuron-poisson-input-3-3.png
+            # Set simulation kernel
+            nest.SetKernelStatus({
+               "resolution": 0.1,
+            })
 
-      .. md-tab-item:: Activity: rate = 1000 Hz
+            # Create nodes
+            n1 = nest.Create("iaf_psc_alpha")
+            pg1 = nest.Create("poisson_generator", params={
+               "rate": 10,
+            })
+            pg2 = nest.Create("poisson_generator", params={
+               "rate": 10,
+            })
+            vm1 = nest.Create("voltmeter")
 
-         .. image:: /_static/img/screenshots/lecture/single-neuron-poisson-input-3-4.png
+            # Connect nodes
+            nest.Connect(pg1, n1, syn_spec={
+               "weight": -1,
+            })
+            nest.Connect(pg2, n1)
+            nest.Connect(vm1, n1)
+
+            # Run simulation
+            nest.Simulate(1000)
+
+      .. md-tab-item:: Activity
+
+         .. md-tab-set::
+
+            .. md-tab-item:: Rate: 10 Hz
+
+               .. image:: /_static/img/screenshots/lecture/single-neuron-poisson-input-3-2.png
+
+            .. md-tab-item:: Rate: 100 Hz
+
+               .. image:: /_static/img/screenshots/lecture/single-neuron-poisson-input-3-3.png
+
+            .. md-tab-item:: Rate: 1000 Hz
+
+               .. image:: /_static/img/screenshots/lecture/single-neuron-poisson-input-3-4.png
 
 
 |
