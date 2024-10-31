@@ -3,7 +3,16 @@
    :class-container: timeline
    :gutter: 0
 
-   .. grid-item-card:: v3.3.x
+   .. grid-item::
+      :class: left
+
+   .. grid-item-card:: v4.0
+      :class-item: entry right
+      :text-align: left
+
+      Upgrade web framework, plugin-based architecture for multiple backends, and node groups
+
+   .. grid-item-card:: v3.3
       :class-item: entry left
       :text-align: right
 
@@ -15,13 +24,13 @@
    .. grid-item::
       :class: left
 
-   .. grid-item-card:: v3.2.x
+   .. grid-item-card:: v3.2
       :class-item: entry right
       :text-align: left
 
       Introduce copy models, compartmental neurons, synapse weight recordings, code templates and backend status.
 
-   .. grid-item-card:: v3.1.x
+   .. grid-item-card:: v3.1
       :class-item: entry left
       :text-align: right
 
@@ -46,7 +55,7 @@
    .. grid-item::
       :class: left
 
-   .. grid-item-card:: v3.0.x
+   .. grid-item-card:: v3.0
       :class-item: entry right
       :text-align: left
 
@@ -66,7 +75,7 @@
 
             .. image:: /_static/img/screenshots/releases/v3.0-model_view.png
 
-   .. grid-item-card:: v2.5.x
+   .. grid-item-card:: v2.5
       :class-item: entry left
       :text-align: right
 
@@ -89,7 +98,7 @@
    .. grid-item::
       :class: left
 
-   .. grid-item-card:: v2.4.x
+   .. grid-item-card:: v2.4
       :class-item: entry right
       :text-align: left
 
@@ -105,7 +114,7 @@
 
             .. image:: /_static/img/screenshots/releases/v2.4-code-editor.png
 
-   .. grid-item-card:: v2.3.x
+   .. grid-item-card:: v2.3
       :class-item: entry left
       :text-align: right
 
@@ -116,7 +125,7 @@
    .. grid-item::
       :class: left
 
-   .. grid-item-card:: v2.2.x
+   .. grid-item-card:: v2.2
       :class-item: entry right
       :text-align: left
 
@@ -137,7 +146,7 @@
             .. image:: /_static/img/screenshots/releases/v2.2-spike_activity.png
 
 
-   .. grid-item-card:: v2.1.x
+   .. grid-item-card:: v2.1
       :class-item: entry left
       :text-align: right
 
@@ -154,7 +163,7 @@
    .. grid-item::
       :class: left
 
-   .. grid-item-card:: v2.0.x
+   .. grid-item-card:: v2.0
       :class-item: entry right
       :text-align: left
 
