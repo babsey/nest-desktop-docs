@@ -104,18 +104,18 @@ When a new Python package is released, we can change the version in ``meta.yaml`
 Then make a pull request on the base branch of this repository.
 
 
-.. _production-electron:
+.. _production-appImage:
 
-Electron (``.deb`` package)
+AppImage (``.appImage`` package)
 ---------------------------
 
 In ``package.json``, there are also yarn commands configured to build an Electron app.
 
 .. code-block:: bash
 
-   yarn app:build
+   yarn app:build --linux appImage
 
-Then install the ``.deb`` file on your Linux system.
+Then upload the ``.appImage`` file to the release on https://github.com/nest-desktop/nest-desktop-AppImage.
 
 .. seeAlso::
    If you want to build other Electron packages, please have a look into ``electron-builder.yml`` file.
