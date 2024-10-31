@@ -15,6 +15,14 @@ learning-compatible spiking neural network components.
 
 The API Server for Norse Simulator is referred to as **Norse Server**.
 
+.. note::
+   Before you start :code:`norse-server`, you are able to set these environment variables in bash:
+
+   .. code-block:: bash
+
+      export NEST_SERVER_DISABLE_RESTRICTION=1
+
+
 Conda
 -----
 
@@ -38,3 +46,11 @@ Conda
       norse-server start
 
 Norse Server is now running at http://localhost:11428.
+
+.. info::
+
+   Disable restriction
+
+   .. code-block:: bash
+
+      export NORSE_SERVER_DISABLE_RESTRICTION=1
