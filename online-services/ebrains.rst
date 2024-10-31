@@ -1,7 +1,7 @@
 .. _nest-desktop-on-ebrains:
 
-NEST Desktop on EBRAINS
-=======================
+EBRAINS
+=======
 
 .. grid:: 2
 
@@ -18,11 +18,25 @@ NEST Desktop on EBRAINS
 **Requirements**
    - `EBRAINS account <https://www.ebrains.eu/page/sign-up>`__
 
-**Steps on EBRAINS**
-   #. Go to `NEST Desktop on EBRAINS <https://www.ebrains.eu/tools/nest-desktop>`__.
+
+.. _ebrains-steps:
+
+Steps
+^^^^^
+
+.. grid:: 2
+   :gutter: 1
+
+   .. grid-item::
+      :columns: 4
+
+      #. Go to `NEST Desktop on EBRAINS <https://www.ebrains.eu/tools/nest-desktop>`__.
+
+      #. Click on :bdg:`Launch online` button.
+
+      #. Login with your EBRAINS account.
+
+   .. grid-item::
+      :columns: 8
 
       .. image:: /_static/img/screenshots/online-services/ebrains-tools.png
-
-   #. Click on :bdg:`Launch online` button.
-
-   #. Login with your EBRAINS account.

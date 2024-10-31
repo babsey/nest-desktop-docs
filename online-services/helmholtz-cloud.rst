@@ -1,13 +1,7 @@
 .. _nest-desktop-on-helmholtz-cloud:
 
-NEST Desktop on Helmholtz Cloud
-===============================
-
-.. note::
-   It is in development stage. It means that selected institutions are permitted to access NEST Desktop on Helmholtz
-   Cloud.
-
-|
+Helmholtz Cloud
+===============
 
 .. grid:: 2
 
@@ -28,11 +22,16 @@ NEST Desktop on Helmholtz Cloud
    institutions all over the world, so your international research partners can do the same. This enables you to
    collaborate seamlessly.
 
+   For more information, please read the use-case: https://hifis.net/use-case/2024/01/24/uc-nest.html
 
-**Steps on Helmholtz Cloud**
-   #. Go to `NEST Desktop on Helmholtz Cloud <https://nest-desktop.helmholtz-cloud.desy.de/>`__.
+.. _helmholtz-cloud-steps:
 
-   #. Login with your account via Helmholtz AAI.
+Steps
+^^^^^
+
+#. Go to `NEST Desktop on Helmholtz Cloud <https://nest-desktop.helmholtz-cloud.desy.de/>`__.
+
+#. Login with your account via Helmholtz AAI.
 
 
 Acknowledgements

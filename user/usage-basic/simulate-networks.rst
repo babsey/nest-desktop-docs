@@ -1,13 +1,17 @@
-Step 2: Simulate
-----------------
 
 .. grid:: 2
+   :gutter: 1
 
-   .. grid-item-card:: Simulate networks
+   .. grid-item::
       :columns: 7
 
-      You can click on the :bdg:`SIMULATE` button to start the simulation of your network. In the code editor you can
-      inspect the generated script code.
+      .. grid:: 1
+         :gutter: 1
+
+         .. grid-item-card:: Step 2: Simulate networks
+
+            You can click on the :bdg:`SIMULATE` button to start the simulation of your network. In the code editor you can
+            inspect the generated script code.
 
    .. grid-item::
       :child-align: center

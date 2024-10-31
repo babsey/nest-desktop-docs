@@ -1,8 +1,8 @@
 .. _basic-usage-guide:
 
-=================
-Basic Usage Guide
-=================
+=========================
+|usage| Basic Usage Guide
+=========================
 
 This is a basic usage guide for the Graphical User Interface (GUI) of NEST Desktop.
 
@@ -11,34 +11,26 @@ This is a basic usage guide for the Graphical User Interface (GUI) of NEST Deskt
 
 |
 
+.. _usage-basic-video-tutorial:
+
 Video tutorial
 ==============
 
-.. _first-steps:
+The video shows the first steps to construct a network and explore its activity.
 
-.. card:: First steps
+.. note::
+   This video shows older NEST Desktop (v3.1). Some components might look differently but they can be interpreted for
+   the new one.
 
-   The video shows the first steps to construct a network and explore its activity.
+.. raw:: html
+   :file: ../../templates/iframe-first-steps.html
 
-   .. raw:: html
-      :file: ../../templates/iframe-first-steps.html
+|
 
-You can tryout NEST Desktop as a restricted `live demo <https://nest-desktop.github.io/app>`__ without the simulation
-backend.
+.. _usage-basic-first-steps:
 
-----
-
-.. _conceptual-approach:
-
-Conceptual approach
-===================
-
-NEST Desktop enables to construct a neuronal network model graphically and to perform a simulation experiment.
-Thus, no programming skills are required.
-
-.. image:: /_static/img/edited/conceptual-approach.png
-   :target: #conceptual-approach
-   :width: 100%
+First steps
+===========
 
 .. _usage-basic-construct-networks:
 

@@ -22,7 +22,7 @@ Requirements:
   - `OC Client Tools <https://www.okd.io/download.html#oc-platforms>`__
 
 
-.. _deploy-openshift_deploy-nest-desktop-on-ebrains:
+.. _deploy-openshift-deploy-nest-desktop-on-ebrains:
 
 Deploy NEST Desktop on EBRAINS
 ------------------------------
@@ -47,7 +47,7 @@ Deploy NEST Desktop on EBRAINS
 .. note::
    We strongly recommend to use the development page for testing.
 
-.. _deploy-openshift_register-client-for-authentication-on-ebrains:
+.. _deploy-openshift-register-client-for-authentication-on-ebrains:
 
 Register client for authentication on EBRAINS
 ---------------------------------------------
@@ -69,7 +69,7 @@ Change the configuration file and then create a client for your application.
 
 Keep ``client_id`` and ``client_secret`` for the **okd** infrastructure.
 
-.. _deploy-openshift_build-nest-desktop-on-ebrains:
+.. _deploy-openshift-build-nest-desktop-on-ebrains:
 
 Build NEST Desktop on EBRAINS
 -----------------------------
@@ -97,7 +97,7 @@ Execute the bash script to deploy the ``nest-desktop``, ``nest-server`` and ``ap
 
    bash setup-nest-desktop.sh
 
-.. _deploy-openshift_further-usage:
+.. _deploy-openshift-further-usage:
 
 Further usage
 -------------

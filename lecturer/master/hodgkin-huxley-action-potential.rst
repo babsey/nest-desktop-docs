@@ -22,7 +22,7 @@ other circumstantial factors matter during this process. You will now perform si
    perform intracellular recordings to document the membrane response in both cases. Make sure the current is weak
    enough to not elicit a spike.
 
----
+----
 
 2. For strong-enough DC input current the HH model neuron will fire a train of action potentials. Inspect the spike
    waveform carefully and relate it to the spikes generated in a LIF neuron. The following keywords might guide your
@@ -30,11 +30,12 @@ other circumstantial factors matter during this process. You will now perform si
    time, relative refractory time. Is the spike waveform of the HH neuron really the same for different input scenarios
    (e.g. weak vs. strong current)?
 
----
+----
 
 3. Use a spike recorder to characterize the spiking response to superthreshold current input. The goal is again to
    characterize the neuron by a curve that depicts the firing rate response as a function of the applied current.
 
+----
 
 NEST Desktop offers different neuron models. Here you should select :code:`hh_psc_alpha` and compare its behavior to the
 simpler :code:`iaf_psc_alpha` model that we have studied previously. As these two models have an entirely different
@@ -78,6 +79,7 @@ channels eventually hyperpolarizes the membrane towards the reversal potential o
    What happens if you only partially knock-out these channels by setting them to a non-zero, but reduced value?
    Formulate and explain your expectations before you perform the experiments.
 
+----
 
 NEST Desktop allows you to record the activation of :code:`h`, :code:`m` and :code:`n` particles directly, using a
 :code:`multimeter`. In a biological neuron, this would never be possible. To assess their dynamics, multiple separate
@@ -93,9 +95,10 @@ waveform is kick-started and cannot be stopped any more. But what exactly are th
 perform some numerical simulations to address this question:
 
 ----
-1. Identify the “spike threshold” of a HH neuron based on the input-output function you generated above. Zoom into
-   the threshold regime by performing more simulations just below and just above threshold. Does the HH neuron
-   exhibit “type I” behavior or “type II” behavior?
+
+1. Identify the “spike threshold” of a HH neuron based on the input-output function you generated above. Zoom into the
+   threshold regime by performing more simulations just below and just above threshold. Does the HH neuron exhibit “type
+   I” behavior or “type II” behavior?
 
 ----
 

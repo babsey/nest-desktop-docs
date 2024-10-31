@@ -9,10 +9,14 @@ NEST Desktop
 
       Hello there! :-)
 
-      NEST Desktop is a web-based GUI application for NEST Simulator,
-      an advanced simulation tool for the computational neuroscience.
+      NEST Desktop is a web-based GUI application for NEST Simulator, an advanced simulation tool for the computational
+      neuroscience.
 
       It's so great that you want to use NEST Desktop!
+
+      |
+
+      First time here? You can watch :ref:`usage-basic-video-tutorial` or make :ref:`usage-basic-first-steps`.
 
    .. grid-item::
       :columns: 4
@@ -23,11 +27,10 @@ NEST Desktop
 
 ----
 
-Content structure
------------------
+Guides
+------
 
-The documentation is organized in four sections.
-Select the appropriate section that fits your needs:
+The documentation is organized in four sections. Select the appropriate section that fits your needs:
 
 .. grid:: 2
    :gutter: 2
@@ -108,20 +111,19 @@ Select the appropriate section that fits your needs:
          .. grid-item::
             :columns: 10
 
-            The developer learns the source code architecture of NEST Desktop and how to contribute code or
-            enhancements to the project.
+            The developer learns the source code architecture of NEST Desktop and how to contribute code or enhancements
+            to the project.
 
 .. note::
-   On ReadTheDocs, it is possible to select versions of this documentation.
-   These versions basically relate to the program versions (as found in the GitHub repository).
-   This can be noticed when clicking on the "Edit on GitHub" text at the top right.
+   On ReadTheDocs, it is possible to select versions of this documentation. These versions basically relate to the
+   program versions (as found in the GitHub repository).
 
-   Since the changes between patch level versions (e.g. 3.0.0 and 3.0.1) are usually not noticeable,
-   we show a single branch for the recent minor version releases (e.g. '3.0' for all 3.0.x releases).
-   This branch contains all patch releases and always points to the latest patch release of that release branch.
-   Please keep this in mind when searching for information on a specific version of NEST Desktop!
+   Since the changes between patch level versions (e.g. 3.0.0 and 3.0.1) are usually not noticeable, we show a single
+   branch for the recent minor version releases (e.g. '3.0' for all 3.0.x releases). This branch contains all patch
+   releases and always points to the latest patch release of that release branch. Please keep this in mind when
+   searching for information on a specific version of NEST Desktop!
 
-----
+|
 
 .. include:: badges.rst
 

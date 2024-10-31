@@ -9,7 +9,7 @@ Currently, we build NEST Desktop for multiple targets and publish them on variou
    It might also be helpful to have a look at the commands defined in ``package.json``.
 
 
-.. _production_python:
+.. _production-python:
 
 Python
 ------
@@ -24,7 +24,7 @@ Building and pushing NEST Desktop on `PyPI <https://pypi.org/project/nest-deskto
 production. After that, Docker Hub can upgrade NEST Desktop in the provided Docker image.
 
 Requirements
-  - setuptools, wheel, twine
+  - build, twine
 
 The Python Package Index **nest-desktop** includes an executive command ``nest-desktop`` and a Python library
 ``nest_desktop``.
@@ -35,9 +35,10 @@ Build
 The current working directory is ``nest-desktop``.
 
 The building phase contains two steps:
-First, build a package of NEST Desktop using ``vue-cli-service``.
 
-Initially, you have to upgrade the version of nest-desktop in:
+The first step is to build a package of NEST Desktop using ``vite``.
+
+Initially, you have to upgrade the version of NEST Desktop in:
 
 - ``packages.json``
 - ``nest_desktop/__init__.py``
@@ -52,13 +53,13 @@ The second step is to build a pip package for PyPI:
 
 .. code-block:: bash
 
-   rm -rf build/ dist/ nest_desktop.egg-info/
+   yarn clean
 
-Then generate the distribution packages of `nest-desktop` for PyPI:
+The second step is to build the Python packages of `nest-desktop` for PyPI:
 
 .. code-block:: bash
 
-   python3 setup.py sdist bdist_wheel
+   python3 -m build -o pydist
 
 |
 
@@ -69,17 +70,17 @@ Finally, the package is ready for the the publication. You can upload the pip-pa
 
 .. code-block:: bash
 
-   python3 -m twine upload dist/*
+   python3 -m twine upload pydist/*
 
 Do not forget to commit the changes you made and set a new version tag in git.
 
 .. code-block:: bash
 
-   git tag -a v3.0 -m 'v3.0.0'
+   git tag -a v4.0 -m 'v4.0.0'
    git push --tags
 
 
-.. _production_conda:
+.. _production-conda:
 
 Conda
 -----
@@ -95,7 +96,7 @@ When a new Python package is released, we can change the version in ``meta.yaml`
 
 .. code-block::
 
-   {% set version = "3.x.y" %}
+   {% set version = "4.x.y" %}
 
 .. note::
    It is also important to change the ``sha256`` checksum of the source of ``tar.gz`` file.
@@ -103,22 +104,24 @@ When a new Python package is released, we can change the version in ``meta.yaml`
 Then make a pull request on the base branch of this repository.
 
 
-.. _production_electron:
+.. _production-appImage:
 
-Electron (``.deb`` package)
+AppImage (``.appImage`` package)
 ---------------------------
 
 In ``package.json``, there are also yarn commands configured to build an Electron app.
 
 .. code-block:: bash
 
-   yarn electron:build
+   yarn app:build --linux appImage
 
-Then install the ``.deb`` file on your Linux system.
+Then upload the ``.appImage`` file to the release on https://github.com/nest-desktop/nest-desktop-AppImage.
 
 .. seeAlso::
    If you want to build other Electron packages, please have a look into ``electron-builder.yml`` file.
 
+
+.. _production-snap:
 
 Snap (``.snap`` package)
 ------------------------
@@ -134,7 +137,7 @@ Then install the snap file locally:
 
 .. code-block:: bash
 
-   sudo snapcraft install <snap-file> --dangerous
+   sudo snap install <snap-file> --dangerous
 
 Finally, upload the snap file:
 

@@ -17,9 +17,9 @@ terminated (“go/nogo”).
 
 To explore decision making with computer simulations, we recommend that you start with the network models that were
 prepared for the course. In the navigation sidebar on the left, click with the right mouse button on the projects icon
-(contains a brain symbol). Then choose the option "Import projects" (icon: arrow pointing upwards) from the dropdown
-menu (three vertical dots) and import the file provided in the repository (tba). This is, by the way, a general method
-with which you can share models with others, including all settings and parameters.
+(|network|). Then choose the option "Import projects" (|import|) from the dropdown menu (|dots-vertical|) and import the
+file provided in the repository. This is, by the way, a general method with which you can share models with others,
+including all settings and parameters.
 
 |
 
@@ -46,7 +46,7 @@ one. There are different possibilities how this can be achieved.
 2. What is the exact role of the inhibitory population in the competition process? How does the activation of inhibitory
    neurons reflect a decision?
 
-|
+----
 
 Decision making in EII networks
 -------------------------------
@@ -69,7 +69,7 @@ population (b, light blue).
 2. What is the exact role of the excitatory population in this process? How does the activation of excitatory neurons
    reflect a decision?
 
-|
+----
 
 Decision making
 ---------------

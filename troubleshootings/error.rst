@@ -7,7 +7,7 @@ NEST Desktop cannot find the NEST Simulator.
 It has two possible reasons:
 
 - NEST Desktop has a wrong URL under which it tries to contact the server.
-  (|see| the :doc:`FAQ for NEST Simulator </troubleshootings/nest-simulator>`.)
+  (|see| the :doc:`FAQ for NEST Simulator </troubleshootings/backends>`.)
 
 - NEST Server is not running. Try to (re-)start NEST Server.
 
@@ -43,8 +43,8 @@ Gateway Time-out
 ----------------
 This means that the NEST Server did not receive a response from the NEST Simulator within a certain period of time.
 
-If you are using `NEST Desktop on EBRAINS <https://nest-desktop.apps.hbp.eu>`__: Our setup on EBRAINS is not ready for
-bigger simulations and may lead to this error if it takes too long.
+If you are using `NEST Desktop on EBRAINS <https://www.ebrains.eu/tools/nest-desktop>`__: Our setup on EBRAINS is not
+ready for bigger simulations and may lead to this error if it takes too long.
 
 Please reduce the load, e.g. by reducing the population size or the simulating time. It also helps to use a bigger
 simulation resolution.

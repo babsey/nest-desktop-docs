@@ -25,7 +25,7 @@ How can I download a plot of the chart?
 Where can I find the activity controller?
    You can find the activity controller by clicking on the `chart` icon on the right side.
 
-How can I modify the bin size of the PSTH?
+How can I modify the bin size?
    In the chart controller you will find a tick slider to modify the bin size.
 
 How can I change the labeling of axes or the title?

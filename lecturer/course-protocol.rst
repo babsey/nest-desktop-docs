@@ -22,25 +22,19 @@ four aspects:
 
 .. card::
 
-   1. **What is the scientific question or problem that is approached by the simulation?**
+   #. **What is the scientific question or problem that is approached by the simulation?**
       Use correct terminology in descriptions. Keep neurobiological aspects and mathematical modeling concepts apart.
 
-   ----
-
-   2. **Which exact simulation setup was used to answer this question?**
+   #. **Which exact simulation setup was used to answer this question?**
       List and describe all its components (e.g. neurons, devices), specify how they are connected together (e.g.
       electrodes, synapses), and provide tables of all relevant parameters. Default settings need to be stated at the
       beginning of each section. The goal is to make simulations fully reproducible.
 
-   ----
-
-   3. **What was the outcome of the simulations performed?**
+   #. **What was the outcome of the simulations performed?**
       A meaningful set of figures should be selected to underpin the outcome of the simulations. In most cases, figures
       are helpful to illustrate the text-based description of the role of a specific parameter for the behavior of the
       system in question (e.g. a neuron, a network).
 
-   ----
-
-   4. **What are the conclusions in view of the simulation results?**
+   #. **What are the conclusions in view of the simulation results?**
       Based on the simulation results obtained, formulate appropriate answers to the original questions. Distinguish
       aspects of biology/biophysics and possible issues (e.g. shortcomings) of the numerical model.

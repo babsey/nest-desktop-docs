@@ -13,46 +13,180 @@ should now explore all these aspects by performing the following numerical exper
 
 ----
 
-.. card::
+.. question::
 
-   .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-1.png
+   1. Devise a simulation method to study single postsynaptic potentials. Which simulation parameter reflects the
+      “strength” of a synapse? Systematically explore the effect of activating single excitatory and inhibitory
+      synapses.
 
-1. Devise a simulation method to study single postsynaptic potentials. Which simulation parameter reflects the
-   “strength” of a synapse? Systematically explore the effect of activating single excitatory and inhibitory synapses.
+      Under which conditions can activating a single synapse elicit an output spike?
 
-   Under which conditions can activating a single synapse elicit an output spike?
+.. example::
+   :collapsible:
 
-----
+   .. md-tab-set::
 
-.. card-carousel:: 1
+      .. md-tab-item:: Lab book
 
-   .. card::
+         |
 
-      .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-2a.png
+         .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-1-1.png
 
-   .. card::
 
-      .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-2b.png
+      .. md-tab-item:: Code
 
-2. Multiple PSPs elicited in rapid succession at one and the same synapse add up to a compound signal if they
-   sufficiently overlap in time. This phenomenon is called “temporal integration”.
+         .. code-block:: Python
 
-   Multiple PSPs elicited at different synapses are also superimposed, all contributing to the membrane potential of the
-   postsynaptic neuron. This is called “spatial integration”.
+            nest.ResetKernel()
 
-   Design a set of experiments to illustrate the phenomena of temporal and spatial synaptic integration in the
-   subthreshold regime. Which parameters of the neuron are mainly responsible for the temporal overlap between
-   individual PSPs?
+            # Set simulation kernel
+            nest.SetKernelStatus({
+               "resolution": 0.1,
+            })
 
-----
+            # Create nodes
+            n1 = nest.Create("iaf_psc_alpha")
+            sg1 = nest.Create("spike_generator", params={
+               "spike_times": [200],
+            })
+            vm1 = nest.Create("voltmeter")
 
-.. .. card::
+            # Connect nodes
+            nest.Connect(sg1, n1, syn_spec={
+               "weight": 1154
+            })
+            nest.Connect(vm1, n1)
 
-3. A hallmark of the LIF model, which is shared by many biological neurons, is the linearity of temporal and spatial
-   integration. The membrane potential response to a combined input is just the sum of the individual responses to the
-   individual inputs, as long as all of them remain subthreshold. Design an experiment that demonstrates the linearity
-   of synaptic integration for the LIF neuron model. Does linearity also hold for superthreshold inputs that lead to
-   action potential firing?
+            # Run simulation
+            nest.Simulate(1000)
+
+      .. md-tab-item:: Activity
+
+         .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-1-2.png
+
+|
+
+.. question::
+
+   2. Multiple PSPs elicited in rapid succession at one and the same synapse add up to a compound signal if they
+      sufficiently overlap in time. This phenomenon is called “temporal integration”.
+
+      Multiple PSPs elicited at different synapses are also superimposed, all contributing to the membrane potential of
+      the postsynaptic neuron. This is called “spatial integration”.
+
+      Design a set of experiments to illustrate the phenomena of temporal and spatial synaptic integration in the
+      subthreshold regime. Which parameters of the neuron are mainly responsible for the temporal overlap between
+      individual PSPs?
+
+.. example::
+   :collapsible:
+
+   .. md-tab-set::
+
+      .. md-tab-item:: Temporal integration
+
+         .. md-tab-set::
+
+            .. md-tab-item:: Lab book
+
+               |
+
+               .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-2a-1.png
+
+            .. md-tab-item:: Code
+
+               .. code-block:: Python
+
+                  nest.ResetKernel()
+
+                  # Set simulation kernel
+                  nest.SetKernelStatus({
+                     "resolution": 0.1,
+                  })
+
+                  # Create nodes
+                  n1 = nest.Create("iaf_psc_alpha")
+                  sg1 = nest.Create("spike_generator", params={
+                     "spike_times": [200,210,220,230],
+                  })
+                  vm1 = nest.Create("voltmeter", params={
+                     "interval": 0.1,
+                  })
+
+                  # Connect nodes
+                  nest.Connect(sg1, n1)
+                  nest.Connect(vm1, n1)
+
+                  # Run simulation
+                  nest.Simulate(1000)
+
+            .. md-tab-item:: Activity
+
+               .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-2a-2.png
+
+      .. md-tab-item:: Spatial integration
+
+         .. md-tab-set::
+
+            .. md-tab-item:: Lab book
+
+               |
+
+               .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-2b-1.png
+
+            .. md-tab-item:: Code
+
+               .. code-block:: Python
+
+                  nest.ResetKernel()
+
+                  # Set simulation kernel
+                  nest.SetKernelStatus({
+                     "resolution": 0.1,
+                  })
+
+                  # Create nodes
+                  n1 = nest.Create("iaf_psc_alpha")
+                  sg1 = nest.Create("spike_generator", params={
+                     "spike_times": [200],
+                  })
+                  sg2 = nest.Create("spike_generator", params={
+                     "spike_times": [210],
+                  })
+                  sg3 = nest.Create("spike_generator", params={
+                     "spike_times": [220],
+                  })
+                  sg4 = nest.Create("spike_generator", params={
+                     "spike_times": [230],
+                  })
+                  vm1 = nest.Create("voltmeter", params={
+                     "interval": 0.1,
+                  })
+
+                  # Connect nodes
+                  nest.Connect(sg1, n1)
+                  nest.Connect(sg2, n1)
+                  nest.Connect(sg3, n1)
+                  nest.Connect(sg4, n1)
+                  nest.Connect(vm1, n1)
+
+                  # Run simulation
+                  nest.Simulate(1000)
+
+            .. md-tab-item:: Activity
+
+               .. image:: /_static/img/screenshots/lecture/single-neuron-spike-input-2b-2.png
+
+|
+
+.. question::
+
+   3. A hallmark of the LIF model, which is shared by many biological neurons, is the linearity of temporal and spatial
+      integration. The membrane potential response to a combined input is just the sum of the individual responses to
+      the individual inputs, as long as all of them remain subthreshold. Design an experiment that demonstrates the
+      linearity of synaptic integration for the LIF neuron model. Does linearity also hold for superthreshold inputs
+      that lead to action potential firing?
+
 
 ----
 

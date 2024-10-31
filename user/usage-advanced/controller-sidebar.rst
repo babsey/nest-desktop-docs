@@ -1,10 +1,12 @@
+.. _controller-sidebar:
+
 Controller sidebar
-==================
+------------------
 
 .. _controller-sidebar-network-controller:
 
 Network controller
-------------------
+^^^^^^^^^^^^^^^^^^
 
 .. grid:: 2
 
@@ -14,9 +16,10 @@ Network controller
       The network controller displays cards of models, nodes and connections.
 
       .. seeAlso::
-         - :doc:`/user/usage-advanced/copy-model`
-         - :doc:`/user/usage-advanced/compartmental-neuron`
-         - :doc:`/user/usage-advanced/synapse-model`
+         - :doc:`/user/usage-advanced/nest/copy-model`
+
+         .. - :doc:`/user/usage-advanced/nest/compartmental-neuron`
+         .. - :doc:`/user/usage-advanced/nest/synapse-model`
 
    .. grid-item::
       :columns: 6
@@ -27,7 +30,7 @@ Network controller
 .. _controller-sidebar-kernel-settings:
 
 Kernel settings
----------------
+^^^^^^^^^^^^^^^
 
 The simulation parameters can be adjusted in the right sidebar. They are contained in the NEST Simulator code (more
 information below), so they will be passed to the NEST Simulator whenever a simulation is started.
@@ -63,12 +66,12 @@ information below), so they will be passed to the NEST Simulator whenever a simu
 .. _controller-sidebar-code-editor:
 
 Code editor
------------
+^^^^^^^^^^^
 
 .. grid:: 2
 
    .. grid-item::
-      :columns: 5
+      :columns: 6
 
       NEST Desktop generates textual code from the constructed network. The generated code can be executed in any Python
       interpreter. This way, the code semantics of the NEST Simulator is understandable and easy to learn. The script
@@ -88,7 +91,7 @@ Code editor
       positions, and activity events.
 
    .. grid-item::
-      :columns: 7
+      :columns: 6
 
       .. image:: /_static/img/screenshots/controller/code-editor.png
 
@@ -96,14 +99,14 @@ Code editor
 .. _controller-sidebar-activity-controller:
 
 Activity controller
--------------------
+^^^^^^^^^^^^^^^^^^^
 
 .. grid:: 2
 
    .. grid-item::
       :columns: 3
 
-      .. image:: /_static/img/screenshots/activity/activity-graph-mode.png
+      .. image:: /_static/img/screenshots/project/project-bar-activity-explorer.png
 
    .. grid-item::
       :columns: 9
@@ -115,13 +118,12 @@ Activity controller
 .. _controller-sidebar-activity-chart-controller:
 
 Activity chart controller
-^^^^^^^^^^^^^^^^^^^^^^^^^
+*************************
 
 Every chart panel has an own controller card fur individual customization. Other chart models can be chosen individually
 for each panel by clicking on the card toolbar in the activity controller.
 
-Analog signals
-**************
+**Analog signals**
 
 .. grid:: 2
 
@@ -141,8 +143,7 @@ Analog signals
 
       .. image:: /_static/img/screenshots/controller/activity-graph-panels-analog.png
 
-Spike activity
-**************
+**Spike activity**
 
 .. grid:: 2
 
@@ -160,7 +161,7 @@ Spike activity
 .. _controller-sidebar-activity-animation-controller:
 
 Activity animation controller
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*****************************
 
 .. grid:: 2
 
@@ -188,12 +189,12 @@ Activity animation controller
 .. _controller-sidebar-activity-statistics:
 
 Activity statistics
--------------------
+^^^^^^^^^^^^^^^^^^^
 
 .. grid:: 2
 
    .. grid-item::
-      :columns: 5
+      :columns: 6
 
       It displays multiple panels for each recording device. In each panel a table shows the activity statistics of
       recorded elements (rows) of a node (population).
@@ -204,7 +205,7 @@ Activity statistics
       In analog signals (e.g. membrane potentials), the columns show the mean and standard deviation of the values.
 
    .. grid-item::
-      :columns: 7
+      :columns: 6
 
-      .. image:: /_static/img/screenshots/controller/activity-stats.png
+      .. image:: /_static/img/screenshots/controller/activity-stats-spike.png
 

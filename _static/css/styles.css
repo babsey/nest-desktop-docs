@@ -1,3 +1,22 @@
+:root {
+  --nest-orange: #ff6633;
+}
+
+.md-header {
+  background-color: var(--nest-orange) !important;
+}
+
+@media screen and (max-width: 60em) {
+  .md-sidebar .md-nav__title {
+    background-color: var(--nest-orange) !important;
+  }
+}
+
+/* only override for dark/slate scheme */
+[data-md-color-scheme="slate"] .md-banner--warning {
+  background: var(--md-footer-bg-color);
+}
+
 .iframe-container {
   height: 0;
   height: auto;
@@ -16,6 +35,28 @@
 
 .md-grid {
   max-width: 73rem;
+}
+
+.events dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.events dt {
+  width: 150px;
+}
+
+.events dd {
+  margin: 0 !important;
+  width: calc(100% - 150px);
+}
+
+.events dd p {
+  margin: 0 !important;
+}
+
+.footnote p {
+  display: inline;
 }
 
 .card-img {
@@ -51,4 +92,14 @@
 
 .timeline .entry.right::before {
   left: -0.55em;
+}
+
+.timeline .left.year {
+  text-align: right;
+}
+
+.timeline .year p {
+  font-size: 28px;
+  line-height: 60px;
+  margin: 0 32px;
 }

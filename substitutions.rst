@@ -1,37 +1,3 @@
-.. |deployer| raw:: html
-
-    <i class="fa-solid fa-user-gear"></i>
-
-.. |developer| raw:: html
-
-    <i class="fa-solid fa-user-pen"></i>
-
-.. |lecturer| raw:: html
-
-    <i class="fa-solid fa-user-graduate"></i>
-
-.. |user| raw:: html
-
-    <i class="fa-solid fa-user"></i>
-
-
-.. |macOS| raw:: html
-
-    <i class="fa-brands fa-apple"></i>
-
-.. |linux| raw:: html
-
-    <i class="fa-brands fa-linux"></i>
-
-.. |python| raw:: html
-
-    <i class="fa-brands fa-python"></i>
-
-.. |windows| raw:: html
-
-    <i class="fa-brands fa-windows"></i>
-
-
 .. |appImage| image:: /_static/img/logo/AppImage-logo.svg
    :alt: appImage
    :target: #
@@ -62,110 +28,142 @@
    :target: #
    :width: 80px
 
-
-
-
-.. |axis-arrow| image:: /_static/img/icons/axis-arrow.svg
-   :alt: axis-arrow
-   :height: 17.6px
+.. |nest| image:: /_static/img/logo/nest-logo.png
+   :alt: nest
+   :height: 80px
    :target: #
 
-.. |chart-line| image:: /_static/img/icons/chart-bell-curve-cumulative.svg
-   :alt: chart-line
-   :height: 17.6px
+.. |nestml| image:: /_static/img/logo/nestml-logo.png
+   :alt: nestml
+   :height: 80px
    :target: #
 
-.. |chart-scatter-plot| image:: /_static/img/icons/chart-scatter-plot.svg
-   :alt: chart-scatter-plot
-   :height: 17.6px
+.. |norse| image:: /_static/img/logo/norse-logo.png
+   :alt: norse
+   :height: 80px
    :target: #
 
-.. |close| image:: /_static/img/icons/close-circle.svg
-   :alt: close
-   :height: 17.6px
-   :target: #
+.. |deployer| raw:: html
 
-.. |delete| image:: /_static/img/icons/delete.svg
-   :alt: delete
-   :height: 17.6px
-   :target: #
+   <i class="fa-solid fa-user-gear"></i>
 
-.. |delete-models| image:: /_static/img/icons/trash-can-outline.svg
-   :alt: delete models
-   :height: 17.6px
-   :target: #
+.. |developer| raw:: html
 
-.. |delete-projects| image:: /_static/img/icons/trash-can-outline.svg
-   :alt: delete projects
-   :height: 17.6px
-   :target: #
+   <i class="fa-solid fa-user-pen"></i>
 
-.. |dots| image:: /_static/img/icons/dots-vertical.svg
-   :alt: dots
-   :height: 17.6px
-   :target: #
+.. |lecturer| raw:: html
 
-.. |duplicate| image:: /_static/img/icons/content-duplicate.svg
-   :alt: duplicate
-   :height: 17.6px
-   :target: #
+   <i class="fa-solid fa-user-graduate"></i>
 
-.. |export| image:: /_static/img/icons/export.svg
-   :alt: export
-   :height: 17.6px
-   :target: #
+.. |user| raw:: html
 
-.. |import| image:: /_static/img/icons/import.svg
-   :alt: import
-   :height: 17.6px
-   :target: #
+   <i class="fa-solid fa-user"></i>
 
-.. |new| image:: /_static/img/icons/plus.svg
-   :alt: plus
-   :height: 17.6px
-   :target: #
+.. |macOS| raw:: html
+
+   <i class="fa-brands fa-apple"></i>
+
+.. |linux| raw:: html
+
+   <i class="fa-brands fa-linux"></i>
+
+.. |python| raw:: html
+
+   <i class="fa-brands fa-python"></i>
+
+.. |windows| raw:: html
+
+   <i class="fa-brands fa-windows"></i>
+
+
+.. |setup| raw:: html
+
+   <span class="mdi mdi-monitor-arrow-down-variant" />
+
+.. |usage| raw:: html
+
+   <span class="mdi mdi-monitor-eye" />
+
+
+.. |axis-arrow| raw:: html
+
+   <span class="mdi mdi-axis-arrow" />
+
+.. |chart-line| raw:: html
+
+   <span class="mdi mdi-chart-bell-curve-cumulative" />
+
+.. |chart-scatter-plot| raw:: html
+
+   <span class="mdi mdi-chart-scatter-plot" />
+
+.. |close| raw:: html
+
+   <span class="mdi mdi-close-circle" />
+
+.. |delete| raw:: html
+
+   <span class="mdi mdi-delete" />
+
+.. |delete-models| raw:: html
+
+   <span class="mdi mdi-trash-can-outline" />
+
+.. |delete-projects| raw:: html
+
+   <span class="mdi mdi-trash-can-outline" />
+
+.. |dots-vertical| raw:: html
+
+   <span class="mdi mdi-dots-vertical" />
+
+.. |duplicate| raw:: html
+
+   <span class="mdi mdi-content-duplicate" />
+
+.. |export| raw:: html
+
+   <span class="mdi mdi-export" />
+
+.. |import| raw:: html
+
+   <span class="mdi mdi-import" />
+
+.. |new| raw:: html
+
+   <span class="mdi mdi-plus" />
+
+.. |reload| raw:: html
+
+   <span class="mdi mdi-reload" />
+
+.. |rename| raw:: html
+
+   <span class="mdi mdi-pencil-outline" />
+
+.. |reset| raw:: html
+
+   <span class="mdi mdi-database-refresh-outline" />
+
+.. |save-ok| raw:: html
+
+   <span class="mdi mdi-content-save-check-outline" />
+
+.. |see| raw:: html
+
+   <span class="mdi mdi-arrow-right" />
+
+.. |stats| raw:: html
+
+   <span class="mdi mdi-table-large" />
+
+.. |unload| raw:: html
+
+   <span class="mdi mdi-power" />
+
+
 
 .. |network| image:: /_static/img/icons/network.svg
    :alt: network
-   :height: 17.6px
    :target: #
-
-.. |reload| image:: /_static/img/icons/reload.svg
-   :alt: reload
-   :height: 17.6px
-   :target: #
-
-.. |rename| image:: /_static/img/icons/pencil-outline.svg
-   :alt: rename
-   :height: 17.6px
-   :target: #
-
-.. |reset| image:: /_static/img/icons/database-refresh-outline.svg
-   :alt: reset
-   :height: 17.6px
-   :target: #
-
-.. |save-ok| image:: /_static/img/icons/content-save-check-outline.svg
-   :alt: save-ok
-   :height: 17.6px
-   :target: #
-
-.. |see| image:: /_static/img/icons/arrow-right.svg
-   :alt: See
-   :height: 17.6px
-   :target: #
-
-.. |stats| image:: /_static/img/icons/table-large.svg
-   :alt: stats
-   :height: 17.6px
-   :target: #
-
-.. |unload| image:: /_static/img/icons/power.svg
-   :alt: unload
-   :height: 17.6px
-   :target: #
-
-.. |vertical-dots| image:: /_static/img/icons/dots-vertical.svg
-   :alt: vertical-dots
-   :height: 17.6px
-   :target: #
+   :width: 17.6px

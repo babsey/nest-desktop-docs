@@ -8,12 +8,18 @@
 The user guide provides detailed documentation of the GUI of NEST Desktop.
 
 .. note::
-   If you want to see a quick start guide for in NEST Desktop, we have prepared a :ref:`video <first-steps>` showing
-   the steps how to :ref:`usage-basic-construct-networks` and :ref:`usage-basic-explore-activity`.
+   If you want to see a quick start guide for in NEST Desktop, we have prepared a
+   :ref:`usage-basic-video-tutorial` showing the :ref:`usage-basic-first-steps`.
 
 
 How to use NEST Desktop
 =======================
+
+.. toctree::
+   :hidden:
+
+   Setup <setup/index>
+   Basic usage <usage-basic/index>
 
 .. grid:: 2
    :gutter: 2
@@ -26,13 +32,14 @@ How to use NEST Desktop
 
          .. grid-item::
             :columns: 3
+            :class: card-img
 
-            .. image:: /_static/img/icons/setup.svg
+            |setup|
 
          .. grid-item::
             :columns: 9
 
-            Learn how to install NEST Desktop
+            Learn how to install NEST Desktop and backends
 
    .. grid-item-card:: Basic usage
       :link: basic-usage-guide
@@ -42,8 +49,9 @@ How to use NEST Desktop
 
          .. grid-item::
             :columns: 3
+            :class: card-img
 
-            .. image:: /_static/img/icons/television-play.svg
+            |usage|
 
          .. grid-item::
             :columns: 9
@@ -51,19 +59,17 @@ How to use NEST Desktop
             Learn the basic steps how to use NEST Desktop
 
 
-
-.. toctree::
-   :hidden:
-
-   setup/index
-   usage-basic/index
-
-
 Advanced guide
 ==============
 
 Views
 -----
+
+.. toctree::
+   :hidden:
+
+   usage-advanced/project-view
+   usage-advanced/model-view
 
 .. grid:: 2
    :gutter: 2
@@ -102,6 +108,13 @@ Views
 
 Graphs
 ------
+
+.. toctree::
+   :hidden:
+
+   Network graph <usage-advanced/network-graph>
+   Activity chart graph <usage-advanced/activity-chart-graph>
+   Activity animation graph <usage-advanced/nest/activity-animation-graph>
 
 .. grid:: 2
    :gutter: 2
@@ -154,8 +167,16 @@ Graphs
 
             Animated activity graph for the spatial network of neurons with geographical positions
 
-Features
---------
+NEST features
+-------------
+
+.. toctree::
+   :hidden:
+
+   usage-advanced/nest/copy-model
+   .. usage-advanced/nest/compartmental-neuron
+   .. usage-advanced/nest/synapse-model
+   usage-advanced/nest/nestml-models
 
 .. grid:: 2
    :gutter: 2
@@ -176,8 +197,40 @@ Features
 
             The user learns how to copy a model
 
-   .. grid-item-card:: Compartmental neuron
-      :link: compartmental-neuron
+   .. .. grid-item-card:: Compartmental neuron
+   ..    :link: compartmental-neuron
+   ..    :link-type: ref
+
+   ..    .. grid:: 2
+
+   ..       .. grid-item::
+   ..          :columns: 4
+
+   ..          .. image:: /_static/img/thumbnails/compartmental-neuron.png
+
+   ..       .. grid-item::
+   ..          :columns: 8
+
+   ..          The user learns how to create a compartmental neuron
+
+   .. .. grid-item-card:: Synapse model
+   ..    :link: synapse-model
+   ..    :link-type: ref
+
+   ..    .. grid:: 2
+
+   ..       .. grid-item::
+   ..          :columns: 4
+
+   ..          .. image:: /_static/img/thumbnails/synapse-model.png
+
+   ..       .. grid-item::
+   ..          :columns: 8
+
+   ..          The user learns the implementation of a synapse model in a simulation
+
+   .. grid-item-card:: NESTML models
+      :link: nestml-models
       :link-type: ref
 
       .. grid:: 2
@@ -185,96 +238,84 @@ Features
          .. grid-item::
             :columns: 4
 
-            .. image:: /_static/img/thumbnails/compartmental-neuron.png
+            .. image:: /_static/img/thumbnails/nestml-model.png
 
          .. grid-item::
             :columns: 8
 
-            The user learns how to create a compartmental neuron
-
-   .. grid-item-card:: Synapse model
-      :link: synapse-model
-      :link-type: ref
-
-      .. grid:: 2
-
-         .. grid-item::
-            :columns: 4
-
-            .. image:: /_static/img/thumbnails/synapse-model.png
-
-         .. grid-item::
-            :columns: 8
-
-            The user learns the implementation of a synapse model in a simulation
-
-.. toctree::
-   :hidden:
-
-   usage-advanced/project-view
-   usage-advanced/model-view
-   usage-advanced/network-graph
-   usage-advanced/activity-chart-graph
-   usage-advanced/activity-animation-graph
-   usage-advanced/controller-sidebar
-   usage-advanced/copy-model
-   usage-advanced/compartmental-neuron
-   usage-advanced/synapse-model
+            The user learns how to create own models with NESTML
 
 
 External software
 =================
 
+.. toctree::
+   :hidden:
+
+   .. usage-external/simulate-with-insite
+   .. usage-external/usage-with-nrp
+   .. usage-external/usage-with-visimpl
+   usage-external/libre-office-extension
+
+
+.. note::
+   Insite, NRP and ViSimpl has been removed in this version because it is not working with these external softwares
+   anymore. We are working on reimplementing these software in next release.
+
+   If you like to see the documentation about these external softwares, please visit the older docs version
+   (https://nest-desktop.readthedocs.io/en/3.3/user/index.html#external-software)
+
+
 .. grid:: 2
    :gutter: 2
 
-   .. grid-item-card:: Simulate with Insite
-      :link: simulate-with-insite
-      :link-type: ref
+   .. .. grid-item-card:: Simulate with Insite
+   ..    :link: simulate-with-insite
+   ..    :link-type: ref
 
-      .. grid:: 2
+   ..    .. grid:: 2
 
-         .. grid-item::
-            :columns: 4
+   ..       .. grid-item::
+   ..          :columns: 4
 
-            .. image:: /_static/img/gif/external-insite.gif
+   ..          .. image:: /_static/img/gif/external-insite.gif
 
-         .. grid-item::
-            :columns: 8
+   ..       .. grid-item::
+   ..          :columns: 8
 
-            Learn how to use NEST Desktop with Insite
+   ..          Learn how to use NEST Desktop with Insite
 
-   .. grid-item-card:: NeuroRobotics Platform
-      :link: use-nest-desktop-with-nrp
-      :link-type: ref
+   .. .. grid-item-card:: NeuroRobotics Platform
+   ..    :link: use-nest-desktop-with-nrp
+   ..    :link-type: ref
 
-      .. grid:: 2
+   ..    .. grid:: 2
 
-         .. grid-item::
-            :columns: 4
+   ..       .. grid-item::
+   ..          :columns: 4
 
-            .. image:: /_static/img/gif/external-nrp.gif
+   ..          .. image:: /_static/img/gif/external-nrp.gif
 
-         .. grid-item::
-            :columns: 8
+   ..       .. grid-item::
+   ..          :columns: 8
 
-            Learn how to use NEST Desktop with NRP
+   ..          Learn how to use NEST Desktop with NRP
 
-   .. grid-item-card:: NeuroRobotics Platform
-      :link: use-nest-desktop-with-visimpl
-      :link-type: ref
+   .. .. grid-item-card:: ViSimpl
+   ..    :link: use-nest-desktop-with-visimpl
+   ..    :link-type: ref
 
-      .. grid:: 2
+   ..    .. grid:: 2
 
-         .. grid-item::
-            :columns: 4
+   ..       .. grid-item::
+   ..          :columns: 4
 
-            .. image:: /_static/img/gif/external-visimpl.gif
+   ..          .. image:: /_static/img/gif/external-visimpl.gif
 
-         .. grid-item::
-            :columns: 8
+   ..       .. grid-item::
+   ..          :columns: 8
 
-            Learn how to use NEST Desktop with ViSimpl
+   ..          Learn how to use NEST Desktop with ViSimpl
 
    .. grid-item-card:: LibreOffice extension
       :link: libreoffice_extension
@@ -285,17 +326,9 @@ External software
          .. grid-item::
             :columns: 4
 
-            .. image:: /_static/img/network_model/example_2.png
+            .. image:: /_static/img/screenshots/network/annotation/example.png
 
          .. grid-item::
             :columns: 8
 
             Create publication-ready network graphs
-
-.. toctree::
-   :hidden:
-
-   usage-external/simulate-with-insite
-   usage-external/usage-with-nrp
-   usage-external/usage-with-visimpl
-   usage-external/libre-office-extension

@@ -10,7 +10,7 @@ This is the guide for the model view in NEST Desktop.
    .. grid-item::
       :columns: 4
 
-      .. image:: /_static/img/thumbnails/model-view.png
+      .. image:: /_static/img/screenshots/model/model-nav.png
 
    .. grid-item::
       :columns: 8
@@ -18,9 +18,29 @@ This is the guide for the model view in NEST Desktop.
       Below the icon for the project view, you can see the one of the :ref:`model view <model-view-model-subpages>`,
       where you can read the model description, explore model activities or edit model configurations.
 
+.. _model-view-model-navigation-sidebar:
+
+Model navigation sidebar
+------------------------
+
+.. grid:: 2
+
+   .. grid-item::
+      :columns: 4
+
+      .. image:: /_static/img/screenshots/model/model-nav.png
+
+   .. grid-item::
+      :columns: 8
+
+      In the navigation sidebar you find a search field and then :ref:`model-view-model-list` of filtered models.
+      You can select a model to read its documentation, its activity or to edit its configuration.
+
+
+.. _model-view-models-menu:
 
 Models menu
------------
+^^^^^^^^^^^
 
 .. grid:: 2
 
@@ -32,57 +52,34 @@ Models menu
    .. grid-item::
       :columns: 8
 
-      By clicking the right mouse button on the model icon, a menu appears where you can select actions for models.
+      Click on the menu icon right to search field, a menu appears where you can select actions for models.
 
 
 .. _model-view-model-dialog:
 
 Model dialog
-------------
+^^^^^^^^^^^^
 
-You can import models from various sources, e.g. a file you uploaded from you computer, a file from a GitHub repository
-or from a specified URL.
+You can export models to file or import models from various sources, e.g. a file you uploaded from you computer, a file
+from a GitHub repository or from a specified URL.
 
 .. image:: /_static/img/screenshots/model/models-import.png
 
 .. note::
-   Model files should be formatted in JSON.
+   Model files are stored in JSON or YAML format.
 
-When you select :bdg:`Import from GitHub`, choose an element type and then a JSON file of your desired model group which
-includes all functions of synapse currents.
+When you select the button with github icon, then click models icon, select an element type and a JSON file of your
+desired model group. Click on :bdg:`fetch` button shows a list of models from which you can select which ones you want
+to import.
 
-The table shows a list of models from which you can select which ones you want to import.
+.. .. _model-view-import-models:
 
+.. Import models
+.. *************
 
-.. _model-view-model-navigation-sidebar:
+.. Go to the model view and find your desired synapse model. Next, click on the |dots-vertical| icon, then select a menu
+.. item |import| :bdg:`import` to import it from GitHub.
 
-Model navigation sidebar
-------------------------
-
-.. grid:: 2
-
-   .. grid-item::
-      :columns: 6
-
-      .. image:: /_static/img/screenshots/model/model-nav.png
-
-   .. grid-item::
-      :columns: 6
-
-      In the navigation sidebar you find a :ref:`model-view-model-toolbar` and then :ref:`model-view-model-list`.
-
-      You can select a model to read its documentation, its activity or to edit its configuration.
-
-
-.. _model-view-model-toolbar:
-
-Model toolbar
-^^^^^^^^^^^^^
-
-.. image:: /_static/img/screenshots/model/model-toolbar.png
-
-At the top of the navigation sidebar, you see a toolbar containing buttons to reload (|reload|), export (|export|),
-import (|import|), delete (|delete-models|) or reset (|reset|) multiple models.
 
 
 .. _model-view-model-list:
@@ -91,17 +88,7 @@ Model List
 ^^^^^^^^^^
 
 Above the model list you will find a search field and tags which you can use to filter the models in the list. Selected
-filter tags appear as chips under the search field. In order to select a tag you need to click on the `filter` icon left
-to the search field. Multiple filter tags can be applied. Selected filter tags can be removed (click on |close|).
-
-
-.. _model-view-import-models:
-
-Import models
-*************
-
-Go to the model view and find your desired synapse model. Next, click on the icon |vertical-dots|, then select a menu
-item |import| :bdg:`import` to import it from GitHub.
+filter tags appear under the search field. In order to select a tag you need to click it.
 
 
 .. _model-view-filter-models:
@@ -109,28 +96,26 @@ item |import| :bdg:`import` to import it from GitHub.
 Filter models
 *************
 
-.. grid:: 2
+It is possible to select filter tags to display only models with certain properties. The following filter tags are
+available:
 
-   .. grid-item::
-      :columns: 3
+- **installed** - show models which are installed in NEST Desktop
 
-      .. image:: /_static/img/screenshots/model/models-filter-tag.png
+- **custom** - show custom models (e.g. for NESTML)
 
-   .. grid-item::
-      :columns: 9
+- **nest** - show all built-in models of NEST Simulator
 
-      It is possible to select filter tags to display only models with certain properties. The following filter tags are
-      available:
+- **neuron/stimulator/recorder/synapse** - show models of the selected element type
 
-      Installed:
-         Show models which are installed in NEST Desktop
+.. - **GitHub** Show models which are provided in `an own GitHub repository
+..    <https://github.com/nest-desktop/nest-desktop-models>`__.
 
-      GitHub:
-         Show models which are provided in `an own GitHub repository
-         <https://github.com/nest-desktop/nest-desktop-models>`__.
 
-      Neuron/stimulator/recorder/synapse:
-         Show models of the selected element type
+.. .. _model-view-model-bar:
+
+.. Model bar
+.. ---------
+
 
 
 .. _model-view-model-subpages:
@@ -138,31 +123,46 @@ Filter models
 Model subpages
 --------------
 
-.. card-carousel:: 1
+Model documentation
+^^^^^^^^^^^^^^^^^^^
 
-   .. card:: Model documentation
+.. grid:: 2
 
-      .. image:: /_static/img/screenshots/model/model-doc.png
+   .. grid-item::
+      :columns: 4
 
       It shows the official user documentation of a selected model which also can be found on
       http://nest-simulator.readthedocs.io/en/latest/models/.
 
-   .. card:: Model explorer
+   .. grid-item::
+      :columns: 8
+
+      .. image:: /_static/img/screenshots/model/model-doc.png
+
+
+Model explorer
+^^^^^^^^^^^^^^
+
+.. grid:: 2
+
+   .. grid-item::
+      :columns: 4
 
       You can explore the activity dynamics of **neuron** models only.
 
-      .. grid:: 2
+   .. grid-item::
+      :columns: 8
 
-         .. grid-item::
-            :columns: 8
-
-            .. image:: /_static/img/screenshots/model/model-explorer.png
+      .. image:: /_static/img/screenshots/model/model-explorer.png
 
 
-         .. grid-item::
-            :columns: 4
+   .. grid-item::
+      :columns: 3
 
-            .. image:: /_static/img/screenshots/model/model-explorer-projects.png
+      .. image:: /_static/img/screenshots/model/model-explorer-projects.png
+
+   .. grid-item::
+      :columns: 9
 
       First, choose a simulation to see the neuronal response to a specific stimulus device. Then start the simulation
       by clicking on the :bdg:`SIMULATE` button. You can use the code editor to see changes in activity.
@@ -170,9 +170,18 @@ Model subpages
       .. note::
          It is important to disable the Insite pipeline for the simulation (in the settings).
 
-   .. card:: Model editor
+Model editor
+^^^^^^^^^^^^
+
+.. grid:: 2
+
+   .. grid-item::
+      :columns: 8
 
       .. image:: /_static/img/screenshots/model/model-editor.png
+
+   .. grid-item::
+      :columns: 4
 
       The model editor allows you to make changes in parameter specifications, e.g. default value, unit, label or
       inputs.

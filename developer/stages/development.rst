@@ -5,7 +5,7 @@ First, prepare the development environment with the required packages.
 
 .. code-block:: bash
 
-   yarn serve
+   yarn dev
 
 The Live Development Server is now serving at ``http://localhost:54286``.
 
@@ -15,7 +15,7 @@ The Live Development Server is now serving at ``http://localhost:54286``.
 
 |
 
-.. _development_setup:
+.. _development-setup:
 
 Setup
 -----
@@ -33,7 +33,7 @@ The recommended method is to install it in the user's home directory using the c
 
 |
 
-.. _development_commit-changes:
+.. _development-commit-changes:
 
 Commit changes
 --------------
@@ -73,7 +73,7 @@ If your changes are ready to be commited, stage and commit them:
 
 |
 
-.. _development_push-changes-to-github:
+.. _development-push-changes-to-github:
 
 Push changes to GitHub
 ----------------------

@@ -16,7 +16,6 @@ A major number
 It uses a new framework, it might be not backward-compatible to older versions. In this case, stored data could be lost.
 However, it is able to import older data.
 
-
 A minor number
 --------------
 

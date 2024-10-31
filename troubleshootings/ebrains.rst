@@ -1,4 +1,4 @@
-.. troubleshootings-ebrains:
+.. _troubleshootings-ebrains:
 
 EBRAINS
 =======

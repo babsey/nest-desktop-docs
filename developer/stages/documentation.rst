@@ -14,21 +14,27 @@ Use the working directory: ``nest-desktop/docs``. To install Sphinx and the Read
 
 .. code-block:: bash
 
-   wget https://raw.githubusercontent.com/nest-desktop/nest-desktop/main/docs/requirements.txt
+   wget https://raw.githubusercontent.com/nest-desktop/nest-desktop-docs/main/requirements.txt
    python3 -m pip install -r requirements.txt
 
 |
 
-.. _documentation_development-build-html-locally:
+Make images
+-----------
+
+Make screenshots in web browser or use `Kooha <https://github.com/SeaDve/Kooha>`_ to record screen and stores animated images to gif file.
+
+
+.. _documentation-development-build-html-locally:
 
 Development: Build HTML locally
 -------------------------------
 
-Build the documentation which your created with Sphinx in the ``docs`` folder offline:
+Build the documentation which your created with Sphinx offline:
 
 .. code-block:: bash
 
-   make clean; make html
+   make clean html
 
 Start the Python server to serve the documentation locally, i.e. available only on your personal machine.
 
@@ -40,7 +46,7 @@ Then open the URL ``http://localhost:8000`` with your browser.
 
 |
 
-.. _documentation_publication-push-to-readthedocs:
+.. _documentation-publication-push-to-readthedocs:
 
 Publication: Push to ReadTheDocs
 --------------------------------

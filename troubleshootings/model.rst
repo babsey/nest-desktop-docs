@@ -1,4 +1,4 @@
-.. faq-model:
+.. _faq-model:
 
 Model
 =====

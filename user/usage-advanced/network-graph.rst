@@ -10,26 +10,31 @@ Network graph
       :link: network-graph-node
       :link-type: ref
 
-      .. image:: /_static/img/network_model/nodes.png
+      .. image:: /_static/img/screenshots/network/nodes.png
 
    .. grid-item-card:: Network edge
       :link: network-graph-edge
       :link-type: ref
 
-      .. image:: /_static/img/network_model/edges.png
+      .. image:: /_static/img/screenshots/network/edges.png
 
    .. grid-item-card:: Annotation
       :link: network-graph-annotation
       :link-type: ref
 
-      .. image:: /_static/img/network_model/annotations.png
+      .. image:: /_static/img/screenshots/network/annotation/annotations.png
 
    .. grid-item-card:: Example
       :link: network-graph-example
       :link-type: ref
 
-      .. image:: /_static/img/network_model/example_2.png
-      .. image:: /_static/img/network_model/example.png
+      .. image:: /_static/img/screenshots/network/annotation/example.png
+         :height: 80
+         :align: center
+
+      .. image:: /_static/img/screenshots/network/example.png
+         :height: 120
+         :align: center
 
 
 Graphical representations are a direct expression of how researchers think about a network model. They convey an
@@ -44,7 +49,7 @@ modification.
 
 Here, we define the graphical elements used for :ref:`Network nodes <network-graph-node>` and :ref:`Edges
 <network-graph-edge>`. We also provide details on the conventions for the :ref:`annotation` of an edge as introduced in
-[1]_, even though they are presently not included in the NEST Desktop interface, and finally we show an
+the paper [1]_, even though they are presently not included in the NEST Desktop interface, and finally we show an
 :ref:`network-graph-example`.
 
 
@@ -72,7 +77,7 @@ shapes depicting the nodes. The distinction is a recommendation for diagrams tha
    .. grid-item::
       :columns: 1
 
-      .. image:: /_static/img/screenshots/network/IndividualUnit.png
+      .. image:: /_static/img/edited/nodes/IndividualUnit.png
 
    .. grid-item::
       :columns: 11
@@ -87,7 +92,7 @@ shapes depicting the nodes. The distinction is a recommendation for diagrams tha
    .. grid-item::
       :columns: 1
 
-      .. image:: /_static/img/screenshots/network/Population.png
+      .. image:: /_static/img/edited/nodes/Population.png
 
    .. grid-item::
       :columns: 11
@@ -107,7 +112,7 @@ The node type refers to a defining property of a node and is expressed by a uniq
    .. grid-item::
       :columns: 1
 
-      .. image:: /_static/img/screenshots/network/GenericNode.png
+      .. image:: /_static/img/edited/nodes/GenericNode.png
 
    .. grid-item::
       :columns: 11
@@ -123,7 +128,7 @@ The node type refers to a defining property of a node and is expressed by a uniq
    .. grid-item::
       :columns: 1
 
-      .. image:: /_static/img/screenshots/network/ExcitatoryNeuralNode.png
+      .. image:: /_static/img/edited/nodes/ExcitatoryNeuralNode.png
 
    .. grid-item::
       :columns: 11
@@ -138,7 +143,7 @@ The node type refers to a defining property of a node and is expressed by a uniq
    .. grid-item::
       :columns: 1
 
-      .. image:: /_static/img/screenshots/network/InhibitoryNeuralNode.png
+      .. image:: /_static/img/edited/nodes/InhibitoryNeuralNode.png
 
    .. grid-item::
       :columns: 11
@@ -153,7 +158,7 @@ The node type refers to a defining property of a node and is expressed by a uniq
    .. grid-item::
       :columns: 1
 
-      .. image:: /_static/img/screenshots/network/StimulatingDeviceNode.png
+      .. image:: /_static/img/edited/nodes/StimulatingDeviceNode.png
 
    .. grid-item::
       :columns: 11
@@ -169,7 +174,7 @@ The node type refers to a defining property of a node and is expressed by a uniq
    .. grid-item::
       :columns: 1
 
-      .. image:: /_static/img/screenshots/network/RecordingDeviceNode.png
+      .. image:: /_static/img/edited/nodes/RecordingDeviceNode.png
 
    .. grid-item::
       :columns: 11
@@ -189,12 +194,12 @@ Node label
       (dc) for a stimulus and a voltmeter (vm) for a recording device. Neurons are just labeled with (n). You can find
       the full label of the node model in the network controller.
 
-      Note: *Node label* is not defined in [1]_.
+      .. note:: *Node label* is not defined in connectivity concept [1]_.
 
    .. grid-item::
       :columns: 3
 
-      .. image:: /_static/img/screenshots/network/node-shapes.png
+      .. image:: /_static/img/screenshots/network/nodes.png
 
 
 Node color
@@ -204,7 +209,40 @@ In NEST Desktop, nodes and connections contain parameter configurations which ar
 the side navigation. The color of nodes helps you to associate the network graph with the controller as well as the
 corresponding visualization of the network activity.
 
-Note: *Node color* is not defined in [1]_.
+.. note:: *Node color* is not defined in connectivity concept [1]_.
+
+
+.. _usage-advanced-node-group:
+
+Node group
+^^^^^^^^^^
+
+.. grid:: 2
+   :gutter: 1
+
+   .. grid-item::
+      :columns: 9
+
+      Nodes can be grouped for better network structure, e.g. hierarchical structure. Select multiple nodes with
+      :keys:`ctrl` key and then click on group button.
+
+      It creates a group containing selected nodes.
+
+      In code editor it shows a new group :code:`g1 = n1 + n2`.
+
+      Node group can be connected with nodes or other node groups.
+
+
+   .. grid-item::
+      :columns: 3
+
+      .. image:: /_static/img/screenshots/network/node-group-button.png
+
+      |
+
+      .. image:: /_static/img/screenshots/network/node-group.png
+
+.. note:: *Node group* is not defined in connectivity concept [1]_.
 
 
 .. _network-graph-edge:
@@ -229,7 +267,7 @@ Edges between two nodes representing individual units are usually deterministic.
    .. grid-item::
       :columns: 1
 
-      .. image:: /_static/img/screenshots/network/EdgeDeterministic.png
+      .. image:: /_static/img/edited/connections/EdgeDeterministic.png
 
    .. grid-item::
       :columns: 11
@@ -244,7 +282,7 @@ Edges between two nodes representing individual units are usually deterministic.
    .. grid-item::
       :columns: 1
 
-      .. image:: /_static/img/screenshots/network/EdgeProbabilistic.png
+      .. image:: /_static/img/edited/connections/EdgeProbabilistic.png
 
    .. grid-item::
       :columns: 11
@@ -266,7 +304,7 @@ arrowheads. The edge types given here can be used for connections between all no
    .. grid-item::
       :columns: 1
 
-      .. image:: /_static/img/screenshots/network/EdgeTypeGeneric.png
+      .. image:: /_static/img/edited/connections/EdgeTypeGeneric.png
 
    .. grid-item::
       :columns: 11
@@ -281,7 +319,7 @@ arrowheads. The edge types given here can be used for connections between all no
    .. grid-item::
       :columns: 1
 
-      .. image:: /_static/img/screenshots/network/EdgeTypeExcitatory.png
+      .. image:: /_static/img/edited/connections/EdgeTypeExcitatory.png
 
    .. grid-item::
       :columns: 11
@@ -295,7 +333,7 @@ arrowheads. The edge types given here can be used for connections between all no
    .. grid-item::
       :columns: 1
 
-      .. image:: /_static/img/screenshots/network/EdgeTypeInhibitory.png
+      .. image:: /_static/img/edited/connections/EdgeTypeInhibitory.png
 
    .. grid-item::
       :columns: 11
@@ -313,7 +351,7 @@ Directionality
    .. grid-item::
       :columns: 1
 
-      .. image:: /_static/img/screenshots/network/EdgeUnidirectional.png
+      .. image:: /_static/img/edited/connections/EdgeUnidirectional.png
 
    .. grid-item::
       :columns: 11
@@ -327,7 +365,7 @@ Directionality
    .. grid-item::
       :columns: 1
 
-      .. image:: /_static/img/screenshots/network/EdgeBidirectional.png
+      .. image:: /_static/img/edited/connections/EdgeBidirectional.png
 
    .. grid-item::
       :columns: 11
@@ -341,7 +379,7 @@ Edge color
 
 The edge color is determined by the color of the source node.
 
-Note: *Edge color* is not defined in [1]_.
+.. note:: *Edge color* is not defined in connectivity concept [1]_.
 
 
 .. _network-graph-annotation:
@@ -352,7 +390,7 @@ Note: *Edge color* is not defined in [1]_.
 Network edges can be annotated with information about the connection or projection they represent. Details on the rule
 specifying the existence of connections and their parameterization may be put along the arrow.
 
-Note: *Annotation* is not available in NEST Desktop.
+.. note:: *Annotation* is not available in NEST Desktop.
 
 .. _connectivity_concept:
 
@@ -370,14 +408,14 @@ Concept
    .. grid-item::
       :columns: 8
 
-      The definitions and symbols given in the connectivity concepts defined in [1]_ (for a permanent reference) and in
-      the :ref:`Connectivity concept <nest-simulator:connectivity_concept>` (for a living reference) are the basis for
+      The definitions and symbols given in the connectivity concepts [1]_ (for a permanent reference) and in
+      the :ref:`Connectivity concepts <nest-simulator:connectivity_concepts>` (for a living reference) are the basis for
       this property.
 
    .. grid-item::
       :columns: 4
 
-      .. image:: /_static/img/network_model/concept.png
+      .. image:: /_static/img/screenshots/network/annotation/concept.png
          :width: 300px
 
 Constraint
@@ -404,7 +442,7 @@ Constraint
    .. grid-item::
       :columns: 4
 
-      .. image:: /_static/img/network_model/constraint.png
+      .. image:: /_static/img/screenshots/network/annotation/constraint.png
          :width: 300px
 
 
@@ -432,7 +470,7 @@ Parameterization
    .. grid-item::
       :columns: 4
 
-      .. image:: /_static/img/network_model/parameterization.png
+      .. image:: /_static/img/screenshots/network/annotation/parameterization.png
          :width: 300px
 
 
@@ -459,11 +497,11 @@ Further specification
    .. grid-item::
       :columns: 4
 
-      .. image:: /_static/img/network_model/furtherSpecification.png
+      .. image:: /_static/img/screenshots/network/annotation/furtherSpecification.png
          :width: 300px
 
 .. note::
-   For a discussion on customization and extension see [1]_.
+   For a discussion on customization and extension see the paper [1]_.
 
 
 .. _network-graph-example:
@@ -473,16 +511,17 @@ Further specification
 
 .. grid:: 2
 
-   .. grid-item::    Graphical notation
+   .. grid-item:: Graphical notation
       :columns: 6
 
-      .. image:: /_static/img/network_model/example_2.png
+      .. image:: /_static/img/screenshots/network/annotation/example.png
+         :height: 240px
 
-
-   .. grid-item::    NEST Desktop
+   .. grid-item:: NEST Desktop
       :columns: 6
 
-      .. image:: /_static/img/network_model/example.png
+      .. image:: /_static/img/screenshots/network/example.png
+         :height: 280px
 
 
 The example is a balanced random network model with the random, fixed in-degree connectivity. The illustration uses the
@@ -494,13 +533,12 @@ constraints that autapses are prohibited (:math:`\cancel{A}`) and multapses are 
 
 Here, the NEST Desktop version also displays spike recorders.
 
-.. note::
-   :ref:`Annotations <annotation>` are not available in NEST Desktop.
+.. note:: :ref:`Annotations <annotation>` are not available in NEST Desktop.
 
 To generate static publication-ready visualizations of network graphs in agreement with the graphical notation
 (corresponding to the figure on the left), please refer to this lightweight :ref:`libreoffice_extension`.
 
-Further examples can be found in [1]_.
+Further examples can be found in paper about connectivity concepts [1]_.
 
 
 References

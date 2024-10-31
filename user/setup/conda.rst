@@ -1,4 +1,4 @@
-.. _conda:
+.. _setup-conda:
 
 Conda |linux| |macOS| |windows|
 ===============================
@@ -33,58 +33,38 @@ Add channel for :bdg:`conda-forge`:
    conda config --add channels conda-forge
    conda config --set channel_priority strict
 
-Install with Conda
-------------------
+Setup Conda environment
+-----------------------
 
-#. Create a Conda environment called :bdg:`nest3` and install NEST Simulator:
-
-   .. code-block:: bash
-
-      conda create -n nest3 nest-simulator
-
-#. Activate the Conda environment :bdg:`nest3`:
+#. Create a Conda environment called :bdg:`nest` and install NEST Desktop:
 
    .. code-block:: bash
 
-      conda activate nest3
+      conda create -n nest nest-desktop
 
-#. Install the dependencies for the API Server of NEST Simulator:
-
-   .. code-block:: bash
-
-      conda install flask flask-cors RestrictedPython gunicorn
-
-#. Install NEST Desktop
+#. Activate the Conda environment :bdg:`nest`:
 
    .. code-block:: bash
 
-      conda install nest-desktop
+      conda activate nest
+
+#. Install backends in Conda environment. For more infomation, please read the installation guide :doc:`here
+   <backends/index>`.
+
+**The installation is now complete!**
 
 
-Start with Conda
-----------------
+Start in Conda environment
+--------------------------
 
-#. Start NEST Server as the back end:
-
-   The API Server for NEST Simulator is referred to as **NEST Server**.
-
-   .. code-block:: bash
-
-      nest-server start
-
-   NEST Server is now running at http://localhost:52425.
-
-.. note::
-   Before you start :code:`nest-server`, you have to set these environment variables in bash:
+#. Activate the Conda environment :bdg:`nest`:
 
    .. code-block:: bash
 
-      export NEST_SERVER_DISABLE_AUTH=1
-      export NEST_SERVER_ENABLE_EXEC_CALL=1
-      export NEST_SERVER_DISABLE_RESTRICTION=1
+      conda activate nest
 
-   For more information read the full documentation of NEST Server
-   :doc:`here <nest-simulator:connect_nest/nest_server>`.
+#. Start backends in Conda environment. For more information, please follow the start instructions :doc:`here
+   <backends/index>`.
 
 #. Start NEST Desktop (in another terminal session):
 
@@ -94,11 +74,14 @@ Start with Conda
 
    NEST Desktop is now started and available in the web browser at http://localhost:54286.
 
-|
-
-**The installation is now complete!**
-:doc:`Now you can start constructing networks for the simulation! </user/usage-basic/index>`
-
 .. seeAlso::
    For more information read the full documentation of the command API
    :doc:`here </user/usage-advanced/command-API>`.
+
+
+Next steps
+----------
+
+- :doc:`Now you can start constructing networks for the simulation! </user/usage-basic/index>`
+
+

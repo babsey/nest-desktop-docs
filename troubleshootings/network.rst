@@ -1,4 +1,4 @@
-.. faq-network:
+.. _faq-network:
 
 Network
 =======
@@ -42,26 +42,32 @@ How can I (un)select a node / a connection?
    node or connection. An other method to (un)select is to click on the node label or the connection toolbar in the
    network controller on the right side again.
 
+How can I group multiple nodes?
+   Hold down the :keys:`ctrl` key when clicking on nodes and then group them.
+
+   .. seeAlso::
+      - :ref:`Group nodes <usage-advanced-node-group>`
+
 How can I colorize nodes?
    You will find the method to color in the context menu of the node by clicking with the right mouse button on the node
-   shape in the network graph or the node toolbar in the controller.
+   shape in the network graph or in the node menu in the network controller.
 
-How can I change the color cycle of nodes?
-   In the network settings you will find the way to change the color cycle.
+.. How can I change the color cycle of nodes?
+..    In the network settings you will find the way to change the color cycle.
 
 How can I delete a node / connection?
    You will find this method in the context menu of the node or connection by clicking with the right mouse button on
    the element graph in the network graph or on the colored toolbar in the network controller.
 
-How can I change the node model?
-   You can click on model name twice and it opens a dropdown displaying models.
+How can I change the node / synapse model?
+   You can click on model selection in the network controller and then select other model.
 
    .. seeAlso::
       - :ref:`Change node model in network controller <usage-basic-select-model-and-parameters>`
 
 How can I modify parameters?
-   You will find a list of parameters in the network controller. If they are not visible, click on the model selection
-   to check the visibility of the parameters.
+   You will find a dropdown of parameters in the network controller. If they are not visible, click on the the button
+   right to model selection to check the visibility of the parameters.
 
    .. seeAlso::
       - :ref:`Modify parameters in the controller <usage-basic-select-model-and-parameters>`
@@ -78,16 +84,16 @@ How can I set a connection to "inhibitory"?
    You can assign a negative value to the weights in the connection controller.
 
 How can I get the distribution for parameters?
-   You are able to activate the distribution of the parameters in the export mode.
+   You have to click on :bdg:`toggle view` in the parameter menu.
 
 How can I get a spatial node?
-   In the context menu of the node, you can (un)set the spatial mode of the node.
+   In parameter menu of the population, you can (un)set the spatial mode of the node.
 
 How can I generate grid/free positions?
    When the node is spatial, a position item will replace the population item. Click on the position item to open a
    popup of the position specifications. Modifying a value will generate positions, at the end of the panel you will
    find a button to generate positions.
 
-How can I generate an array?
-   In the context menu of the array parameters (e.g. the spike times of a spike generator) you will find a method to
-   generate an array.
+.. How can I generate an array?
+..    In the context menu of the array parameters (e.g. the spike times of a spike generator) you will find a method to
+..    generate an array.
