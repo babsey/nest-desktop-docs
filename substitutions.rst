@@ -18,7 +18,17 @@
    :target: #
    :width: 80px
 
-.. |python-logo| image:: /_static/img/logo/python-logo.png
+.. |flathub| image:: /_static/img/logo/Flathub-logo.svg
+   :alt: Flathub
+   :target: #
+   :width: 80px
+
+.. |flatpak| image:: /_static/img/logo/Flatpak-logo.svg
+   :alt: Flatpak
+   :target: #
+   :width: 80px
+
+.. |python| image:: /_static/img/logo/python-logo.png
    :alt: python
    :target: #
    :width: 80px
@@ -66,10 +76,6 @@
 .. |linux| raw:: html
 
    <i class="fa-brands fa-linux"></i>
-
-.. |python| raw:: html
-
-   <i class="fa-brands fa-python"></i>
 
 .. |windows| raw:: html
 
