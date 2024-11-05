@@ -12,6 +12,7 @@
    Apptainer <apptainer>
    Conda <conda>
    Docker Compose <docker-compose>
+   Flatpak <flatpak>
    Python <python>
    Snap <snap>
 
@@ -27,7 +28,7 @@ This guide provides a detailed documentation on how to install and start NEST De
 
 **Desktop applications**
 
-You are able to use NEST Desktop as Snap or as AppImage.
+You are able to use NEST Desktop as Snap, Flatpak or AppImage.
 
 .. grid:: 2
    :gutter: 2
@@ -47,7 +48,24 @@ You are able to use NEST Desktop as Snap or as AppImage.
          .. grid-item::
             :columns: 8
 
-            Install and start NEST Desktop with Snap (with NEST Backend).
+            Install and start NEST Desktop as Snap (with NEST Backend).
+
+   .. grid-item-card:: Flatpak |linux|
+      :columns: 6
+      :link: setup-flatpak
+      :link-type: ref
+
+      .. grid:: 2
+
+         .. grid-item::
+            :columns: 4
+
+            |flatpak|
+
+         .. grid-item::
+            :columns: 8
+
+            Install and run NEST Desktop as Flatpak (with NEST backends).
 
    .. grid-item-card:: AppImage |linux|
       :columns: 6
@@ -144,7 +162,7 @@ Alternatively, you can install NEST Desktop with the ``conda`` or ``pip`` comman
          .. grid-item::
             :columns: 4
 
-            |python-logo|
+            |python|
 
          .. grid-item::
             :columns: 8

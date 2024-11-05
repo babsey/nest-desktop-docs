@@ -30,7 +30,11 @@ Snap |linux| |macOS|
 Start
 -----
 
-You can start NEST Desktop in application views or enter the command :code:`nest-desktop` in Terminal.
+You can start NEST Desktop in application view or enter the command :code:`nest-desktop` in Terminal.
+
+
+.. seeAlso::
+   For more information, please go to https://snapcraft.io/nest-desktop
 
 
 Next steps
