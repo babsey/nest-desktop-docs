@@ -38,7 +38,7 @@ To install the flatpak NEST Desktop from flathub, use the following (without :co
 
 .. code-block:: bash
 
-   flatpak install --user flathub io.github.nest-desktop
+   flatpak install --user flathub io.github.nest_desktop.nest-desktop
 
 
 **The installation is now complete!**
@@ -50,12 +50,12 @@ Start
 You can start NEST Desktop in application view or enter the command in Terminal:
 
 .. seeAlso::
-   For more information, please go to https://flathub.org/apps/io.github.nest-desktop
+   For more information, please go to https://flathub.org/apps/io.github.nest_desktop.nest-desktop
 
 
 .. code-block:: bash
 
-   flatpak run io.github.nest-desktop
+   flatpak run io.github.nest_desktop.nest-desktop
 
 
 Next steps
