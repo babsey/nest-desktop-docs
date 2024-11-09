@@ -159,6 +159,6 @@
    :alt: Flathub downloads
    :target: https://flathub.org/apps/io.github.nest_desktop.nest-desktop
 
-.. |snap-version| image:: https://snapcraft.io/nest-desktop/badge.svg
+.. |snap-version| image:: hhttps://img.shields.io/snapcraft/v/nest-desktop/latest/stable?logo=snapcraft&logoColor=white
    :alt: Snap version
    :target: https://snapcraft.io/nest-desktop
