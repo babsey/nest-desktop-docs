@@ -70,6 +70,16 @@
       .. grid-item::
          :columns: 3
 
+         Flatpak
+
+      .. grid-item::
+         :columns: 9
+
+         |flatpak-version| |flatpak-downloads|
+
+      .. grid-item::
+         :columns: 3
+
          Snap
 
       .. grid-item::
@@ -140,6 +150,14 @@
 .. |appImage-downloads| image:: https://img.shields.io/github/downloads/nest-desktop/nest-desktop-appImage/total
    :alt: AppImage downloads
    :target: https://github.com/nest-desktop/nest-desktop-appImage
+
+.. |flathub-version| image:: https://img.shields.io/flathub/v/io.github.nest_desktop.nest-desktop
+   :alt: Flathub version
+   :target: https://flathub.org/apps/io.github.nest_desktop.nest-desktop
+
+.. |flathub-downloads| image:: https://img.shields.io/flathub/downloads/io.github.nest_desktop.nest-desktop
+   :alt: Flathub downloads
+   :target: https://flathub.org/apps/io.github.nest_desktop.nest-desktop
 
 .. |snap-version| image:: https://snapcraft.io/nest-desktop/badge.svg
    :alt: Snap version
