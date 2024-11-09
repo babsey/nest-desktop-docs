@@ -143,7 +143,7 @@
    :alt: Conda downloads total
    :target: https://anaconda.org/conda-forge/nest-desktop
 
-.. |appImage-release| image:: https://img.shields.io/github/release/nest-desktop/nest-desktop-appImage.svg?color=brightgreen&label=AppImage&logo=linux&logoColor=white
+.. |appImage-release| image:: https://img.shields.io/github/release/nest-desktop/nest-desktop-appImage?label=AppImage&logo=linux&logoColor=white
    :alt: AppImage version
    :target: https://github.com/nest-desktop/nest-desktop-appImage/releases
 
