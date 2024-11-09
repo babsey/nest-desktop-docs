@@ -44,50 +44,50 @@ NEST Desktop. Video tutorials illustrate important aspects of the course work. T
 prepare handouts for students.
 
 
-Neuron response
----------------
+Neuronal response
+-----------------
 
 This section provides sample assignments for students with little prior knowledge. The focus lies on the activity
 dynamics of single neurons. In all assignments we use :code:`iaf_psc_alpha` as our neuron model. It is studied how a
 neuron responds to different types of input.
 
-- :doc:`/lecturer/neuron-response/single-neuron-direct-current-injection`
-- :doc:`/lecturer/neuron-response/single-neuron-noise-current-injection`
-- :doc:`/lecturer/neuron-response/single-neuron-synaptic-input`
-- :doc:`/lecturer/neuron-response/single-neuron-poisson-input`
+- :doc:`/lecturer/neuronal-response/iaf-neuron-direct-current-injection`
+- :doc:`/lecturer/neuronal-response/iaf-neuron-noise-current-injection`
+- :doc:`/lecturer/neuronal-response/iaf-neuron-synaptic-input`
+- :doc:`/lecturer/neuronal-response/iaf-neuron-poisson-input`
 
 .. toctree::
    :hidden:
    :maxdepth: 0
 
-   neuron-response/single-neuron-direct-current-injection
-   neuron-response/single-neuron-noise-current-injection
-   neuron-response/single-neuron-synaptic-input
-   neuron-response/single-neuron-poisson-input
+   neuronal-response/iaf-neuron-direct-current-injection
+   neuronal-response/iaf-neuron-noise-current-injection
+   neuronal-response/iaf-neuron-synaptic-input
+   neuronal-response/iaf-neuron-poisson-input
 
 
-Neuron activity
----------------
+Neuron models
+-------------
 
 This section covers advanced topics for students with previous knowledge in neurobiology. Here, we cover the activity
-dynamics of single neurons and of neuronal networks.
+dynamics of single neurons.
 
-- :doc:`/lecturer/neuron-activity/hodgkin-huxley-action-potential`
-- :doc:`/lecturer/neuron-activity/point-neuron-conductance`
+- :doc:`/lecturer/neuron-models/hodgkin-huxley-action-potential`
+- :doc:`/lecturer/neuron-models/point-neuron-conductance`
 
 .. toctree::
    :hidden:
    :maxdepth: 0
 
-   neuron-activity/hodgkin-huxley-action-potential
-   neuron-activity/point-neuron-conductance
+   neuron-models/iaf-neuron-conductance
+   neuron-models/hodgkin-huxley-action-potential
 
 
 Network activity
 ----------------
 
 This section illustrates how NEST Desktop might be used for research in computational neuroscience. A typical example
-covers the activity dynamics of neuronal networks with multiple interacting populations.
+covers the activity dynamics of neuronal networks.
 
 - :doc:`/lecturer/network-activity/network-dynamics`
 - :doc:`/lecturer/network-activity/networks-decision-making`
