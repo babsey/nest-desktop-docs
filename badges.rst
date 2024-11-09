@@ -75,7 +75,7 @@
       .. grid-item::
          :columns: 9
 
-         |flatpak-version| |flatpak-downloads|
+         |flathub-version| |flathub-downloads|
 
       .. grid-item::
          :columns: 3
