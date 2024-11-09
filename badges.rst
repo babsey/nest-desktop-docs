@@ -151,7 +151,7 @@
    :alt: AppImage downloads
    :target: https://github.com/nest-desktop/nest-desktop-appImage
 
-.. |flathub-version| image:: https://img.shields.io/flathub/v/io.github.nest_desktop.nest-desktop
+.. |flathub-version| image:: https://img.shields.io/flathub/v/io.github.nest_desktop.nest-desktop?logo=flathub
    :alt: Flathub version
    :target: https://flathub.org/apps/io.github.nest_desktop.nest-desktop
 
