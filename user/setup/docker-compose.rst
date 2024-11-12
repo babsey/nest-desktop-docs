@@ -41,11 +41,11 @@ macOS and Windows.
       **Pull and start Docker containers**
 
       #. Get the configuration file for Docker Compose (`docker-compose.yml
-         <https://raw.githubusercontent.com/nest-desktop/nest-desktop/main/docker-compose.yml>`__)
+         <https://raw.githubusercontent.com/nest-desktop/nest-desktop/main/docker/docker-compose.yml>`__)
 
          .. code-block:: bash
 
-            wget https://raw.githubusercontent.com/nest-desktop/nest-desktop/main/docker-compose.yml
+            wget https://raw.githubusercontent.com/nest-desktop/nest-desktop/main/docker/docker-compose.yml
 
       #. Pull images and start containers for NEST Desktop and NEST Simulator in a single command:
 
