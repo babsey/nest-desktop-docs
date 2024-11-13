@@ -43,13 +43,13 @@ Initially, you have to upgrade the version of NEST Desktop in:
 - ``packages.json``
 - ``nest_desktop/__init__.py``
 
-Then generate the app package using ``yarn``. It builds the folder ``nest_desktop/app``:
+Then generate the app package using ``yarn``. It builds output into the folder ``nest_desktop/app``:
 
 .. code-block:: bash
 
    yarn build
 
-The second step is to build a pip package for PyPI:
+Clean output files before you perform the second step:
 
 .. code-block:: bash
 
@@ -101,7 +101,7 @@ When a new Python package is released, we can change the version in ``meta.yaml`
 .. note::
    It is also important to change the ``sha256`` checksum of the source of ``tar.gz`` file.
 
-Then make a pull request on the base branch of this repository.
+Then make a pull request on the upstream repository.
 
 
 .. _production-appImage:
@@ -119,6 +119,14 @@ Then upload the ``.appImage`` file to the release on https://github.com/nest-des
 
 .. seeAlso::
    If you want to build other Electron packages, please have a look into ``electron-builder.yml`` file.
+
+
+.. _production-flatpak:
+
+Change files and version in the `io.github.nest_desktop.nest-desktop.yml` file from 
+`https://github.com/nest-desktop/nest-desktop-flathub`.
+
+Then make a pull request on the upstream repository.
 
 
 .. _production-snap:

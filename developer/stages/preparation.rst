@@ -98,20 +98,20 @@ Get an Apptainer recipe:
 
 .. code-block:: bash
 
-   wget https://raw.githubusercontent.com/nest-desktop/nest-desktop-apptainer/master/recipes/development/dev-node-0-alpine.def
+   wget https://raw.githubusercontent.com/nest-desktop/nest-desktop-apptainer/master/recipes/development/dev-node-22-alpine.def
 
-The definition file ``dev-node-20-alpine.def`` contains an adequate environment to develop and build NEST Desktop.
+The definition file ``dev-node-22-alpine.def`` contains an adequate environment to develop and build NEST Desktop.
 
 Build an Apptainer image:
 
 .. code-block:: bash
 
-   apptainer build dev-node-20-alpine.sif dev-node-20-alpine.def
+   apptainer build dev-node-22-alpine.sif dev-node-22-alpine.def
 
 Go to the shell inside the Apptainer container:
 
 .. code-block:: bash
 
-   apptainer shell dev-node-20-alpine.sif
+   apptainer shell dev-node-22-alpine.sif
 
 |
