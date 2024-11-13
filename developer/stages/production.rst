@@ -127,7 +127,7 @@ Flatpak
 -------
 
 Change files and version in the ``io.github.nest_desktop.nest-desktop.yml`` file from 
-`https://github.com/nest-desktop/nest-desktop-flathub`.
+https://github.com/nest-desktop/nest-desktop-flathub.
 
 Then make a pull request on the upstream repository.
 
