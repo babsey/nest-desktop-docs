@@ -126,7 +126,7 @@ Then upload the ``.appImage`` file to the release on https://github.com/nest-des
 Flatpak
 -------
 
-Change files and version in the ```io.github.nest_desktop.nest-desktop.yml``` file from 
+Change files and version in the ``io.github.nest_desktop.nest-desktop.yml`` file from 
 `https://github.com/nest-desktop/nest-desktop-flathub`.
 
 Then make a pull request on the upstream repository.
