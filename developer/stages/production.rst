@@ -61,8 +61,6 @@ The second step is to build the Python packages of `nest-desktop` for PyPI:
 
    python3 -m build -o pydist
 
-|
-
 Upload
 ^^^^^^
 
@@ -101,7 +99,7 @@ When a new Python package is released, we can change the version in ``meta.yaml`
 .. note::
    It is also important to change the ``sha256`` checksum of the source of ``tar.gz`` file.
 
-Then make a pull request on the upstream repository.
+Then make a pull request on the upstream repository. The CI will build package for conda-forge.
 
 
 .. _production-appImage:
@@ -126,10 +124,29 @@ Then upload the ``.appImage`` file to the release on https://github.com/nest-des
 Flatpak
 -------
 
+First install flatpak
+
+.. code-block:: bash
+
+   sudo apt install flatpak
+   flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+   sudo apt install gnome-software-plugin-flatpak gnome-software
+   sudo apt install flatpak-builder
+
+
 Change files and version in the ``io.github.nest_desktop.nest-desktop.yml`` file from 
 https://github.com/nest-desktop/nest-desktop-flathub.
 
-Then make a pull request on the upstream repository.
+Build and install flatpak in user folder:
+
+.. code-block:: bash
+
+   flatpak-builder --force-clean --user --install-deps-from=flathub --install builddir io.github.nest_desktop.nest-desktop.yml
+
+If it worked locally, then make a pull request on the upstream repository. The CI will build flatpak for flathub.
+
+.. seeAlso::
+   For more information, please read the guide https://docs.flatpak.org/en/latest/index.html
 
 
 .. _production-snap:
