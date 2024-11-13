@@ -1,12 +1,12 @@
-name: rtd311
+name: rtd312
 dependencies:
-  - python=3.12
   - pip==24.2
+  - python=3.12
+  - sphinx-book-theme==1.1.2
+  - sphinx-copybutton==0.5.2
+  - sphinx-design==0.6.1
+  - sphinx-immaterial==0.12.4
+  - sphinx-material==0.0.36
   - sphinx==8.1.3
   - pip:
-      - sphinx-book-theme==1.1.2
-      - sphinx-copybutton==0.5.2
-      - sphinx-design==0.6.1
-      - sphinx-immaterial==0.12.4
       - sphinx-immaterial[keys]
-      - sphinx-material==0.0.36
