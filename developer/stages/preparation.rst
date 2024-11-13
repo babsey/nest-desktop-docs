@@ -15,9 +15,6 @@ Requirements
 
 You can install these requirements in the host system.
 
-However, we prefer to use an Apptainer container and leave the host system unchanged. For this, we prepared a Apptainer
-recipe that builds a container with the required packages for the development.
-
 First install nvm to install Node.js (https://nodejs.org/en/download/package-manager). For Linux developer:
 
 .. code-block:: bash
