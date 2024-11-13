@@ -30,7 +30,7 @@ Make screenshots in web browser or use `Kooha <https://github.com/SeaDve/Kooha>`
 Development: Build HTML locally
 -------------------------------
 
-Build the documentation which your created with Sphinx offline:
+Build the documentation which your created with Sphinx locally:
 
 .. code-block:: bash
 
