@@ -1,7 +1,7 @@
 Work on the source code
 =======================
 
-First install nvm to install nodejs (https://nodejs.org/en/download/package-manager). For Linux developer:
+First install nvm to install Node.js (https://nodejs.org/en/download/package-manager). For Linux developer:
 
 .. code-block:: bash
 

@@ -132,13 +132,16 @@ First, install snapcraft
 
    sudo snap install snapcraft --classic
 
+.. note::
+   Running LXD and Docker on the same host can cause connectivity issues. To fix it, please read this: 
+   https://documentation.ubuntu.com/lxd/en/latest/howto/network_bridge_firewalld/#prevent-connectivity-issues-with-lxd-and-docker
 
-By default snapcraft runs with 2G memory, which is not enough for building electron. To use snapcraft with larger
-memory:
+
+To build and pack NEST Desktop with snapcraft:
 
 .. code-block:: bash
 
-   SNAPCRAFT_BUILD_ENVIRONMENT_MEMORY=8G snapcraft
+   snapcraft
 
 Then install the snap file locally:
 
