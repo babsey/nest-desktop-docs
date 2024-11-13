@@ -126,6 +126,13 @@ Then upload the ``.appImage`` file to the release on https://github.com/nest-des
 Snap (``.snap`` package)
 ------------------------
 
+First, install snapcraft
+
+.. code-block:: bash
+
+   sudo snap install snapcraft --classic
+
+
 By default snapcraft runs with 2G memory, which is not enough for building electron. To use snapcraft with larger
 memory:
 

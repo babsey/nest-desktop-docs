@@ -1,7 +1,25 @@
 Work on the source code
 =======================
 
-First, prepare the development environment with the required packages.
+First install nvm to install nodejs (https://nodejs.org/en/download/package-manager). For Linux developer:
+
+.. code-block:: bash
+
+   # installs nvm (Node Version Manager)
+   sudo curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+
+   # download and install Node.js (you may need to restart the terminal)
+   nvm install 22
+
+Then prepare the development environment with the required packages:
+
+.. code-block:: bash
+
+   sudo apt install make g++
+   npm install --global yarn
+   yarn install
+
+Then start the dev server:
 
 .. code-block:: bash
 
