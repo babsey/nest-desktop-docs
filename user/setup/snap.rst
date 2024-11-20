@@ -27,6 +27,20 @@ Snap |linux| |macOS|
 
 **The installation is now complete!**
 
+.. note::
+
+   If you like to use older version instead and to disable the update to the latest, specify the channel:
+
+   .. code-block:: bash
+
+      sudo install nest-desktop --channel=3.3/stable
+
+   Please consider that older releases are not in the maintenance anymore. Due the limited resources our
+   development/maintenance efforts focus only on the current release.
+
+   We are very grateful to have feedback why you prefers the older one.
+
+
 Start
 -----
 
