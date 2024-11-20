@@ -92,7 +92,7 @@ Upgrade outdated node modules:
 .. _preparation-build-an-environment-with-apptainer:
 
 Optional: Build an environment with Apptainer
------------------------------------
+---------------------------------------------
 
 Get an Apptainer recipe:
 
@@ -113,5 +113,3 @@ Go to the shell inside the Apptainer container:
 .. code-block:: bash
 
    apptainer shell dev-node-22-alpine.sif
-
-|
