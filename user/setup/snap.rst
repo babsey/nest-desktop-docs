@@ -38,7 +38,7 @@ Snap |linux| |macOS|
    Please consider that older releases are not in the maintenance anymore. Due the limited resources our
    development/maintenance efforts focus only on the current release.
 
-   We are very grateful to have feedback why you prefers the older one.
+   We are grateful to have feedback why you prefers the older one.
 
 
 Start
