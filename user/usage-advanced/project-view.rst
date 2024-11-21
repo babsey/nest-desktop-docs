@@ -91,6 +91,22 @@ model repository <https://github.com/nest-desktop/nest-desktop-projects>`__.
 
 .. image:: /_static/img/screenshots/project/project-import-dialog.png
 
+.. note::
+
+   |
+
+   .. grid:: 2
+
+      .. grid-item::
+         :columns: 3
+
+         .. image:: /_static/img/screenshots/project/project-from-old-database.png
+
+      .. grid-item::
+         :columns: 9
+
+         You are able to fetch projects/models from old database. Click the button at the bottom-left corner.
+
 ----
 
 In export dialog you are able to export multiple projects and models together to a single file.

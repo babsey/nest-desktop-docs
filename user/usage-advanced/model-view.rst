@@ -72,6 +72,22 @@ When you select the button with github icon, then click models icon, select an e
 desired model group. Click on :bdg:`fetch` button shows a list of models from which you can select which ones you want
 to import.
 
+.. note::
+
+   |
+
+   .. grid:: 2
+
+      .. grid-item::
+         :columns: 3
+
+         .. image:: /_static/img/screenshots/project/project-from-old-database.png
+
+      .. grid-item::
+         :columns: 9
+
+         You are able to fetch projects/models from old database. Click the button at the bottom-left corner.
+
 .. .. _model-view-import-models:
 
 .. Import models
