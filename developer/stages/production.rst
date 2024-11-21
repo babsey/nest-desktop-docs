@@ -13,7 +13,7 @@ Currently, we build NEST Desktop for multiple targets and publish them on variou
 Docker
 -----
 
-.. image:: /_static/img/logo/docker-logo.png
+.. image:: /_static/img/logo/Moby-logo.png
    :alt: Docker
    :width: 240px
    :target: #production-docker
