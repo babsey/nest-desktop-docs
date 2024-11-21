@@ -72,8 +72,8 @@ Neuron models
 This section covers advanced topics for students with previous knowledge in neurobiology. Here, we cover the activity
 dynamics of single neurons.
 
+- :doc:`/lecturer/neuron-models/iaf-neuron-conductance`
 - :doc:`/lecturer/neuron-models/hodgkin-huxley-action-potential`
-- :doc:`/lecturer/neuron-models/point-neuron-conductance`
 
 .. toctree::
    :hidden:
