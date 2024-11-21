@@ -44,57 +44,57 @@ NEST Desktop. Video tutorials illustrate important aspects of the course work. T
 prepare handouts for students.
 
 
-Bachelor students
+Neuronal response
 -----------------
 
 This section provides sample assignments for students with little prior knowledge. The focus lies on the activity
 dynamics of single neurons. In all assignments we use :code:`iaf_psc_alpha` as our neuron model. It is studied how a
 neuron responds to different types of input.
 
-- :doc:`/lecturer/bachelor/single-neuron-direct-current-injection`
-- :doc:`/lecturer/bachelor/single-neuron-noise-current-injection`
-- :doc:`/lecturer/bachelor/single-neuron-synaptic-input`
-- :doc:`/lecturer/bachelor/single-neuron-poisson-input`
+- :doc:`/lecturer/neuronal-response/iaf-neuron-direct-current-injection`
+- :doc:`/lecturer/neuronal-response/iaf-neuron-noise-current-injection`
+- :doc:`/lecturer/neuronal-response/iaf-neuron-synaptic-input`
+- :doc:`/lecturer/neuronal-response/iaf-neuron-poisson-input`
 
 .. toctree::
    :hidden:
    :maxdepth: 0
 
-   bachelor/single-neuron-direct-current-injection
-   bachelor/single-neuron-noise-current-injection
-   bachelor/single-neuron-synaptic-input
-   bachelor/single-neuron-poisson-input
+   neuronal-response/iaf-neuron-direct-current-injection
+   neuronal-response/iaf-neuron-noise-current-injection
+   neuronal-response/iaf-neuron-synaptic-input
+   neuronal-response/iaf-neuron-poisson-input
 
 
-Master students
----------------
+Neuron models
+-------------
 
 This section covers advanced topics for students with previous knowledge in neurobiology. Here, we cover the activity
-dynamics of single neurons and of neuronal networks.
+dynamics of single neurons.
 
-- :doc:`/lecturer/master/hodgkin-huxley-action-potential`
-- :doc:`/lecturer/master/point-neuron-conductance`
-- :doc:`/lecturer/master/network-dynamics`
+- :doc:`/lecturer/neuron-models/hodgkin-huxley-action-potential`
+- :doc:`/lecturer/neuron-models/point-neuron-conductance`
 
 .. toctree::
    :hidden:
    :maxdepth: 0
 
-   master/hodgkin-huxley-action-potential
-   master/point-neuron-conductance
-   master/network-dynamics
+   neuron-models/iaf-neuron-conductance
+   neuron-models/hodgkin-huxley-action-potential
 
 
-Doctoral students
------------------
+Network activity
+----------------
 
 This section illustrates how NEST Desktop might be used for research in computational neuroscience. A typical example
-covers the activity dynamics of neuronal networks with multiple interacting populations.
+covers the activity dynamics of neuronal networks.
 
-- :doc:`/lecturer/doctorate/networks-decision-making`
+- :doc:`/lecturer/network-activity/network-dynamics`
+- :doc:`/lecturer/network-activity/networks-decision-making`
 
 .. toctree::
    :hidden:
    :maxdepth: 0
 
-   doctorate/networks-decision-making
+   network-activity/network-dynamics
+   network-activity/networks-decision-making

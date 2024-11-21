@@ -10,41 +10,28 @@ not use any of the container systems mentioned below, you will need to `install 
 to install `Yarn`.
 
 Requirements
-  - Node.js LTS (v20 or higher), Yarn
-  - NEST Simulator 3.0 or higher
+  - Node.js LTS (v22 or higher), Yarn
+  - NEST Simulator 3.8 or higher
 
 You can install these requirements in the host system.
 
-However, we prefer to use an Apptainer container and leave the host system unchanged. For this, we prepared a Apptainer
-recipe that builds a container with the required packages for the development.
-|
-
-.. _preparation-build-an-environment-with-apptainer:
-
-Build an environment with Apptainer
------------------------------------
-
-Get an Apptainer recipe:
+First install nvm to install Node.js (https://nodejs.org/en/download/package-manager). For Linux developer:
 
 .. code-block:: bash
 
-   wget https://raw.githubusercontent.com/nest-desktop/nest-desktop-apptainer/master/recipes/development/dev-node-0-alpine.def
+   # installs nvm (Node Version Manager)
+   sudo curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
 
-The definition file ``dev-node-20-alpine.def`` contains an adequate environment to develop and build NEST Desktop.
+   # download and install Node.js (you may need to restart the terminal)
+   nvm install 22
 
-Build an Apptainer image:
-
-.. code-block:: bash
-
-   apptainer build dev-node-20-alpine.sif dev-node-20-alpine.def
-
-Go to the shell inside the Apptainer container:
+Then prepare the development environment with the required packages:
 
 .. code-block:: bash
 
-   apptainer shell dev-node-20-alpine.sif
+   sudo apt install make g++
+   npm install --global yarn
 
-|
 
 .. _preparation-commands:
 
@@ -100,3 +87,29 @@ Upgrade outdated node modules:
 .. code-block:: bash
 
    yarn upgrade
+
+
+.. _preparation-build-an-environment-with-apptainer:
+
+Optional: Build an environment with Apptainer
+---------------------------------------------
+
+Get an Apptainer recipe:
+
+.. code-block:: bash
+
+   wget https://raw.githubusercontent.com/nest-desktop/nest-desktop-apptainer/master/recipes/development/dev-node-22-alpine.def
+
+The definition file ``dev-node-22-alpine.def`` contains an adequate environment to develop and build NEST Desktop.
+
+Build an Apptainer image:
+
+.. code-block:: bash
+
+   apptainer build dev-node-22-alpine.sif dev-node-22-alpine.def
+
+Go to the shell inside the Apptainer container:
+
+.. code-block:: bash
+
+   apptainer shell dev-node-22-alpine.sif

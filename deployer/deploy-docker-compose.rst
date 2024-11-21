@@ -44,17 +44,14 @@ Prepare your local environment by installing Docker (if you have not installed i
 Get the configuration file
 --------------------------
 
-The configuration file  `docker-compose.yml` contains all setup steps executed by Docker.
-Fetch this file from GitHub:
+The configuration file  `docker-compose.yml` contains all setup steps executed by Docker. Fetch this file from GitHub:
 
 .. code-block:: bash
 
-   wget https://raw.githubusercontent.com/nest-desktop/nest-desktop/main/docker-compose.yml
+   wget https://raw.githubusercontent.com/nest-desktop/nest-desktop/main/docker/docker-compose.yml
 
-It will pull images of NEST Desktop from
-https://docker-registry.ebrains.eu/harbor/projects/6/repositories/nest-desktop
-and NEST Simulator can be started from within the official NEST image
-(https://docker-registry.ebrains.eu/harbor/projects/6/repositories/nest-simulator).
+It will pull images of NEST Desktop and NEST Simulator can be started from within the official NEST image 
+(https://hub.docker.org/nest/nest-simulator).
 
 .. _deploy-docker-compose-getting-started:
 
@@ -87,9 +84,8 @@ Here, you can find the details of the configuration file.
 +----------------+------------------------------------+
 
 
-Alternatively, you can clone the source code so that you can change the Dockerfile
-and build custom docker images on your machine.
-For more information, visit the page https://github.com/nest-desktop/nest-desktop-docker.
+Alternatively, you can clone the source code so that you can change the Dockerfile and build custom docker images on 
+your machine. For more information, visit the page https://github.com/nest-desktop/nest-desktop-docker.
 
 |
 
@@ -184,14 +180,14 @@ An example configuration for docker-compose would be:
 
    services:
      nest-desktop:
-       image: docker-registry.ebrains.eu/nest/nest-desktop:3.2
+       image: nest/nest-desktop:4.0
        environment:
          NEST_SIMULATOR_PORT: 54321
        ports:
          - "54286:54286"
 
      nest-simulator:
-       image: docker-registry.ebrains.eu/nest/nest-simulator:3.4
+       image: nest/nest-simulator:3.8
        environment:
          NEST_CONTAINER_MODE: "nest-server"
          NEST_SERVER_PORT: 54321

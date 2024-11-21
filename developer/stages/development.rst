@@ -1,7 +1,7 @@
 Work on the source code
 =======================
 
-First, prepare the development environment with the required packages.
+Start the dev server:
 
 .. code-block:: bash
 
@@ -51,7 +51,7 @@ Fetch the data from GitHub (download it to your local directory):
    git fetch
 
 This command can be varied with options to e.g. fetch all branches (``git fetch --all``) or to discard unreachable
-content (``git fetch --prune``), even with multiple of them. If required, intergrate the changes from GitHub into your
+content (``git fetch --prune``), even with multiple of them. If required, integrate the changes from GitHub into your
 local repository:
 
 .. code-block:: bash
@@ -64,7 +64,7 @@ It is recommended to create a new branch for an an implementation of a new featu
 
    git checkout -b newBranch
 
-If your changes are ready to be commited, stage and commit them:
+If your changes are ready to be committed, stage and commit them:
 
 .. code-block:: bash
 

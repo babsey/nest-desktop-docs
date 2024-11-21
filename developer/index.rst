@@ -39,3 +39,11 @@ Development stages
    stages/production
    stages/documentation
    stages/continuous-integration
+
+Vendors
+=======
+
+.. toctree::
+   :maxdepth: 1
+
+   vendors/plotlyjs

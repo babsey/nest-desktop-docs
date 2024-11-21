@@ -70,6 +70,16 @@
       .. grid-item::
          :columns: 3
 
+         Flatpak
+
+      .. grid-item::
+         :columns: 9
+
+         |flathub-version| |flathub-downloads|
+
+      .. grid-item::
+         :columns: 3
+
          Snap
 
       .. grid-item::
@@ -133,7 +143,7 @@
    :alt: Conda downloads total
    :target: https://anaconda.org/conda-forge/nest-desktop
 
-.. |appImage-release| image:: https://img.shields.io/github/release/nest-desktop/nest-desktop-appImage.svg?color=brightgreen&label=AppImage&logo=linux&logoColor=white
+.. |appImage-release| image:: https://img.shields.io/github/release/nest-desktop/nest-desktop-appImage?label=AppImage&logo=linux&logoColor=white
    :alt: AppImage version
    :target: https://github.com/nest-desktop/nest-desktop-appImage/releases
 
@@ -141,6 +151,14 @@
    :alt: AppImage downloads
    :target: https://github.com/nest-desktop/nest-desktop-appImage
 
-.. |snap-version| image:: https://snapcraft.io/nest-desktop/badge.svg
+.. |flathub-version| image:: https://img.shields.io/flathub/v/io.github.nest_desktop.nest-desktop?logo=flathub
+   :alt: Flathub version
+   :target: https://flathub.org/apps/io.github.nest_desktop.nest-desktop
+
+.. |flathub-downloads| image:: https://img.shields.io/flathub/downloads/io.github.nest_desktop.nest-desktop
+   :alt: Flathub downloads
+   :target: https://flathub.org/apps/io.github.nest_desktop.nest-desktop
+
+.. |snap-version| image:: https://img.shields.io/snapcraft/v/nest-desktop/latest/stable?logo=snapcraft&logoColor=white
    :alt: Snap version
    :target: https://snapcraft.io/nest-desktop
