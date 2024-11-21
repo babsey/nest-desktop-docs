@@ -8,6 +8,35 @@ Currently, we build NEST Desktop for multiple targets and publish them on variou
    Therefore, we recommend to inspect the ``.gitlab-ci.yml`` file together with this chapter.
    It might also be helpful to have a look at the commands defined in ``package.json``.
 
+.. _production-docker:
+
+Docker
+-----
+
+.. image:: /_static/img/logo/docker-logo.png
+   :alt: Docker
+   :width: 240px
+   :target: #production-docker
+
+After building the app to the output folder with the command ``yarn build``, build a docker image
+
+.. code-block::
+
+   docker build -t nest/nest-desktop:latest -f docker/nest-desktop-build/Dockerfile .
+
+Then tag image with other version
+
+.. code-block::
+
+   docker tag nest/nest-desktop:latest nest/nest-desktop:4.0
+   docker tag nest/nest-desktop:latest nest/nest-desktop:4.0.0
+
+Finally push all docker images
+
+.. code-block::
+
+   docker push nest/desktop:latest nest/desktop:4.0 nest/desktop:4.0.0
+
 
 .. _production-python:
 
@@ -104,14 +133,14 @@ Then make a pull request on the upstream repository. The CI will build package f
 
 .. _production-appImage:
 
-AppImage (``.appImage`` package)
----------------------------
+AppImage
+--------
 
 In ``package.json``, there are also yarn commands configured to build an Electron app.
 
 .. code-block:: bash
 
-   yarn app:build --linux appImage
+   yarn app:build --linux AppImage
 
 Then upload the ``.appImage`` file to the release on https://github.com/nest-desktop/nest-desktop-AppImage.
 
@@ -134,7 +163,7 @@ First install flatpak
    sudo apt install flatpak-builder
 
 
-Change files and version in the ``io.github.nest_desktop.nest-desktop.yml`` file from 
+Change files and version in the ``io.github.nest_desktop.nest-desktop.yml`` file from
 https://github.com/nest-desktop/nest-desktop-flathub.
 
 Build and install flatpak in user folder:
@@ -151,8 +180,8 @@ If it worked locally, then make a pull request on the upstream repository. The C
 
 .. _production-snap:
 
-Snap (``.snap`` package)
-------------------------
+Snap
+----
 
 First, install snapcraft
 
@@ -161,7 +190,7 @@ First, install snapcraft
    sudo snap install snapcraft --classic
 
 .. note::
-   Running LXD and Docker on the same host can cause connectivity issues. To fix it, please read this: 
+   Running LXD and Docker on the same host can cause connectivity issues. To fix it, please read this:
    https://documentation.ubuntu.com/lxd/en/latest/howto/network_bridge_firewalld/#prevent-connectivity-issues-with-lxd-and-docker
 
 
