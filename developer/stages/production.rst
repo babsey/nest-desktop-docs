@@ -128,6 +128,10 @@ When a new Python package is released, we can change the version in ``meta.yaml`
 .. note::
    It is also important to change the ``sha256`` checksum of the source of ``tar.gz`` file.
 
+.. code-block:: bash
+
+   conda smithy rerender -c auto
+
 Then make a pull request on the upstream repository. The CI will build package for conda-forge.
 
 
