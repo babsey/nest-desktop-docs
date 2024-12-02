@@ -1,6 +1,8 @@
 Events
 ======
 
+.. class:: events
+
 **2024**
 
 :30 Nov: Workshop at the University of Padua, organised by Francesco De Santis, Padua, Italy.
