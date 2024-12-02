@@ -3,7 +3,7 @@ Events
 
 **2024**
 
-:30 Nov: Workshop at the University of Padua, organised by Francesco De Santis, Padua, Italy (Big troubles to use it)
+:30 Nov: Workshop at the University of Padua, organised by Francesco De Santis, Padua, Italy.
 :05 - 21 Nov: Workshop, organised by Alberto Antonietti, Milan, Italy.
 :30 Sep - 02 Oct: Poster and Booth at Bernstein Conference, Frankfurt, Germany.
 :23 - 26 Jul: Talk at Summer Colloquium, Trier, Germany.
