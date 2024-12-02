@@ -20,7 +20,7 @@ import os
 project = "NEST Desktop"
 author = "Sebastian Spreizer"
 copyright = "2016-present Sebastian Spreizer"
-version = "3.3"
+version = "4.0"
 
 
 # -- General configuration ---------------------------------------------------
