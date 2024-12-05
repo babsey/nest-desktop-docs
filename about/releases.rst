@@ -19,6 +19,7 @@ Here, we show the main feature which are implemented in each release (with fancy
       .. dropdown:: Release dates
          :class-container: dates
 
+         :05 Dec 24: v4.0.4
          :28 Nov 24: v4.0.3
          :21 Nov 24: v4.0.2
          :21 Nov 24: v4.0.1

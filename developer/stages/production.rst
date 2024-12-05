@@ -103,7 +103,7 @@ Do not forget to commit the changes you made and set a new version tag in git.
 
 .. code-block:: bash
 
-   git tag -a v4.0 -m 'v4.0.0'
+   git tag v4.0 -m 'v4.0.x'
    git push --tags
 
 
