@@ -72,6 +72,41 @@
   border-right: 2px solid var(--md-default-fg-color);
 }
 
+
+.dates, .dates .sd-card-header {
+  width: -webkit-fill-available;
+  background-color: var(--md-default-bg-color);
+}
+
+.dates .sd-card-body {
+  padding: 0
+}
+
+.dates .sd-card-header::before, .dates .sd-card-header::after {
+  mask-image: none !important;
+  background-color: transparent !important
+}
+
+.entry dl {
+  text-align: left !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.entry dt {
+  width: 120px;
+  padding-left: 20px;
+}
+
+.entry dd {
+  margin: 0 !important;
+  width: calc(100% - 120px);
+}
+
+.entry dd p {
+  margin: 0 !important;
+}
+
 .timeline .entry.left::after,
 .timeline .entry.right::before {
   background: var(--md-default-bg-color);
