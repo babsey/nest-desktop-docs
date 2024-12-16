@@ -1,10 +1,13 @@
 Events
 ======
 
+Here, we show a list of events in which NEST Desktop is used or mentioned.
+
 .. card:: 2024
    :class-body: events
    :shadow: none
 
+   :09 - 13 Dec: `NEST Hackathon <https://events.hifis.net/event/1961/>`__ at RWTH Aachen, Aachen, Germany.
    :30 Nov: Workshop at the University of Padua, organised by Francesco De Santis, Padua, Italy.
    :05 - 21 Nov: Workshop, organised by Alberto Antonietti, Milan, Italy.
    :30 Sep - 02 Oct: Poster and Booth at Bernstein Conference, Frankfurt, Germany.

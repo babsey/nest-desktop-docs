@@ -1,7 +1,7 @@
 Releases
 ========
 
-Here, we show the main feature which are implemented in each release (with fancy screenshots):
+Here, we show main features which are implemented in each release (with fancy screenshots):
 
 .. grid:: 2
    :class-container: timeline

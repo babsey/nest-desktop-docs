@@ -14,6 +14,10 @@ NESTML combines:
 algorithms using imperative programming concepts.
 - Generated code approaches runtime and memory efficiency of hand-coded models.
 
+.. info::
+
+   We tested nestml and nestml-server with Python 3.11.
+
 .. seeAlso::
    Read the full installation guide of NESTML :doc:`here <nestml:installation>`.
 
@@ -58,6 +62,14 @@ Conda
 
 NESTML Server is now running at http://localhost:52426.
 
+.. note::
+   NEST has to find custom, NESTML-compiled models. Before you start :code:`nest-server`, you have to set module path
+   for environment variable in bash:
+
+   .. code-block:: bash
+
+      conda activate nest
+      conda env config vars set NESTML_MODULE_PATH=/tmp/nestmlmodules
 
 Python
 ------

@@ -28,10 +28,10 @@ server is implemented.
       export NEST_SERVER_DISABLE_AUTH=1
       export NEST_SERVER_ENABLE_EXEC_CALL=1
       export NEST_SERVER_DISABLE_RESTRICTION=1
+      export NEST_SERVER_MODULES="import nest;import numpy;import numpy as np"
 
    For more information read the full documentation of NEST Server
-   :doc:`here <nest-simulator:connect_nest/nest_server>`.
-
+   :doc:`here <nest-simulator:interface_nest/nest_server>`.
 
 Conda
 -----
@@ -57,6 +57,17 @@ Conda
       nest-server start
 
 NEST Server is now running at http://localhost:52425.
+
+.. info::
+   Set specific env variables when activating conda environment.
+
+   .. code-block:: bash
+
+      conda activate nest
+      conda env config vars set NEST_SERVER_DISABLE_AUTH=1
+      conda env config vars set NEST_SERVER_ENABLE_EXEC_CALL=1
+      conda env config vars set NEST_SERVER_DISABLE_RESTRICTION=1
+      conda env config vars set NEST_SERVER_MODULES="import nest;import numpy;import numpy as np"
 
 
 Python

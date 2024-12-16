@@ -19,8 +19,10 @@ links:
 **Production**
     - AppImage: `<https://github.com/nest-desktop/nest-desktop-appimage>`_
     - Apptainer: `<https://github.com/nest-desktop/nest-desktop-apptainer>`_
+    - Python: `<https://github.com/nest-desktop/nest-desktop>`_
     - Conda: `<https://github.com/nest-desktop/nest-desktop-conda>`_
     - Docker: `<https://github.com/nest-desktop/nest-desktop-docker>`_
+    - Flatpak: `<https://github.com/nest-desktop/nest-desktop-flathub>`_
     - Snap: `<https://github.com/nest-desktop/nest-desktop-snap>`_
 
 **Deployment**
