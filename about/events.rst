@@ -3,6 +3,14 @@ Events
 
 Here, we show a list of events in which NEST Desktop is used or mentioned.
 
+.. card:: 2025
+   :class-body: events
+   :shadow: none
+
+   :18 - 19 Feb: Workshop, organised by Alberto Antonietti, Milan, Italy.
+   :10 - 21 Feb:  BSc course "Simple Neuron Models" at BCF [#fc1]_, Freiburg, Germany.
+   :28 - 30 Jan: Workshop at the University of Padua, organised by Francesco De Santis, Padua, Italy.
+
 .. card:: 2024
    :class-body: events
    :shadow: none
