@@ -113,8 +113,8 @@ elif html_theme == "sphinx_immaterial":
             "repo": "fontawesome/brands/github",
             "edit": "material/file-edit-outline",
         },
-        "site_url": "https://nest-desktop.github.io/",
-        "repo_url": "https://github.com/nest-desktop/nest-desktop/",
+        "site_url": "https://nest-desktop.readthedocs.io/en/latest/",
+        "repo_url": "https://github.com/nest-desktop/nest-desktop-docs/",
         "repo_name": "NEST Desktop",
         "globaltoc_collapse": True,
         "features": [
