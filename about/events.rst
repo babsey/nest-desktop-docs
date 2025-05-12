@@ -7,9 +7,13 @@ Here, we show a list of events in which NEST Desktop is used or mentioned.
    :class-body: events
    :shadow: none
 
+   :08 - 09 Apr: On-site Evaluation, Forschungszentrum Jülich, Germany.
+   :25 - 28 Mar: Late breaking news and tutorial at `NICE Workshop <https://flagship.kip.uni-heidelberg.de/jss/HBPm?mI=263&m=showAgenda>`, Heidelberg, Germany.
+   :12 Mar: Talk and Tutorial at `EBRAINS tutorials and users day <https://flagship.kip.uni-heidelberg.de/jss/HBPm?m=SgD&mI=268>`, Heidelberg, Germany.
    :18 - 19 Feb: Workshop, organised by Alberto Antonietti, Milan, Italy.
    :10 - 21 Feb:  BSc course "Simple Neuron Models" at BCF [#fc1]_, Freiburg, Germany.
    :28 - 30 Jan: Workshop at the University of Padua, organised by Francesco De Santis, Padua, Italy.
+   :13 Jan: NEST Tutorial at `LACONEU Summer School <https://laconeu.cl/>`, presented by Johanna Senk, Valparaiso, Chile.
 
 .. card:: 2024
    :class-body: events
