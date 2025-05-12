@@ -7,12 +7,12 @@
 .. toctree::
    :hidden:
 
-   Backends <backends/index>
    AppImage <appimage>
    Apptainer <apptainer>
-   Conda <conda>
+   Backends <backends/index>
    Docker Compose <docker-compose>
    Flatpak <flatpak>
+   Mamba (Conda) <mamba>
    Python <python>
    Snap <snap>
 
@@ -48,7 +48,7 @@ You are able to use NEST Desktop as Snap, Flatpak or AppImage.
          .. grid-item::
             :columns: 8
 
-            Install and start NEST Desktop as Snap (with NEST Backend).
+            Install and start NEST Desktop as Snap (with NEST and NESTML Backend).
 
    .. grid-item-card:: Flatpak |linux|
       :columns: 6
@@ -135,9 +135,9 @@ Alternatively, you can install NEST Desktop with the ``conda`` or ``pip`` comman
 .. grid:: 2
    :gutter: 2
 
-   .. grid-item-card:: Conda |linux| |windows| |macOS|
+   .. grid-item-card:: Mamba (Conda) |linux| |windows| |macOS|
       :columns: 6
-      :link: setup-conda
+      :link: setup-mamba
       :link-type: ref
 
       .. grid:: 2
@@ -145,12 +145,12 @@ Alternatively, you can install NEST Desktop with the ``conda`` or ``pip`` comman
          .. grid-item::
             :columns: 4
 
-            |conda|
+            |conda-forge|
 
          .. grid-item::
             :columns: 8
 
-            Setup NEST Desktop with Conda.
+            Setup NEST Desktop (without backends) with Mamba (from Conda-forge).
 
    .. grid-item-card:: Python |linux| |windows| |macOS|
       :columns: 6
@@ -167,4 +167,4 @@ Alternatively, you can install NEST Desktop with the ``conda`` or ``pip`` comman
          .. grid-item::
             :columns: 8
 
-            Setup NEST Desktop from Python Package (without backends).
+            Setup NEST Desktop (without backends) from Python Package.

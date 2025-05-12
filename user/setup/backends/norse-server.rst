@@ -26,11 +26,11 @@ The API Server for Norse Simulator is referred to as **Norse Server**.
 Conda
 -----
 
-#. Activate the Conda environment :bdg:`norse`:
+#. Activate the Mamba environment :bdg:`norse`:
 
    .. code-block:: bash
 
-      conda create -n norse norse
+      mamba create -n norse norse
 
 #. Install Norse Server:
 
@@ -39,7 +39,6 @@ Conda
       python3 -m pip install norse-server@git+https://github.com/babsey/norse-server
 
 #. Start Norse Server as the backend:
-
 
    .. code-block:: bash
 
@@ -53,4 +52,5 @@ Norse Server is now running at http://localhost:11428.
 
    .. code-block:: bash
 
-      export NORSE_SERVER_DISABLE_RESTRICTION=1
+      mamba activate norse
+      mamba env config vars set NORSE_SERVER_DISABLE_RESTRICTION=1

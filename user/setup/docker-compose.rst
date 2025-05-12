@@ -41,11 +41,11 @@ macOS and Windows.
       **Pull and start Docker containers**
 
       #. Get the configuration file for Docker Compose (`docker-compose.yml
-         <https://raw.githubusercontent.com/nest-desktop/nest-desktop/main/docker/docker-compose.yml>`__)
+         <https://raw.githubusercontent.com/nest-desktop/nest-desktop-docker/main/docker-compose.yml>`__)
 
          .. code-block:: bash
 
-            wget https://raw.githubusercontent.com/nest-desktop/nest-desktop/main/docker/docker-compose.yml
+            wget https://raw.githubusercontent.com/nest-desktop/nest-desktop-docker/main/docker-compose.yml
 
       #. Pull images and start containers for NEST Desktop and NEST Simulator in a single command:
 
@@ -66,8 +66,8 @@ at http://localhost:54286.
 **The installation is now complete!**
 
 .. seeAlso::
-   For more information (like running the containers without root password, etc.), please read the full documentation
-   of `NEST Desktop Docker <https://github.com/nest-desktop/nest-desktop-docker>`__.
+   For more examples (like custom port, running with NEST Server MPI), please visit the repository of
+   `NEST Desktop Docker <https://github.com/nest-desktop/nest-desktop-docker>`__.
 
 
 Next steps

@@ -33,20 +33,20 @@ server is implemented.
    For more information read the full documentation of NEST Server
    :doc:`here <nest-simulator:interface_nest/nest_server>`.
 
-Conda
------
+Mamba (Conda)
+-------------
 
-#. Activate the Conda environment :bdg:`nest`:
+#. Activate the Mamba environment :bdg:`nest`:
 
    .. code-block:: bash
 
-      conda activate nest
+      mamba activate nest
 
 #. Install NEST Simulator and dependencies for the API Server:
 
    .. code-block:: bash
 
-      conda install nest-simulator flask flask-cors gunicorn restrictedpython
+      mamba install nest-simulator flask flask-cors gunicorn restrictedpython
 
 #. Start NEST Server as the back end:
 
@@ -63,11 +63,11 @@ NEST Server is now running at http://localhost:52425.
 
    .. code-block:: bash
 
-      conda activate nest
-      conda env config vars set NEST_SERVER_DISABLE_AUTH=1
-      conda env config vars set NEST_SERVER_ENABLE_EXEC_CALL=1
-      conda env config vars set NEST_SERVER_DISABLE_RESTRICTION=1
-      conda env config vars set NEST_SERVER_MODULES="import nest;import numpy;import numpy as np"
+      mamba activate nest
+      mamba env config vars set NEST_SERVER_DISABLE_AUTH=1
+      mamba env config vars set NEST_SERVER_ENABLE_EXEC_CALL=1
+      mamba env config vars set NEST_SERVER_DISABLE_RESTRICTION=1
+      mamba env config vars set NEST_SERVER_MODULES="import nest;import numpy;import numpy as np"
 
 
 Python
