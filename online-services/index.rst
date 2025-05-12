@@ -26,5 +26,4 @@ services without any need of installation.
    :hidden:
 
    ebrains
-   helmholtz-cloud
    jupyter-jsc
