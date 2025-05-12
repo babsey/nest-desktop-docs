@@ -15,13 +15,6 @@ services without any need of installation.
       .. image:: /_static/img/logo/ebrains-logo.svg
          :width: 200px
 
-   .. grid-item-card:: Helmholtz Cloud
-      :link: nest-desktop-on-helmholtz-cloud
-      :link-type: ref
-
-      .. image:: /_static/img/logo/helmholtz-cloud-logo.svg
-         :width: 200px
-
    .. grid-item-card:: Jupyter JSC
       :link: nest-desktop-on-jupyter-jsc
       :link-type: ref
