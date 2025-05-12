@@ -13,6 +13,11 @@
    :target: #
    :width: 80px
 
+.. |conda-forge| image:: /_static/img/logo/conda-forge-logo.png
+   :alt: conda
+   :target: #
+   :width: 80px
+
 .. |docker-compose| image:: /_static/img/logo/docker-compose-logo.png
    :alt: docker-compose
    :target: #
@@ -25,6 +30,11 @@
 
 .. |flatpak| image:: /_static/img/logo/Flatpak-logo.svg
    :alt: Flatpak
+   :target: #
+   :width: 80px
+
+.. |mamba| image:: /_static/img/logo/mamba-logo.png
+   :alt: mamba
    :target: #
    :width: 80px
 

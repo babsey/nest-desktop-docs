@@ -35,7 +35,7 @@ Finally push all docker images
 
 .. code-block::
 
-   docker push nest/desktop:latest nest/desktop:4.0 nest/desktop:4.0.0
+   docker push nest/desktop:latest
 
 
 .. _production-python:

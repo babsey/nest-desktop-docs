@@ -7,6 +7,19 @@ Here, we show main features which are implemented in each release (with fancy sc
    :class-container: timeline
    :gutter: 0
 
+   .. grid-item-card:: 4.1
+      :class-item: entry left
+      :text-align: right
+
+      Reimplement weight recorder, alternative mouse click to open node panel.
+
+      .. dropdown:: Release dates
+         :class-container: dates
+
+         :09 May 25: v4.1.0
+
+   .. grid-item::
+
    .. grid-item::
       :class: left
 

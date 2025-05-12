@@ -18,8 +18,8 @@ How can I empty a network?
 
 
 How can I create nodes?
-   In the network graph you can click with the right mouse button, then a selector panel appears to select an element
-   type of the new node.
+   In the network graph you can click with the mouse button, then a selector panel appears to select an element type of
+   the new node.
 
    .. seeAlso::
       - :ref:`Create nodes in the usage guide <usage-basic-create-nodes>`
@@ -49,15 +49,15 @@ How can I group multiple nodes?
       - :ref:`Group nodes <usage-advanced-node-group>`
 
 How can I colorize nodes?
-   You will find the method to color in the context menu of the node by clicking with the right mouse button on the node
+   You will find the method to color in the menu of the node by clicking with the right mouse button on the node
    shape in the network graph or in the node menu in the network controller.
 
 .. How can I change the color cycle of nodes?
 ..    In the network settings you will find the way to change the color cycle.
 
 How can I delete a node / connection?
-   You will find this method in the context menu of the node or connection by clicking with the right mouse button on
-   the element graph in the network graph or on the colored toolbar in the network controller.
+   You will find this method in the menu of the node or connection by clicking with the right mouse button on the
+   element graph in the network graph or on the colored toolbar in the network controller.
 
 How can I change the node / synapse model?
    You can click on model selection in the network controller and then select other model.
@@ -73,11 +73,11 @@ How can I modify parameters?
       - :ref:`Modify parameters in the controller <usage-basic-select-model-and-parameters>`
 
 How can I reset all parameter values?
-   In the context menu of a node or connection you will find the method to reset all parameters of the corresponding
-   node or connection.
+   In the menu of a node or connection you will find the method to reset all parameters of the corresponding node or
+   connection.
 
 How can I reset a parameter value?
-   In the context menu of a parameter (by clicking the right button on a parameter) you can find the method to reset a
+   In the menu of a parameter controller you can find the method to reset a
    parameter. It also shows the default value of the parameter.
 
 How can I set a connection to "inhibitory"?
@@ -95,5 +95,5 @@ How can I generate grid/free positions?
    find a button to generate positions.
 
 .. How can I generate an array?
-..    In the context menu of the array parameters (e.g. the spike times of a spike generator) you will find a method to
+..    In the menu of the array parameters (e.g. the spike times of a spike generator) you will find a method to
 ..    generate an array.

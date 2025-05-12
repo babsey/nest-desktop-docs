@@ -33,20 +33,20 @@ The API Server for NESTML is referred to as **NESTML Server**.
       nest-server start
 
 
-Conda
------
+Mamba (Conda)
+-------------
 
-#. Activate the Conda environment :bdg:`nest`:
+#. Activate the Mamba environment :bdg:`nest`:
 
    .. code-block:: bash
 
-      conda activate nest
+      mamba activate nest
 
 #. Install NESTML:
 
    .. code-block:: bash
 
-      conda install nestml
+      mamba install nestml
 
 #. Install NESTML Server:
 
@@ -68,8 +68,8 @@ NESTML Server is now running at http://localhost:52426.
 
    .. code-block:: bash
 
-      conda activate nest
-      conda env config vars set NESTML_MODULE_PATH=/tmp/nestmlmodules
+      mamba activate nest
+      mamba env config vars set NESTML_MODULE_PATH=/tmp/nestmlmodules
 
 Python
 ------
