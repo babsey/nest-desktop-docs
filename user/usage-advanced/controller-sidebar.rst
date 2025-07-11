@@ -208,4 +208,3 @@ Activity statistics
       :columns: 6
 
       .. image:: /_static/img/screenshots/controller/activity-stats-spike.png
-

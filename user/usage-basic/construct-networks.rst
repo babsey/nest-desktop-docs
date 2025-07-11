@@ -85,4 +85,3 @@
       :columns: 5
 
       .. image:: /_static/img/gif/edit-node.gif
-

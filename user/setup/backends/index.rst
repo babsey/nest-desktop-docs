@@ -44,4 +44,3 @@ requests to the simulation engine.
       |norse|
 
       Deep learning with spiking neural networks in PyTorch
-

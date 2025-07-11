@@ -34,4 +34,3 @@ Specifically, students learn how to ...
       * visualize the results
       * analyze the activity data
       * write a protocol of a simulation
-
