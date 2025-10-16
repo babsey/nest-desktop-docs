@@ -34,11 +34,11 @@
 
          .. grid-item-card:: Step 1a: Create nodes
 
-            In order to create a new node, you can click with the mouse button in the network editor and a circular 
-            panel with three letters appears to select an element type. A node is divided into three element types: 
-            stimulator (:bdg:`S`), recording (:bdg:`R`) device and neuron (:bdg:`N`). Click on one element type, a menu
-            of models in corresponding element type appears. Then, selecting a model creates a node of the selected 
-            model.
+            In order to create a new node, you can click with the right mouse button in the network editor and a 
+            circular panel with three letters appears to select an element type. A node is divided into three element 
+            types: stimulator (:bdg:`S`), recording (:bdg:`R`) device and neuron (:bdg:`N`). Click on one element type, 
+            a menu of models in corresponding element type appears. Then, selecting a model creates a node of the 
+            selected model.
 
    .. _usage-basic-connect-nodes:
 

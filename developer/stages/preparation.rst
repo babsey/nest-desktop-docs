@@ -2,35 +2,37 @@ Prepare the environment
 =======================
 
 NEST Desktop is written in `Vue.js` (a web framework written in TypeScript), and also in TypeScript. The Vue code is
-transpiled to HTML5 and JavaScript Code. There are multiple ways to develop Vue applications, but my preferred way (and
-probably the most common one) to develop NEST Desktop is to use `Node.js` (and optionally `Yarn`). Therefore, if you do
-not use any of the container systems mentioned below, you will need to `install Node.js
-<https://nodejs.org/en/download/package-manager/>`__ (for Windows, an easy installation guide can be found `here
-<https://treehouse.github.io/installation-guides/windows/node-windows.html>`__ ), which gives you also the possibility
-to install `Yarn`.
+transpiled to HTML5 and JavaScript Code. There are multiple ways to develop Vue applications, but my preferred way to 
+develop NEST Desktop is to use `Node.js` (and optionally `Yarn`).
 
 Requirements
-  - Node.js LTS (v22 or higher), Yarn
+  - Node.js LTS (v24 or higher), Yarn
   - NEST Simulator 3.8 or higher
 
-You can install these requirements in the host system.
+You can install these requirements in the host system. First install nvm which is a cross-platform Node.js version 
+manager. See detailed steps on https://nodejs.org/en/download.
 
-First install nvm to install Node.js (https://nodejs.org/en/download/package-manager). For Linux developer:
-
-.. code-block:: bash
-
-   # installs nvm (Node Version Manager)
-   sudo curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
-
-   # download and install Node.js (you may need to restart the terminal)
-   nvm install 22
-
-Then prepare the development environment with the required packages:
+For Linux/macOS developer execute these command lines in terminal:
 
 .. code-block:: bash
 
-   sudo apt install make g++
-   npm install --global yarn
+   # Download and install nvm:
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+
+   # in lieu of restarting the shell
+   \. "$HOME/.nvm/nvm.sh"
+
+   # Download and install Node.js:
+   nvm install 24
+
+   # Verify the Node.js version:
+   node -v # Should print "v24.7.0".
+
+   # Download and install Yarn:
+   corepack enable yarn
+
+   # Verify Yarn version:
+   yarn -v
 
 
 .. _preparation-commands:
@@ -87,29 +89,3 @@ Upgrade outdated node modules:
 .. code-block:: bash
 
    yarn upgrade
-
-
-.. _preparation-build-an-environment-with-apptainer:
-
-Optional: Build an environment with Apptainer
----------------------------------------------
-
-Get an Apptainer recipe:
-
-.. code-block:: bash
-
-   wget https://raw.githubusercontent.com/nest-desktop/nest-desktop-apptainer/master/recipes/development/dev-node-22-alpine.def
-
-The definition file ``dev-node-22-alpine.def`` contains an adequate environment to develop and build NEST Desktop.
-
-Build an Apptainer image:
-
-.. code-block:: bash
-
-   apptainer build dev-node-22-alpine.sif dev-node-22-alpine.def
-
-Go to the shell inside the Apptainer container:
-
-.. code-block:: bash
-
-   apptainer shell dev-node-22-alpine.sif

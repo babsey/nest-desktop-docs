@@ -28,8 +28,8 @@ Then tag image with other version
 
 .. code-block::
 
-   docker tag nest/nest-desktop:latest nest/nest-desktop:4.0
-   docker tag nest/nest-desktop:latest nest/nest-desktop:4.0.0
+   docker tag nest/nest-desktop:latest nest/nest-desktop:4.x
+   docker tag nest/nest-desktop:latest nest/nest-desktop:4.x.y
 
 Finally push all docker images
 
@@ -103,7 +103,7 @@ Do not forget to commit the changes you made and set a new version tag in git.
 
 .. code-block:: bash
 
-   git tag v4.0 -m 'v4.0.x'
+   git tag v4.x -m 'v4.x.y'
    git push --tags
 
 
@@ -166,6 +166,13 @@ First install flatpak
    sudo apt install gnome-software-plugin-flatpak gnome-software
    sudo apt install flatpak-builder
 
+Generate requirement modules with `flatpak pip generator` (https://docs.flatpak.org/en/latest/python.html)
+
+.. code-block:: bash
+
+   pip install flatpak_pip_generator
+   python3 -m flatpak_pip_generator --requirements-file=requirements_x.txt
+   
 
 Change files and version in the ``io.github.nest_desktop.nest-desktop.yml`` file from
 https://github.com/nest-desktop/nest-desktop-flathub.
@@ -202,7 +209,7 @@ To build and pack NEST Desktop with snapcraft:
 
 .. code-block:: bash
 
-   snapcraft
+   snapcraft pack
 
 Then install the snap file locally:
 

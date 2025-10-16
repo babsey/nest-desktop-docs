@@ -7,6 +7,20 @@ Here, we show main features which are implemented in each release (with fancy sc
    :class-container: timeline
    :gutter: 0
 
+    .. grid-item::
+      :class: left
+
+   .. grid-item-card:: v4.2
+      :class-item: entry right
+      :text-align: left
+
+      Fixed bugs, undo mouse click in network editor, copy-to-clipboard
+
+      .. dropdown:: Release dates
+         :class-container: dates
+
+         :16 Oct 25: v4.2.0
+
    .. grid-item-card:: 4.1
       :class-item: entry left
       :text-align: right
