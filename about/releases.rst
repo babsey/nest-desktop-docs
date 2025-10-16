@@ -7,7 +7,7 @@ Here, we show main features which are implemented in each release (with fancy sc
    :class-container: timeline
    :gutter: 0
 
-    .. grid-item::
+   .. grid-item::
       :class: left
 
    .. grid-item-card:: v4.2
