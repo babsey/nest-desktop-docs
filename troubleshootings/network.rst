@@ -18,8 +18,8 @@ How can I empty a network?
 
 
 How can I create nodes?
-   In the network graph you can click with the mouse button, then a selector panel appears to select an element type of
-   the new node.
+   In the network graph you can click with the right mouse button, then a selector panel appears to select an element 
+   type of the new node.
 
    .. seeAlso::
       - :ref:`Create nodes in the usage guide <usage-basic-create-nodes>`

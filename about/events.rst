@@ -7,6 +7,10 @@ Here, we show a list of events in which NEST Desktop is used or mentioned.
    :class-body: events
    :shadow: none
 
+   :09 Sep: NEST Tutorial at `BRAiN Dynamics academY <https://brandy.ebrains-italy.eu/>` presented by Johanna Senk, Sardinia, Italy.
+   :07 Sep: Hand-on Demo at `Tag der Neugier <https://www.tagderneugier.de/de>`, Jülich, Germany
+   :26 Aug: NEST Tutorial at `Swedish workshop on FAIR neuroscience <https://www.incf.org/incf-serc-ebrains-sweden-workshop-fair-neuroscience>`, Stockholm, Sweden.
+   :24 Jul: Talk at Summer Colloquium, Trier, Germany.
    :08 - 09 Apr: On-site Evaluation, Forschungszentrum Jülich, Germany.
    :25 - 28 Mar: Late breaking news and tutorial at `NICE Workshop <https://flagship.kip.uni-heidelberg.de/jss/HBPm?mI=263&m=showAgenda>`, Heidelberg, Germany.
    :12 Mar: Talk and Tutorial at `EBRAINS tutorials and users day <https://flagship.kip.uni-heidelberg.de/jss/HBPm?m=SgD&mI=268>`, Heidelberg, Germany.

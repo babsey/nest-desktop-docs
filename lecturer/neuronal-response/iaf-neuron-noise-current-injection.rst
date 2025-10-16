@@ -334,5 +334,3 @@ distributed Gaussian random variables to approximate a particular type of white 
       .. md-tab-item:: Activity
 
          .. image:: /_static/img/screenshots/lecture/single-neuron-noise-current-injection-4-2.png
-
-

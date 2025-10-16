@@ -131,5 +131,3 @@ deflection) of the membrane potential that follows a threshold crossing.
       .. md-tab-item:: Activity
 
          .. image:: /_static/img/screenshots/lecture/single-neuron-direct-current-injection-2-2.png
-
-

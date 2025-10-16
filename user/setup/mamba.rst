@@ -78,5 +78,3 @@ Next steps
 ----------
 
 - :doc:`Now you can start constructing networks for the simulation! </user/usage-basic/index>`
-
-

@@ -46,4 +46,3 @@ How can I import multiple projects?
 
    .. seeAlso::
       - :ref:`Import multiple projects in the projects menu <project-view-projects-menu>`
-

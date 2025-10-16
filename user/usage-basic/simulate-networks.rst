@@ -19,5 +19,3 @@
 
       .. image:: /_static/img/gif/simulation-button.gif
          :target: #simulate-networks
-
-

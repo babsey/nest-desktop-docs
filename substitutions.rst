@@ -91,7 +91,6 @@
 
    <i class="fa-brands fa-windows"></i>
 
-
 .. |setup| raw:: html
 
    <span class="mdi mdi-monitor-arrow-down-variant" />
@@ -99,7 +98,6 @@
 .. |usage| raw:: html
 
    <span class="mdi mdi-monitor-eye" />
-
 
 .. |axis-arrow| raw:: html
 
@@ -176,8 +174,6 @@
 .. |unload| raw:: html
 
    <span class="mdi mdi-power" />
-
-
 
 .. |network| image:: /_static/img/icons/network.svg
    :alt: network
